@@ -14,5 +14,5 @@ virtualenv venv
 pip install -r requirements.txt
 
 # Scrape!
-python .\scrape.py
+scrapy runspider scrape.py
 ```
