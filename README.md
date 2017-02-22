@@ -2,9 +2,10 @@
 Sports odds and score scraper for Odds Portal.
 
 ## Setup
-These instructions are for Windows Powershell. You'll need Visual C++ Build
-Tools installed for the requirement of scrapy. There will be some differences
-for OSX / MacOS, like how you activate the virtual environment.
+These instructions are for Windows Powershell. There will be some differences
+for OSX / MacOS, like how you activate the virtual environment. Before the
+scraper will work correctly, you'll need to put the [Chromium web driver](https://sites.google.com/a/chromium.org/chromedriver/)
+(chromedriver.exe) inside of the *chromedriver* directory.
 ```
 # Get into a new virtualenv
 virtualenv venv
@@ -14,5 +15,8 @@ virtualenv venv
 pip install -r requirements.txt
 
 # Scrape!
-scrapy runspider scrape.py
+python scrape.py
+
+# Then eventually when you're done...
+deactivate
 ```
