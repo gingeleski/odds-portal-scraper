@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+# TODO class Scraper():
+
 def is_soccer_match_or_date(tag):
     if tag.name != "tr":
         return False
