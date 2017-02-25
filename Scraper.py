@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
-from datetime import datetime
 import re
 from selenium import webdriver
+from SoccerMatch import SoccerMatch
 
 # TODO class Scraper():
 
@@ -37,13 +37,6 @@ def get_scores(tag):
     scores = [int(s) for s in score_str.split()]
     return scores
 
-def get_outcome(scores):
-    if scores[0] > scores[1]:
-        return "TEAM1"
-    elif scores[0] < scores[1]:
-        outcome = "TEAM2"
-    return "DRAW"
-
 def get_odds(tag):
     odds_cells = tag.find_all(class_="odds-nowrp")
     odds = []
@@ -63,10 +56,13 @@ if __name__ == "__main__":
         if is_date(row) is True:
             current_date_str = get_date(row)
         else:  # is a soccer match
+            this_match = SoccerMatch()
             game_datetime_str = current_date_str + " " + get_time(row)
-            game_datetime = datetime.strptime(game_datetime_str, "%d %b %Y %H:%M")
+            this_match.set_start(game_datetime_str)
             participants = get_participants(row)
+            this_match.set_teams(participants)
             scores = get_scores(row)
-            outcome = get_outcome(scores)
+            this_match.set_outcome_from_scores(scores)
             odds = get_odds(row)
+            this_match.set_odds(odds)
     browser.close()
