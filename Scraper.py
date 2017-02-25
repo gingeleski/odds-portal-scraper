@@ -37,6 +37,19 @@ def get_scores(tag):
     scores = [int(s) for s in score_str.split()]
     return scores
 
+def get_outcome(scores):
+    if scores[0] > scores[1]:
+        return "TEAM1"
+    elif scores[0] < scores[1]:
+        outcome = "TEAM2"
+    return "DRAW"
+
+def get_odds(tag):
+    odds_cells = tag.find_all(class_="odds-nowrp")
+    odds = []
+    for cell in odds_cells:
+        odds.append(cell.text)
+    return odds
 
 if __name__ == "__main__":
     browser = webdriver.Chrome("./chromedriver/chromedriver.exe")
@@ -54,5 +67,6 @@ if __name__ == "__main__":
             game_datetime = datetime.strptime(game_datetime_str, "%d %b %Y %H:%M")
             participants = get_participants(row)
             scores = get_scores(row)
-            # TODO get those odds
+            outcome = get_outcome(scores)
+            odds = get_odds(row)
     browser.close()
