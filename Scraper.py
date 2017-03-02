@@ -4,15 +4,18 @@ from selenium import webdriver
 from SoccerMatch import SoccerMatch
 
 class Scraper():
-    def __init__(self):
+    def __init__(self, league_json):
         self.browser = webdriver.Chrome("./chromedriver/chromedriver.exe")
-        # TODO read in soccer league json object
+        self.league = self.parse_json(league_json)
 
-    def parse_all_urls(self):
+    def parse_json(self, json_str):
+        pass
+
+    def scrape_all_urls(self):
         # TODO
         pass
 
-    def parse_url(self, url):
+    def scrape_url(self, url):
         self.browser.get("http://www.oddsportal.com/soccer/europe/euro/results/")
         tournament_tbl = self.browser.find_element_by_id("tournamentTable")
         tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
