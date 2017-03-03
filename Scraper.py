@@ -1,13 +1,15 @@
 from bs4 import BeautifulSoup
+from DbManager import DatabaseManager
 import json
 import re
 from selenium import webdriver
 from SoccerMatch import SoccerMatch
 
 class Scraper():
-    def __init__(self, league_json):
+    def __init__(self, league_json, initialize_db):
         self.browser = webdriver.Chrome("./chromedriver/chromedriver.exe")
         self.league = self.parse_json(league_json)
+        self.db_manager = DatabaseManager(initialize_db)
 
     def parse_json(self, json_str):
         return json.loads(json_str)
@@ -37,7 +39,7 @@ class Scraper():
                 this_match.set_outcome_from_scores(scores)
                 odds = self.get_odds(row)
                 this_match.set_odds(odds)
-                # TODO do something with the SoccerMatch
+                self.db_manager.add_soccer_match(self.league, this_match)
 
     def is_soccer_match_or_date(self, tag):
         if tag.name != "tr":
