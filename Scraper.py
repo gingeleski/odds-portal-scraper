@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import json
 import re
 from selenium import webdriver
 from SoccerMatch import SoccerMatch
@@ -9,31 +10,31 @@ class Scraper():
         self.league = self.parse_json(league_json)
 
     def parse_json(self, json_str):
-        print("Got json string of length " + str(len(json_str)))
+        return json.loads(json_str)
 
     def scrape_all_urls(self):
-        # TODO
-        print("Call to scrape_all_urls")
+        for url in self.league["urls"]:
+            self.scrape_url(url)
 
     def scrape_url(self, url):
-        self.browser.get("http://www.oddsportal.com/soccer/europe/euro/results/")
+        self.browser.get(url)
         tournament_tbl = self.browser.find_element_by_id("tournamentTable")
         tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
         tournament_tbl_soup = BeautifulSoup(tournament_tbl_html, "html.parser")
-        significant_rows = tournament_tbl_soup(is_soccer_match_or_date)
+        significant_rows = tournament_tbl_soup(self.is_soccer_match_or_date)
         current_date_str = None
         for row in significant_rows:
-            if is_date(row) is True:
-                current_date_str = get_date(row)
+            if self.is_date(row) is True:
+                current_date_str = self.get_date(row)
             else:  # is a soccer match
                 this_match = SoccerMatch()
-                game_datetime_str = current_date_str + " " + get_time(row)
+                game_datetime_str = current_date_str + " " + self.get_time(row)
                 this_match.set_start(game_datetime_str)
-                participants = get_participants(row)
+                participants = self.get_participants(row)
                 this_match.set_teams(participants)
-                scores = get_scores(row)
+                scores = self.get_scores(row)
                 this_match.set_outcome_from_scores(scores)
-                odds = get_odds(row)
+                odds = self.get_odds(row)
                 this_match.set_odds(odds)
                 # TODO do something with the SoccerMatch
         self.browser.close()
@@ -65,6 +66,8 @@ class Scraper():
 
     def get_scores(self, tag):
         score_str = tag.find(class_="table-score").string
+        if self.is_invalid_game_from_score_string(score_str):
+            return [-1,-1]
         non_decimal = re.compile(r"[^\d]+")
         score_str = non_decimal.sub(" ", score_str)
         scores = [int(s) for s in score_str.split()]
@@ -76,3 +79,8 @@ class Scraper():
         for cell in odds_cells:
             odds.append(cell.text)
         return odds
+
+    def is_invalid_game_from_score_string(self, score_str):
+        if score_str == "postp.":
+            return True
+        return False

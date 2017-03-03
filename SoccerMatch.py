@@ -20,7 +20,9 @@ class SoccerMatch():
         self.team2 = participants[1]
 
     def set_outcome_from_scores(self, scores):
-        if scores[0] > scores[1]:
+        if scores[0] == -1 and scores[1] == -1:
+            self.outcome = "NONE"
+        elif scores[0] > scores[1]:
             self.outcome = "TEAM1"
         elif scores[0] < scores[1]:
             self.outcome = "TEAM2"
