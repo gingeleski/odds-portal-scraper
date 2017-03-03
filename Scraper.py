@@ -15,6 +15,7 @@ class Scraper():
     def scrape_all_urls(self):
         for url in self.league["urls"]:
             self.scrape_url(url)
+        self.browser.close()
 
     def scrape_url(self, url):
         self.browser.get(url)
@@ -37,7 +38,6 @@ class Scraper():
                 odds = self.get_odds(row)
                 this_match.set_odds(odds)
                 # TODO do something with the SoccerMatch
-        self.browser.close()
 
     def is_soccer_match_or_date(self, tag):
         if tag.name != "tr":
