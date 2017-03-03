@@ -1,5 +1,6 @@
 from os import listdir, sep
 from os.path import isfile, join
+from Scraper import Scraper
 
 soccer_match_path = '.' + sep + 'leagues' + sep + 'soccer'
 
@@ -8,4 +9,5 @@ for possible_file in listdir(soccer_match_path):
         soccer_match_json_file = join(soccer_match_path, possible_file)
         with open(soccer_match_json_file, 'r') as open_json_file:
             json_str = open_json_file.read().replace('\n', '')
-            # TODO make Scrapers
+            match_scraper = Scraper(json_str)
+            match_scraper.scrape_all_urls()
