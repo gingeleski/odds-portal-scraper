@@ -9,11 +9,11 @@ class Scraper():
         self.league = self.parse_json(league_json)
 
     def parse_json(self, json_str):
-        pass
+        print("Got json string of length " + str(len(json_str)))
 
     def scrape_all_urls(self):
         # TODO
-        pass
+        print("Call to scrape_all_urls")
 
     def scrape_url(self, url):
         self.browser.get("http://www.oddsportal.com/soccer/europe/euro/results/")
