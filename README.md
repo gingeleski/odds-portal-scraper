@@ -2,14 +2,14 @@
 Sports odds and score scraper for Odds Portal.
 
 ## Current Support
-Soccer only. See the directory ./leagues/soccer for how the input JSON
-is formatted. In this way you specify what you want to scrape.
+Soccer only.
+
+See the directory *./leagues/soccer* for how the input JSON is formatted. In this way you specify what you want to scrape.
 
 ## Setup
-These instructions are for Windows Powershell. There will be some differences
-for OSX / MacOS, like how you activate the virtual environment. Before the
-scraper will work correctly, you'll need to put the [Chromium web driver](https://sites.google.com/a/chromium.org/chromedriver/)
-(chromedriver.exe) inside of the *chromedriver* directory.
+These instructions are for Windows Powershell. There will be some differences for OS X / MacOS, like in activating the virtual environment and using the web driver.
+
+Before the scraper will work correctly, you'll need to put the [Chromium web driver](https://sites.google.com/a/chromium.org/chromedriver/) (chromedriver.exe) inside of the *chromedriver* directory.
 ```
 # Get into a new virtualenv
 virtualenv venv
