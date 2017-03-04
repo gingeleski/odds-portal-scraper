@@ -24,3 +24,4 @@ python run.py
 # Then eventually when you're done...
 deactivate
 ```
+Then you have your SQLite .db file to analyze how you wish.
