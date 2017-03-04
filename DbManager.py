@@ -22,9 +22,21 @@ class DatabaseManager():
                                     team2_odds text, draw_odds text)''')
             self.conn.commit()
 
-    def add_soccer_match(self, league, match):
-        # TODO
-        pass
+    def add_soccer_match(self, league, retrieved_from_url, match):
+        sql_str = "INSERT INTO matches VALUES ('"
+        sql_str += league["league"] + "', '"
+        sql_str += league["area"] + "', '"
+        sql_str += retrieved_from_url + "', '"
+        sql_str += match.get_start_time_string() + "', '"
+        sql_str += match.get_end_time_string() + "', '"
+        sql_str += match.get_team1_string() + "', '"
+        sql_str += match.get_team2_string() + "', '"
+        sql_str += match.get_outcome_string() + "', '"
+        sql_str += str(match.get_team1_odds()) + "', '"
+        sql_str += str(match.get_team2_odds()) + "', '"
+        sql_str += str(match.get_draw_odds()) + "')"
+
+        self.cursor.execute(sql_str)
 
     def __del__(self):
         self.conn.close()
