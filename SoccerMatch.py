@@ -1,9 +1,11 @@
 from datetime import datetime
+import time
+
+MINUTES_TO_SECONDS = 60
 
 class SoccerMatch():
     def __init__(self):
         self.start = None
-        self.end = None
         self.team1 = ""
         self.team2 = ""
         self.team1_odds = ""
@@ -36,15 +38,24 @@ class SoccerMatch():
         self.draw_odds = odds[1]
         self.team2_odds = odds[2]
 
-    def get_start_time_string(self):
+    def get_start_time_unix_int(self):
+        """
+        Return start time of the match, as a Unix format timestamp
+        in New York time.
+        """
         if self.start is None:
-            return "NULL"
-        return self.start.ctime()
+            return 0
+        return int(time.mktime(self.start.timetuple()))
 
-    def get_end_time_string(self):
-        if self.end is None:
-            return "NULL"
-        return self.end.ctime()
+    def get_end_time_unix_int(self):
+        """
+        Return an approximate end time of the match, which assumes
+        the match was exactly 90 minutes in length, as a Unix format
+        timestamp in New York time.
+        """
+        if self.start is None:
+            return 0
+        return (90 * MINUTES_TO_SECONDS) + int(time.mktime(self.start.timetuple()))
 
     def get_team1_string(self):
         return self.team1
