@@ -14,7 +14,6 @@ class SoccerMatch():
     def set_start(self, start_time_str):
         self.start = datetime.strptime(start_time_str, "%d %b %Y %H:%M")
         # TODO set end automatically (start_time + 90 mins)
-        self.end = "end"
 
     def set_teams(self, participants):
         self.team1 = participants[0]
@@ -34,3 +33,31 @@ class SoccerMatch():
         self.team1_odds = odds[0]
         self.draw_odds = odds[1]
         self.team2_odds = odds[2]
+
+    def get_start_time_string(self):
+        if self.start is None:
+            return "NULL"
+        return self.start.ctime()
+
+    def get_end_time_string(self):
+        if self.end is None:
+            return "NULL"
+        return self.end.ctime()
+
+    def get_team1_string(self):
+        return self.team1
+
+    def get_team2_string(self):
+        return self.team2
+
+    def get_team1_odds(self):
+        return self.team1_odds
+
+    def get_team2_odds(self):
+        return self.team2_odds
+
+    def get_draw_odds(self):
+        return self.draw_odds
+
+    def get_outcome_string(self):
+        return self.outcome
