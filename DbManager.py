@@ -15,9 +15,10 @@ class DatabaseManager():
         if is_first_run:
             self.cursor.execute('''DROP TABLE IF EXISTS matches''')
             self.cursor.execute('''CREATE TABLE matches
-                                    (area text, retrieved_from_url text,
-                                    start_time text, end_time text, team1 text,
-                                    team2 text, outcome text, team1_odds text,
+                                    (league text, area text,
+                                    retrieved_from_url text, start_time text,
+                                    end_time text, team1 text, team2 text,
+                                    outcome text, team1_odds text,
                                     team2_odds text, draw_odds text)''')
             self.conn.commit()
 
