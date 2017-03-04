@@ -29,6 +29,9 @@ class Scraper():
         for row in significant_rows:
             if self.is_date(row) is True:
                 current_date_str = self.get_date(row)
+            elif self.is_date_string_supported(current_date_str) == False:
+                # not presently supported
+                continue
             else:  # is a soccer match
                 this_match = SoccerMatch()
                 game_datetime_str = current_date_str + " " + self.get_time(row)
@@ -39,7 +42,7 @@ class Scraper():
                 this_match.set_outcome_from_scores(scores)
                 odds = self.get_odds(row)
                 this_match.set_odds(odds)
-                self.db_manager.add_soccer_match(self.league, this_match)
+                self.db_manager.add_soccer_match(self.league, url, this_match)
 
     def is_soccer_match_or_date(self, tag):
         if tag.name != "tr":
@@ -53,8 +56,22 @@ class Scraper():
     def is_date(self, tag):
         return "center" in tag["class"] and "nob-border" in tag["class"]
 
+    def is_date_string_supported(self, date_string):
+        if date_string is None:
+            return False
+        elif "Today" in date_string:
+            return False
+        elif "Yesterday" in date_string:
+            return False
+        return True
+
     def get_date(self, tag):
-        return tag.find(class_="datet").string
+        this_date = tag.find(class_="datet").string
+        if "Today" in this_date:
+            return "Today"
+        elif this_date.endswith(" - Play Offs"):
+            this_date = this_date[:-12]
+        return this_date
 
     def get_time(self, tag):
         return tag.find(class_="datet").string
@@ -84,5 +101,7 @@ class Scraper():
 
     def is_invalid_game_from_score_string(self, score_str):
         if score_str == "postp.":
+            return True
+        elif score_str == "canc.":
             return True
         return False
