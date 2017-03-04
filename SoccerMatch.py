@@ -14,6 +14,7 @@ class SoccerMatch():
     def set_start(self, start_time_str):
         self.start = datetime.strptime(start_time_str, "%d %b %Y %H:%M")
         # TODO set end automatically (start_time + 90 mins)
+        self.end = "end"
 
     def set_teams(self, participants):
         self.team1 = participants[0]
