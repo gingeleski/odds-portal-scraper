@@ -63,6 +63,10 @@ class Scraper():
             return False
         elif "Yesterday" in date_string:
             return False
+        elif "Qualification" in date_string:
+            return False
+        elif "Promotion" in date_string:
+            return False
         return True
 
     def get_date(self, tag):
