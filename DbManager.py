@@ -37,6 +37,7 @@ class DatabaseManager():
         sql_str += str(match.get_draw_odds()) + "')"
 
         self.cursor.execute(sql_str)
+        self.conn.commit()
 
     def __del__(self):
         self.conn.close()
