@@ -40,15 +40,26 @@ class Scraper():
 
         return json.loads(json_str)
 
-    def scrape_all_urls(self):
+    def scrape_all_urls(self, do_verbose_output=False):
         """
         Call the scrape method on every URL in this Scraper's league field, in
         order, then close the browser.
+
+        Args:
+            do_verbose_output (bool): True/false do verbose output.
         """
+
+        if do_verbose_output is True:
+            output_str = "Start scraping " + self.league["league"] + " of "
+            output_str += self.league["area"] + "..."
+            print(output_str)
 
         for url in self.league["urls"]:
             self.scrape_url(url)
         self.browser.close()
+
+        if do_verbose_output is True:
+            print("Done scraping this league.")
 
     def scrape_url(self, url):
         """
@@ -200,7 +211,7 @@ class Scraper():
         Returns:
             (list of str) Extracted match scores.
         """
-        
+
         score_str = tag.find(class_="table-score").string
         if self.is_invalid_game_from_score_string(score_str):
             return [-1,-1]
