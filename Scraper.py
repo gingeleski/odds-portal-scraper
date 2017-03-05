@@ -1,3 +1,7 @@
+"""
+Soccer match results scraping object.
+"""
+
 from bs4 import BeautifulSoup
 from DbManager import DatabaseManager
 import json
@@ -6,20 +10,55 @@ from selenium import webdriver
 from SoccerMatch import SoccerMatch
 
 class Scraper():
+
     def __init__(self, league_json, initialize_db):
+        """
+        Constructor. Launch the web driver browser, initialize the league
+        field by parsing the representative JSON file, and connect to the
+        database manager.
+
+        Args:
+            league_json (str): JSON string of the league to associate with the
+                Scraper.
+            initialize_db (bool): Should the database be initialized?
+        """
+
         self.browser = webdriver.Chrome("./chromedriver/chromedriver.exe")
         self.league = self.parse_json(league_json)
         self.db_manager = DatabaseManager(initialize_db)
 
     def parse_json(self, json_str):
+        """
+        Parse a JSON string into a dict.
+
+        Args:
+            json_str (str): JSON string to parse.
+
+        Returns:
+            (dict)
+        """
+
         return json.loads(json_str)
 
     def scrape_all_urls(self):
+        """
+        Call the scrape method on every URL in this Scraper's league field, in
+        order, then close the browser.
+        """
+
         for url in self.league["urls"]:
             self.scrape_url(url)
         self.browser.close()
 
     def scrape_url(self, url):
+        """
+        Scrape the data for every match on a given URL and insert each into the
+        database.
+
+        Args:
+            url (str): URL to scrape data from.
+        """
+
         self.browser.get(url)
         tournament_tbl = self.browser.find_element_by_id("tournamentTable")
         tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
@@ -45,6 +84,17 @@ class Scraper():
                 self.db_manager.add_soccer_match(self.league, url, this_match)
 
     def is_soccer_match_or_date(self, tag):
+        """
+        Determine whether a provided HTML tag is a row for a soccer match or
+        date.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (bool)
+        """
+
         if tag.name != "tr":
             return False
         if "center" in tag["class"] and "nob-border" in tag["class"]:
@@ -54,9 +104,30 @@ class Scraper():
         return False
 
     def is_date(self, tag):
+        """
+        Determine whether a provided HTML tag is a row for a date.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (bool)
+        """
+
         return "center" in tag["class"] and "nob-border" in tag["class"]
 
     def is_date_string_supported(self, date_string):
+        """
+        Determine whether a given date string is currently supported by this
+        software's parsing capabilities.
+
+        Args:
+            date_string (str): Date string to assess.
+
+        Returns:
+            (bool)
+        """
+
         if date_string is None:
             return False
         elif "Today" in date_string:
@@ -70,6 +141,16 @@ class Scraper():
         return True
 
     def get_date(self, tag):
+        """
+        Extract the date from an HTML tag for a date row.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (str) Extracted date string.
+        """
+
         this_date = tag.find(class_="datet").string
         if "Today" in this_date:
             return "Today"
@@ -78,9 +159,30 @@ class Scraper():
         return this_date
 
     def get_time(self, tag):
+        """
+        Extract the time from an HTML tag for a soccer match row.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (str) Extracted time.
+        """
+        
         return tag.find(class_="datet").string
 
     def get_participants(self, tag):
+        """
+        Extract the match's participants from an HTML tag for a soccer match
+        row.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (list of str) Extracted match participants.
+        """
+        
         parsed_strings = tag.find(class_="table-participant").text.split(" - ")
         participants = []
         participants.append(parsed_strings[0])
@@ -88,6 +190,17 @@ class Scraper():
         return participants
 
     def get_scores(self, tag):
+        """
+        Extract the scores for each team from an HTML tag for a soccer match
+        row.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (list of str) Extracted match scores.
+        """
+        
         score_str = tag.find(class_="table-score").string
         if self.is_invalid_game_from_score_string(score_str):
             return [-1,-1]
@@ -97,6 +210,17 @@ class Scraper():
         return scores
 
     def get_odds(self, tag):
+        """
+        Extract the betting odds for a match from an HTML tag for a soccer
+        match row.
+
+        Args:
+            tag (obj): HTML tag object from BeautifulSoup.
+
+        Returns:
+            (list of str) Extracted match odds.
+        """
+
         odds_cells = tag.find_all(class_="odds-nowrp")
         odds = []
         for cell in odds_cells:
@@ -104,6 +228,17 @@ class Scraper():
         return odds
 
     def is_invalid_game_from_score_string(self, score_str):
+        """
+        Assess, from the score string extracted from a soccer match row,
+        whether a game actually paid out one of the bet outcomes.
+
+        Args:
+            score_str (str): Score string to assess.
+
+        Returns:
+            (bool)
+        """
+
         if score_str == "postp.":
             return True
         elif score_str == "canc.":

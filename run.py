@@ -1,3 +1,8 @@
+"""
+Run the Odds Portal scraping suite, processing all the present soccer league
+JSON files in lexicographical order.
+"""
+
 from os import listdir, sep
 from os.path import isfile, join
 from Scraper import Scraper
