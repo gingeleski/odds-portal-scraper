@@ -18,8 +18,8 @@ class DatabaseManager():
                                     (league text, area text,
                                     retrieved_from_url text, start_time integer,
                                     end_time integer, team1 text, team2 text,
-                                    outcome text, team1_odds text,
-                                    team2_odds text, draw_odds text)''')
+                                    outcome text, team1_odds real,
+                                    team2_odds real, draw_odds real)''')
             self.conn.commit()
 
     def add_soccer_match(self, league, retrieved_from_url, match):
