@@ -5,7 +5,7 @@ Manager class to handle database interactions.
 import os
 import sqlite3
 
-DB_FILENAME = 'oddsportal.db'
+DB_FILENAME = "oddsportal.db"
 
 class DatabaseManager():
 
