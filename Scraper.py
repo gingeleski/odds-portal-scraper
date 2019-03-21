@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from DbManager import DatabaseManager
 import json
 import re
+import time
 from selenium import webdriver
 from SoccerMatch import SoccerMatch
 
@@ -23,7 +24,7 @@ class Scraper():
             initialize_db (bool): Should the database be initialized?
         """
 
-        self.browser = webdriver.Chrome("./chromedriver/chromedriver.exe")
+        self.browser = webdriver.Chrome("./chromedriver/chromedriver")
         self.league = self.parse_json(league_json)
         self.db_manager = DatabaseManager(initialize_db)
 
@@ -55,7 +56,17 @@ class Scraper():
             print(output_str)
 
         for url in self.league["urls"]:
-            self.scrape_url(url)
+            # loop through all pages in that season
+            page = 1
+            while self.scrape_url("#/page/".join((url, "{}/".format(page)))):
+                if do_verbose_output:
+                    print("Scraped page", page)
+                page += 1
+
+            if do_verbose_output:
+                print("Finished season")
+
+
         self.browser.close()
 
         if do_verbose_output is True:
@@ -68,13 +79,26 @@ class Scraper():
 
         Args:
             url (str): URL to scrape data from.
+
+        Returns:
+            Whether data existed for that season.
         """
 
         self.browser.get(url)
+
+        # waiting for table to load
+        # needed or else the data won't be complete
+        delay = 5 # seconds
+        time.sleep(delay)
+
         tournament_tbl = self.browser.find_element_by_id("tournamentTable")
         tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
         tournament_tbl_soup = BeautifulSoup(tournament_tbl_html, "html.parser")
-        significant_rows = tournament_tbl_soup(self.is_soccer_match_or_date)
+        try:
+            significant_rows = tournament_tbl_soup(self.is_soccer_match_or_date)
+        except:
+            return False
+
         current_date_str = None
         for row in significant_rows:
             if self.is_date(row) is True:
@@ -93,6 +117,8 @@ class Scraper():
                 odds = self.get_odds(row)
                 this_match.set_odds(odds)
                 self.db_manager.add_soccer_match(self.league, url, this_match)
+
+        return True
 
     def is_soccer_match_or_date(self, tag):
         """
@@ -179,7 +205,7 @@ class Scraper():
         Returns:
             (str) Extracted time.
         """
-        
+
         return tag.find(class_="datet").string
 
     def get_participants(self, tag):
@@ -193,7 +219,7 @@ class Scraper():
         Returns:
             (list of str) Extracted match participants.
         """
-        
+
         parsed_strings = tag.find(class_="table-participant").text.split(" - ")
         participants = []
         participants.append(parsed_strings[0])
