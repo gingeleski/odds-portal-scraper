@@ -9,7 +9,8 @@ See the directory *./leagues/soccer* for how the input JSON is formatted. In thi
 ## Setup
 These instructions are for Windows Powershell. There will be some differences for OS X / MacOS, like in activating the virtual environment and using the web driver.
 
-Before the scraper will work correctly, you'll need to put the [Chromium web driver](https://sites.google.com/a/chromium.org/chromedriver/) (chromedriver.exe) inside of the *chromedriver* directory.
+Before the scraper will work correctly, you'll need to put the [Chromium web driver](https://sites.google.com/a/chromium.org/chromedriver/) (chromedriver.exe) inside of the *chromedriver* directory. You may also need to update the path to `chromedriver` in the script.
+
 ```
 # Get into a new virtualenv
 virtualenv venv
