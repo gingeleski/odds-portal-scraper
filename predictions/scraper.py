@@ -62,19 +62,21 @@ async def main():
     # Inject script onto the page so we can leverage jQuery to get unique selectors later on
     await page.evaluate('jQuery.fn.getPath=function(){for(var e,r=this;r.length;){var t=r[0],n=t.localName;if(!n)break;n=n.toLowerCase();var a=r.parent(),h=a.children(n);h.length>1&&(n+=":eq("+h.index(t)+")"),e=n+(e?">"+e:""),r=a}return e};')
     # Get a selector for the username field by running some JavaScript
-    username_selector = await page.evaluate('if($(\'label:contains("sername")\').length<1){"ERROR"}else{var target_id=$(\'label:contains("sername")\').attr(\'for\');$(\'input#\'+target_id).getPath()}')
+    username_selector = await page.evaluate('if($(\'label:contains("sername")\').length<1){"ERROR"}else{var target_id=$(\'label:contains("sername")\').attr(\'for\');target_id}')
     if username_selector == 'ERROR':
         await page.screenshot({ 'path' : 'assumed_error.png' })
-        raise RuntimeError('Encountered issue trying to find username field at login form - see assumed_error.png !')    
+        raise RuntimeError('Encountered issue trying to find username field at login form - see assumed_error.png !')
+    username_selector = 'input#' + username_selector 
     # Get username field into focus then type into it
     await page.waitForSelector(username_selector, {'timeout':5000})
     await page.click(username_selector)
     await page.keyboard.type(username)
     # Get a selector for the password field by running some JavaScript
-    password_selector = await page.evaluate('if($(\'label:contains("assword")\').length<1){"ERROR"}else{var target_id=$(\'label:contains("assword")\').attr(\'for\');$(\'input#\'+target_id).getPath()}')
+    password_selector = await page.evaluate('if($(\'label:contains("assword")\').length<1){"ERROR"}else{var target_id=$(\'label:contains("assword")\').attr(\'for\');target_id}')
     if password_selector == 'ERROR':
         await page.screenshot({ 'path' : 'assumed_error.png' })
         raise RuntimeError('Encountered issue trying to find password field at login form - see assumed_error.png !')
+    password_selector = 'input#' + password_selector
     # Get password field into focus then type into it
     await page.click(password_selector)
     await page.keyboard.type(password)
