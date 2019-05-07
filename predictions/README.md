@@ -18,7 +18,8 @@ python -m venv venv
 # Activate the virtual env
 ./venv/scripts/activate.ps1
 
-# Install 
+# Install requirements/dependencies
+pip install -r requirements.txt
 ```
 
 Now you're set up. Note the virtual environment is still active, a good state for us to get into running this.
@@ -54,17 +55,7 @@ In chronological order...
     - Navigate to their future predictions initial page
     - *Continue to next user right now if there are no future predictions out*
     - For each page of this user's future predictions...
-        - Save a screenshot off of this page as `username_###.png`
+        - Save a screenshot off of this page as `{theirusername}_###.png`
         - For each prediction on the page...
-			- Get sport
-			- Get region
-			- Get league
-			- Get start time
-			- Get game name
-			- Get game specifier
-			- Get link to the game on Odds Portal
-			- Get outcome odds
-		    - Get picked outcome
-            - Put all of the above into a big string of all predictions on this page
-            - *Write the big string of all predictions on this page out to text file if at end*
-                - `username_###.txt`
+            - Get pertinent HTML snippet
+            - Write this HTML out to `{theirusername}_###.txt`

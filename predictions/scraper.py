@@ -91,16 +91,18 @@ async def main():
         await page.waitForNavigation(),
     ])
     # Use JavaScript to assert whether logout button is on page - otherwise assume error
-    is_there_logout_button = await page.evaluate('true') # TODO
-    if False == is_there_logout_button:
+    is_there_logout_button = await page.evaluate('if($(\'li#user-header-logout > a:contains("Logout")\').length<1){"ERROR"}')
+    if is_there_logout_button == 'ERROR':
         await page.screenshot({ 'path' : 'assumed_error.png' })
         raise RuntimeError('Could not find logout button after login - see assumed_error.png !')
-    # Get link to user profile
-    my_profile_link = await page.evaluate('https://www.oddsportal.com/profile/gingeleski/')
+    # Get link to user profile with followed users showing
+    my_username = await page.evaluate('$("div#user-header-r2 > ul > li#user-header-predictions > a").attr("href")')
+    my_username = my_username.replace('/profile/','').replace('/my-predictions/','')
+    my_profile_link = await page.evaluate('https://www.oddsportal.com/profile/' + my_username + '/#following')
     # Navigate to personal profile now
     await page.goto(my_profile_link)
     # Get list of users we're following via JavaScript
-    users_we_are_following = await page.evaluate('["GGBet","OldTwinTowersFutbol"]') # TODO
+    users_we_are_following = await page.evaluate('$("div#profile-following > div > div.item > div.content > a.username").map(function(){return $(this).attr("title");}).get();')
     for user_we_are_following in users_we_are_following:
         link_to_users_predictions = 'https://www.oddsportal.com/profile/' + user_we_are_following + '/my-predictions/next/'
         this_output_folder = 'output/' + user_we_are_following
@@ -110,10 +112,11 @@ async def main():
         page_count = 1
         while True == is_there_another_page:
             # Use JavaScript to determine if there are any predictions on the page
-            are_there_predictions_on_page = page.evaluate('false') # TODO
+            are_there_predictions_on_page = await page.evaluate('$("li.last > strong > span").length>0')
             if True == are_there_predictions_on_page:
-                html_for_page = await page.content()
-                # TODO scrape predictions off of page HTML
+                # Get inner HTML of each prediction
+                html_list_for_predictions = await page.evaluate('$("table.prediction-table#prediction-table-1 > tbody > tr[xeid]").map(function() { return $(this).html(); }).get();')
+                this_users_predictions += html_list_for_predictions
             # Save off image of this after checking if output directory exists
             if not os.path.exists(this_output_folder):
                 os.makedirs(this_output_folder)
@@ -122,6 +125,9 @@ async def main():
             # Use JavaScript to determine if there's another page
             is_there_another_page = await page.evaluate('false') # TODO
             page_count += 1
+        for i, single_prediction in enumerate(this_users_predictions):
+            with open(this_output_folder + '/' + user_we_are_following + '_' + str(i) + '.txt', 'w') as text_file:
+                text_file.write(str(single_prediction))
     await browser.close()
 
 
