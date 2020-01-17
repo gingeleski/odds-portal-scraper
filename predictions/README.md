@@ -22,6 +22,8 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+Finally, set your OddsPortal username and password as environment variables `ODDS_PORTAL_USERNAME` and `ODDS_PORTAL_PASSWORD`, respectively. ([**See this for help**](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html))
+
 Now you're set up. Note the virtual environment is still active, a good state for us to get into running this.
 
 Note that pyppeteer will download an executable for Chrome the first time it runs. This project depends on headless Chrome.
