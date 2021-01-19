@@ -18,17 +18,21 @@ import time
 
 #######################################################################################################################
 
-TARGET_SPORTS_FILE = 'config/sports.json'
+TARGET_SPORTS_FILE = 'config/ohl-home-away.json'
 OUTPUT_DIRECTORY_PATH = 'output'
+
+DEBUG = True
+DELETE_FILES = False
 
 #######################################################################################################################
 
+# Must run this script from full_scraper dir
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', \
                     handlers=[ logging.FileHandler('logs/oddsportal_' + str(int(time.time())) + '.log'),\
                                logging.StreamHandler() ])
 logger = logging.getLogger('oddsportal')
 
-data = DataRepository()
+data = DataRepository(DELETE_FILES)
 
 wait_on_page_load = 3 # seconds - default wait time for each page to load completely
 
@@ -45,11 +49,14 @@ def scrape_games_for_season(this_season):
     crawler = Crawler(wait_on_page_load=wait_on_page_load)
     logger.info('Season "%s" - started this crawler', this_season.name)
     crawler.fill_in_season_pagination_links(this_season)
+    if DEBUG:
+        this_season.urls = this_season.urls[:1]
     crawler.close_browser()
     logger.info('Season "%s" - closed this crawler', this_season.name)
     logger.info('Season "%s" - populating all game data via pagination links', this_season.name)
     scraper = Scraper(wait_on_page_load=wait_on_page_load)
     logger.info('Season "%s" - started this scraper', this_season.name)
+    # TODO
     scraper.populate_games_into_season(this_season)
     scraper.close_browser()
     logger.info('Season "%s" - closed this scraper', this_season.name)
@@ -79,6 +86,7 @@ def main():
         logger.info('Did not receive argument --wait-time-on-page-load so will use default 3 seconds')
     # END parsing command line arguments and logging what's happening
     logger.info('About to load "target sports"')
+    # TODO
     target_sports = get_target_sports_from_file()
     if len(target_sports) < 1:
         raise RuntimeError('config/sports.json file appears empty - cannot proceed')
@@ -110,13 +118,29 @@ def main():
         data.start_new_data_collection(target_sport_obj)
         main_league_results_url = target_sport_obj['root_url']
         working_seasons = crawler.get_seasons_for_league(main_league_results_url)
+        config_seasons = target_sport_obj.get('seasons')
+        if config_seasons is not None:
+            working_seasons = [w for w in working_seasons if w.name in config_seasons]
+        if DEBUG:
+            working_seasons = working_seasons[:1]
         crawler.close_browser()
         logger.info('Crawler for season links has been shut down')
         # Make sure possible outcomes field is set, because the parallel processor needs to know
         for i,_ in enumerate(working_seasons):
             working_seasons[i].possible_outcomes = target_sport_obj['outcomes']
+            # may set to None
+            working_seasons[i].bet_type = target_sport_obj.get('bet_type')
+            working_seasons[i].sub_bet_type = target_sport_obj.get('sub_bet_type')
+            working_seasons[i].bet_options = target_sport_obj.get('bet_options')
+            working_seasons[i].outcome_headers = target_sport_obj.get('outcome_headers')
+            working_seasons[i].odds_sources = target_sport_obj.get('odds_sources')
         # Use parallel processing to scrape games for each season of this league's history
-        working_seasons_w_games = Parallel(n_jobs=max_parallel_cpus)(delayed(scrape_games_for_season)(this_season) for this_season in working_seasons)
+        working_seasons_w_games = []
+        if not DEBUG:
+            working_seasons_w_games = Parallel(n_jobs=max_parallel_cpus)(delayed(scrape_games_for_season)(this_season) for this_season in working_seasons)
+        else:
+            for s in working_seasons:
+                working_seasons_w_games.append(scrape_games_for_season(s))
         data[c_name].league.seasons = working_seasons_w_games
     if ran_once:
         logger.info('Saving output now')
