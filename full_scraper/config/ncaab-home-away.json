@@ -1,0 +1,16 @@
+[
+  {
+    "collection_name": "ncaab-home-away",
+    "sport": "basketball",
+    "region": "usa",
+    "league": "ncaa",
+    "seasons": ["2020/2021"],
+    "output_dir": "ncaab-test",
+    "root_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+    "outcomes": 2,
+    "outcome_headers": ["home", "away"],
+    "bet_type": "home-away",
+    "sub_bet_type": 1,
+    "odds_sources": ["pinnacle", "bet365", "average", "highest"]
+  }
+]

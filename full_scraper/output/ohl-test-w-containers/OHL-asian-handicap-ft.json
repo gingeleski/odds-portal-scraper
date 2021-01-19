@@ -1,0 +1,1129 @@
+{
+  "name": "OHL-asian-handicap-ft",
+  "sport": "hockey",
+  "region": "canada",
+  "output_dir": "ohl-test-w-containers",
+  "outcomes": 2,
+  "league": {
+    "name": "ohl",
+    "seasons": [
+      {
+        "name": "2019/2020",
+        "games": [
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 15:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-oshawa-generals-KIfzal1A/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 3,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.80", "1": "1.90" },
+                "highest": { "0": "1.80", "1": "1.90" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.10", "1": "5.75" },
+                "highest": { "0": "1.10", "1": "5.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 13:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-guelph-storm-Whbvb8GG/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "4.50", "1": "1.16" },
+                "highest": { "0": "4.50", "1": "1.16" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.70", "1": "2.05" },
+                "highest": { "0": "1.70", "1": "2.05" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-kingston-frontenacs-ttwQaOnc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 0,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.40", "1": "2.70" },
+                "highest": { "0": "1.40", "1": "2.70" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.03", "1": "9.00" },
+                "highest": { "0": "1.03", "1": "9.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-kitchener-rangers-CjC8ttoq/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Kitchener Rangers",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "3.50", "1": "1.26" },
+                "highest": { "0": "3.50", "1": "1.26" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.48", "1": "2.50" },
+                "highest": { "0": "1.48", "1": "2.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-saginaw-spirit-69ozw1up/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "Saginaw Spirit",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "4.75", "1": "1.15" },
+                "highest": { "0": "4.75", "1": "1.15" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.75", "1": "1.95" },
+                "highest": { "0": "1.75", "1": "1.95" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-peterborough-petes-0p0wxLfj/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "Peterborough Petes",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 12,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "7.50", "1": "1.06" },
+                "highest": { "0": "7.50", "1": "1.06" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.35", "1": "1.53" },
+                "highest": { "0": "2.35", "1": "1.53" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/north-bay-battalion-ottawa-67s-vyasyuAd/",
+            "num_possible_outcomes": 2,
+            "team_home": "North Bay Battalion",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 0,
+            "score_away": 8,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/barrie-colts-ottawa-67s-0EN9rTGT/",
+            "num_possible_outcomes": 2,
+            "team_home": "Barrie Colts",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 0,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "7.75", "1": "1.05" },
+                "highest": { "0": "7.75", "1": "1.05" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/owen-sound-attack-london-knights-UT1N1jHi/",
+            "num_possible_outcomes": 2,
+            "team_home": "Owen Sound Attack",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "5.50", "1": "1.11" },
+                "highest": { "0": "5.50", "1": "1.11" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.87", "1": "1.83" },
+                "highest": { "0": "1.87", "1": "1.83" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 16:07:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sault-ste-marie-greyhounds-kingston-frontenacs-QeeWaUo4/",
+            "num_possible_outcomes": 2,
+            "team_home": "Soo Greyhounds",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.65", "1": "2.10" },
+                "highest": { "0": "1.65", "1": "2.10" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.08", "1": "6.50" },
+                "highest": { "0": "1.08", "1": "6.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-mississauga-steelheads-n5dS0AWc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Mississauga Steelheads",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.95", "1": "1.75" },
+                "highest": { "0": "1.95", "1": "1.75" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.14", "1": "5.00" },
+                "highest": { "0": "1.14", "1": "5.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-windsor-spitfires-40a8ssXS/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Windsor Spitfires",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.30", "1": "1.55" },
+                "highest": { "0": "2.30", "1": "1.55" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.22", "1": "3.90" },
+                "highest": { "0": "1.22", "1": "3.90" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-erie-otters-jw3J2W1o/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "Erie Otters",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "6.00", "1": "1.10" },
+                "highest": { "0": "6.00", "1": "1.10" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.95", "1": "1.75" },
+                "highest": { "0": "1.95", "1": "1.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-07 13:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/hamilton-bulldogs-saginaw-spirit-xzFyvmPp/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hamilton Bulldogs",
+            "team_away": "Saginaw Spirit",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 6,
+            "score_away": 8,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-05 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-hamilton-bulldogs-2grtkDXo/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 0,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-04 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-guelph-storm-lnSPnNjI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-04 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-owen-sound-attack-MyA3rNHM/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Owen Sound Attack",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 5,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-03 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/kitchener-rangers-london-knights-j19Mm3yC/",
+            "num_possible_outcomes": 2,
+            "team_home": "Kitchener Rangers",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 6,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 15:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/oshawa-generals-ottawa-67s-vcS0hRMt/",
+            "num_possible_outcomes": 2,
+            "team_home": "Oshawa Generals",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 13:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-sault-ste-marie-greyhounds-0CG9j5ig/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "3.60", "1": "1.25" },
+                "highest": { "0": "3.60", "1": "1.25" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-barrie-colts-MLH5ioxm/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Barrie Colts",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.72", "1": "2.00" },
+                "highest": { "0": "1.72", "1": "2.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-mississauga-steelheads-UoLDkP6a/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Mississauga Steelheads",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.50", "1": "1.48" },
+                "highest": { "0": "2.50", "1": "1.48" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-kingston-frontenacs-8xKHlqM5/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 10,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.44", "1": "2.60" },
+                "highest": { "0": "1.44", "1": "2.60" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-london-knights-lYniYNyP/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "8.00", "1": "1.05" },
+                "highest": { "0": "8.00", "1": "1.05" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-03-01 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-north-bay-battalion-2yyZd7EP/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "North Bay Battalion",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.45", "1": "1.48" },
+                "highest": { "0": "2.45", "1": "1.48" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-29 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/owen-sound-attack-kitchener-rangers-juYoyQi6/",
+            "num_possible_outcomes": 2,
+            "team_home": "Owen Sound Attack",
+            "team_away": "Kitchener Rangers",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 4,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "3.30", "1": "1.28" },
+                "highest": { "0": "3.30", "1": "1.28" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.40", "1": "2.75" },
+                "highest": { "0": "1.40", "1": "2.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-29 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/saginaw-spirit-hamilton-bulldogs-UVWkzp7C/",
+            "num_possible_outcomes": 2,
+            "team_home": "Saginaw Spirit",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.62", "1": "2.15" },
+                "highest": { "0": "1.62", "1": "2.15" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.08", "1": "6.50" },
+                "highest": { "0": "1.08", "1": "6.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-29 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-guelph-storm-AslmZ3MI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.90", "1": "1.36" },
+                "highest": { "0": "2.90", "1": "1.36" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.28", "1": "3.30" },
+                "highest": { "0": "1.28", "1": "3.30" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-29 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-north-bay-battalion-rFUwwnNg/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "North Bay Battalion",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 4,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.45", "1": "2.55" },
+                "highest": { "0": "1.45", "1": "2.55" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.04", "1": "8.75" },
+                "highest": { "0": "1.04", "1": "8.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-29 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-kingston-frontenacs-8Y5aq32G/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.48", "1": "2.50" },
+                "highest": { "0": "1.48", "1": "2.50" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.05", "1": "8.00" },
+                "highest": { "0": "1.05", "1": "8.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-29 12:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-barrie-colts-dIYsx6x0/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Barrie Colts",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap +1.5": {
+                "average": { "0": "1.09", "1": "6.25" },
+                "highest": { "0": "1.09", "1": "6.25" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/guelph-storm-erie-otters-xx8CMQxD/",
+            "num_possible_outcomes": 2,
+            "team_home": "Guelph Storm",
+            "team_away": "Erie Otters",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.60", "1": "1.44" },
+                "highest": { "0": "2.60", "1": "1.44" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.22", "1": "3.75" },
+                "highest": { "0": "1.22", "1": "3.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/kitchener-rangers-sarnia-sting-lCBGLphJ/",
+            "num_possible_outcomes": 2,
+            "team_home": "Kitchener Rangers",
+            "team_away": "Sarnia Sting",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 7,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.48", "1": "2.50" },
+                "highest": { "0": "1.48", "1": "2.50" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.05", "1": "8.00" },
+                "highest": { "0": "1.05", "1": "8.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-sault-ste-marie-greyhounds-jHkapUUJ/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.57", "1": "2.25" },
+                "highest": { "0": "1.57", "1": "2.25" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.07", "1": "7.00" },
+                "highest": { "0": "1.07", "1": "7.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/saginaw-spirit-kingston-frontenacs-MatVv8hs/",
+            "num_possible_outcomes": 2,
+            "team_home": "Saginaw Spirit",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.36", "1": "2.90" },
+                "highest": { "0": "1.36", "1": "2.90" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.03", "1": "9.25" },
+                "highest": { "0": "1.03", "1": "9.25" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-niagara-icedogs-0juZwS7m/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Niagara IceDogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.22", "1": "3.80" },
+                "highest": { "0": "1.22", "1": "3.80" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.01", "1": "14.50" },
+                "highest": { "0": "1.01", "1": "14.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-hamilton-bulldogs-zL7ioPX3/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.45", "1": "2.55" },
+                "highest": { "0": "1.45", "1": "2.55" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.05", "1": "8.00" },
+                "highest": { "0": "1.05", "1": "8.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-28 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-oshawa-generals-EB6epqmA/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 1,
+            "odds": {
+              "asian handicap +1.5": {
+                "average": { "0": "1.14", "1": "5.00" },
+                "highest": { "0": "1.14", "1": "5.00" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-27 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/barrie-colts-niagara-icedogs-nmFaPShf/",
+            "num_possible_outcomes": 2,
+            "team_home": "Barrie Colts",
+            "team_away": "Niagara IceDogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.50", "1": "2.40" },
+                "highest": { "0": "1.50", "1": "2.40" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.05", "1": "7.75" },
+                "highest": { "0": "1.05", "1": "7.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-27 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-oshawa-generals-4O94On80/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.35", "1": "1.53" },
+                "highest": { "0": "2.35", "1": "1.53" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.19", "1": "4.10" },
+                "highest": { "0": "1.19", "1": "4.10" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-27 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-sault-ste-marie-greyhounds-rF88N6N6/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.20", "1": "1.60" },
+                "highest": { "0": "2.20", "1": "1.60" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.19", "1": "4.20" },
+                "highest": { "0": "1.19", "1": "4.20" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-26 16:10:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-flint-firebirds-IqDnn5Ic/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Flint Firebirds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 8,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-26 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/hamilton-bulldogs-owen-sound-attack-2clOrHgF/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hamilton Bulldogs",
+            "team_away": "Owen Sound Attack",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 6,
+            "score_away": 7,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "3.80", "1": "1.22" },
+                "highest": { "0": "3.80", "1": "1.22" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.48", "1": "2.50" },
+                "highest": { "0": "1.48", "1": "2.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-26 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-guelph-storm-EZGiRlOs/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "1.72", "1": "2.00" },
+                "highest": { "0": "1.72", "1": "2.00" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.08", "1": "6.50" },
+                "highest": { "0": "1.08", "1": "6.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-26 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/north-bay-battalion-sudbury-wolves-8dGeQ8wl/",
+            "num_possible_outcomes": 2,
+            "team_home": "North Bay Battalion",
+            "team_away": "Sudbury Wolves",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "6.50", "1": "1.08" },
+                "highest": { "0": "6.50", "1": "1.08" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.15", "1": "1.62" },
+                "highest": { "0": "2.15", "1": "1.62" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-25 07:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-kingston-frontenacs-KYbJqcv9/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 7,
+            "score_away": 3,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-23 15:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/oshawa-generals-windsor-spitfires-lzbUMZWe/",
+            "num_possible_outcomes": 2,
+            "team_home": "Oshawa Generals",
+            "team_away": "Windsor Spitfires",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 2,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.95", "1": "1.35" },
+                "highest": { "0": "2.95", "1": "1.35" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.35", "1": "2.95" },
+                "highest": { "0": "1.35", "1": "2.95" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-23 11:07:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sault-ste-marie-greyhounds-sarnia-sting-SQdYLgn2/",
+            "num_possible_outcomes": 2,
+            "team_home": "Soo Greyhounds",
+            "team_away": "Sarnia Sting",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.20", "1": "1.60" },
+                "highest": { "0": "2.20", "1": "1.60" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.22", "1": "3.90" },
+                "highest": { "0": "1.22", "1": "3.90" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-18 16:59:34",
+            "game_datetime": "2020-02-23 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-ottawa-67s-tr0FpwP2/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 2,
+            "score_away": 0,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "6.00", "1": "1.10" },
+                "highest": { "0": "6.00", "1": "1.10" }
+              }
+            }
+          }
+        ],
+        "urls": ["https://www.oddsportal.com/hockey/canada/ohl/results/"],
+        "possible_outcomes": 2,
+        "bet_type": "ah",
+        "sub_bet_type": 1,
+        "bet_options": [],
+        "outcome_headers": null,
+        "odds_sources": []
+      }
+    ],
+    "root_url": "https://www.oddsportal.com/hockey/canada/ohl/results/"
+  }
+}
