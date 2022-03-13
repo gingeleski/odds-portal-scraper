@@ -4,7 +4,7 @@ Automat==0.5.0
 constantly==15.1.0
 cssselect==1.0.1
 incremental==16.10.1
-lxml==4.6.3
+lxml==4.6.5
 packaging==16.8
 parsel==1.1.0
 pyparsing==2.1.10
