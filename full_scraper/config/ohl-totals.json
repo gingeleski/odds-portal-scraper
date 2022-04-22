@@ -1,0 +1,31 @@
+[
+  {
+    "collection_name": "OHL-totals",
+    "sport": "hockey",
+    "region": "canada",
+    "league": "ohl",
+    "seasons": [
+      "2015/2016",
+      "2016/2017",
+      "2017/2018",
+      "2018/2019",
+      "2019/2020"
+    ],
+    "output_dir": "ohl-test-w-containers",
+    "root_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+    "outcomes": 2,
+    "outcome_headers": ["over", "under"],
+    "bet_type": "over-under",
+    "odds_sources": ["unibet", "pinnacle", "marathonbet", "average", "highest"],
+    "bet_options": [
+      "over/under +5.5",
+      "over/under +6",
+      "over/under +6.5",
+      "over/under +7",
+      "over/under +7.5",
+      "over/under +8",
+      "over/under +8.5",
+      "over/under +9"
+    ]
+  }
+]

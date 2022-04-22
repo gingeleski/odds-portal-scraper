@@ -1,0 +1,16 @@
+[
+  {
+    "collection_name": "OHL-asian-handicap-ft",
+    "sport": "hockey",
+    "region": "canada",
+    "league": "ohl",
+    "seasons": ["2019/2020"],
+    "output_dir": "ohl-test-w-containers",
+    "root_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+    "outcomes": 2,
+    "bet_type": "ah",
+    "sub_bet_type": 1,
+    "odds_sources": [],
+    "bet_options": []
+  }
+]

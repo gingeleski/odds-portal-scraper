@@ -1,0 +1,3152 @@
+{
+  "name": "OHL-asian-handicap",
+  "sport": "hockey",
+  "region": "canada",
+  "output_dir": "ohl-test-w-containers",
+  "outcomes": 2,
+  "league": {
+    "name": "ohl",
+    "seasons": [
+      {
+        "name": "2019/2020",
+        "games": [
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 15:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-oshawa-generals-KIfzal1A/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 3,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "2.38", "1": "1.50" },
+                "highest": { "0": "2.38", "1": "1.50" },
+                "marathonbet": { "0": "2.38", "1": "1.50" },
+                "pinnacle": { "0": "2.54", "1": "1.47" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "2.29", "1": "1.58" },
+                "highest": { "0": "2.47", "1": "1.66" },
+                "marathonbet": { "0": "2.11", "1": "1.66" },
+                "pinnacle": { "0": "2.47", "1": "1.49" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "1.96", "1": "1.79" },
+                "highest": { "0": "1.96", "1": "1.79" },
+                "marathonbet": { "0": "1.96", "1": "1.79" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.96", "1": "1.83" },
+                "highest": { "0": "2.04", "1": "1.94" },
+                "marathonbet": { "0": "1.88", "1": "1.94" },
+                "pinnacle": { "0": "2.04", "1": "1.72" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "1.74", "1": "2.02" },
+                "highest": { "0": "1.74", "1": "2.02" },
+                "marathonbet": { "0": "1.74", "1": "2.02" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.73", "1": "2.05" },
+                "highest": { "0": "1.82", "1": "2.17" },
+                "marathonbet": { "0": "1.63", "1": "2.17" },
+                "pinnacle": { "0": "1.82", "1": "1.92" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.65", "1": "2.15" },
+                "highest": { "0": "1.65", "1": "2.15" },
+                "pinnacle": { "0": "1.65", "1": "2.15" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.36", "1": "2.90" },
+                "highest": { "0": "1.36", "1": "2.90" },
+                "pinnacle": { "0": "1.36", "1": "2.90" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 13:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-guelph-storm-Whbvb8GG/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1": {
+                "average": { "0": "3.14", "1": "1.31" },
+                "highest": { "0": "3.14", "1": "1.31" },
+                "marathonbet": { "0": "3.14", "1": "1.31" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.48", "1": "1.49" },
+                "highest": { "0": "2.48", "1": "1.49" },
+                "pinnacle": { "0": "2.48", "1": "1.49" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.13", "1": "1.69" },
+                "highest": { "0": "2.18", "1": "1.70" },
+                "marathonbet": { "0": "2.18", "1": "1.70" },
+                "pinnacle": { "0": "2.08", "1": "1.69" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.73", "1": "2.03" },
+                "highest": { "0": "1.73", "1": "2.03" },
+                "pinnacle": { "0": "1.73", "1": "2.03" }
+              },
+              "asian handicap +0.75": {
+                "average": { "0": "1.64", "1": "2.15" },
+                "highest": { "0": "1.64", "1": "2.15" },
+                "marathonbet": { "0": "1.64", "1": "2.15" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.54", "1": "2.34" },
+                "highest": { "0": "1.54", "1": "2.37" },
+                "marathonbet": { "0": "1.54", "1": "2.32" },
+                "pinnacle": { "0": "1.53", "1": "2.37" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "1.48", "1": "2.43" },
+                "highest": { "0": "1.48", "1": "2.43" },
+                "marathonbet": { "0": "1.48", "1": "2.43" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.44", "1": "2.60" },
+                "highest": { "0": "1.44", "1": "2.65" },
+                "marathonbet": { "0": "1.44", "1": "2.55" },
+                "pinnacle": { "0": "1.43", "1": "2.65" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.39", "1": "2.72" },
+                "highest": { "0": "1.39", "1": "2.72" },
+                "marathonbet": { "0": "1.39", "1": "2.72" },
+                "pinnacle": { "0": "1.42", "1": "2.62" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-kingston-frontenacs-ttwQaOnc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 0,
+            "odds": {
+              "asian handicap -4": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "3.18", "1": "1.28" }
+              },
+              "asian handicap -3.5": {
+                "average": { "0": "2.67", "1": "1.40" },
+                "highest": { "0": "2.67", "1": "1.40" },
+                "marathonbet": { "0": "2.50", "1": "1.48" },
+                "pinnacle": { "0": "2.67", "1": "1.40" }
+              },
+              "asian handicap -3.25": {
+                "average": { "0": "2.62", "1": "1.43" },
+                "highest": { "0": "2.62", "1": "1.43" },
+                "marathonbet": { "0": "2.62", "1": "1.43" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.34", "1": "1.54" },
+                "highest": { "0": "2.38", "1": "1.55" },
+                "marathonbet": { "0": "2.38", "1": "1.53" },
+                "pinnacle": { "0": "2.30", "1": "1.55" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "2.06", "1": "1.71" },
+                "highest": { "0": "2.06", "1": "1.71" },
+                "marathonbet": { "0": "2.06", "1": "1.71" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.90", "1": "1.87" },
+                "highest": { "0": "1.91", "1": "1.91" },
+                "marathonbet": { "0": "1.91", "1": "1.91" },
+                "pinnacle": { "0": "1.88", "1": "1.83" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.65", "1": "2.13" },
+                "highest": { "0": "1.66", "1": "2.15" },
+                "marathonbet": { "0": "1.64", "1": "2.15" },
+                "pinnacle": { "0": "1.66", "1": "2.10" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.50", "1": "2.38" },
+                "highest": { "0": "1.51", "1": "2.40" },
+                "marathonbet": { "0": "1.49", "1": "2.40" },
+                "pinnacle": { "0": "1.51", "1": "2.37" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-kitchener-rangers-CjC8ttoq/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Kitchener Rangers",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1": {
+                "average": { "0": "3.34", "1": "1.28" },
+                "highest": { "0": "3.34", "1": "1.28" },
+                "marathonbet": { "0": "3.34", "1": "1.28" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.67", "1": "1.40" },
+                "highest": { "0": "2.67", "1": "1.40" },
+                "pinnacle": { "0": "2.67", "1": "1.40" }
+              },
+              "asian handicap -0.25": {
+                "average": { "0": "2.51", "1": "1.49" },
+                "highest": { "0": "2.51", "1": "1.49" },
+                "marathonbet": { "0": "2.51", "1": "1.49" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.28", "1": "1.60" },
+                "highest": { "0": "2.31", "1": "1.63" },
+                "marathonbet": { "0": "2.31", "1": "1.63" },
+                "pinnacle": { "0": "2.25", "1": "1.57" }
+              },
+              "asian handicap +0.25": {
+                "average": { "0": "1.98", "1": "1.77" },
+                "highest": { "0": "1.98", "1": "1.77" },
+                "marathonbet": { "0": "1.98", "1": "1.77" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.82", "1": "1.88" },
+                "highest": { "0": "1.82", "1": "1.88" },
+                "pinnacle": { "0": "1.82", "1": "1.88" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.60", "1": "2.19" },
+                "highest": { "0": "1.61", "1": "2.21" },
+                "marathonbet": { "0": "1.61", "1": "2.17" },
+                "pinnacle": { "0": "1.59", "1": "2.21" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.48", "1": "2.46" },
+                "highest": { "0": "1.49", "1": "2.51" },
+                "marathonbet": { "0": "1.49", "1": "2.40" },
+                "pinnacle": { "0": "1.46", "1": "2.51" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-saginaw-spirit-69ozw1up/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "Saginaw Spirit",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap 0": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "3.05", "1": "1.30" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "2.31", "1": "1.54" },
+                "highest": { "0": "2.31", "1": "1.54" },
+                "pinnacle": { "0": "2.31", "1": "1.54" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.96", "1": "1.77" },
+                "highest": { "0": "2.01", "1": "1.81" },
+                "marathonbet": { "0": "1.91", "1": "1.81" },
+                "pinnacle": { "0": "2.01", "1": "1.72" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "1.83", "1": "1.91" },
+                "highest": { "0": "1.83", "1": "1.91" },
+                "marathonbet": { "0": "1.83", "1": "1.91" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.76", "1": "2.03" },
+                "highest": { "0": "1.78", "1": "2.06" },
+                "marathonbet": { "0": "1.78", "1": "2.06" },
+                "pinnacle": { "0": "1.74", "1": "1.99" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "1.65", "1": "2.16" },
+                "highest": { "0": "1.65", "1": "2.16" },
+                "marathonbet": { "0": "1.65", "1": "2.16" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.53", "1": "2.35" },
+                "highest": { "0": "1.54", "1": "2.35" },
+                "marathonbet": { "0": "1.54", "1": "2.35" },
+                "pinnacle": { "0": "1.52", "1": "2.35" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.41", "1": "2.64" },
+                "highest": { "0": "1.42", "1": "2.66" },
+                "marathonbet": { "0": "1.42", "1": "2.61" },
+                "pinnacle": { "0": "1.40", "1": "2.66" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-peterborough-petes-0p0wxLfj/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "Peterborough Petes",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 12,
+            "odds": {
+              "asian handicap +0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.65", "1": "1.41" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.61", "1": "1.42" },
+                "pinnacle": { "0": "2.88", "1": "1.34" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.48", "1": "1.47" },
+                "highest": { "0": "2.65", "1": "1.53" },
+                "marathonbet": { "0": "2.31", "1": "1.53" },
+                "pinnacle": { "0": "2.65", "1": "1.41" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "2.19", "1": "1.60" },
+                "highest": { "0": "2.19", "1": "1.60" },
+                "marathonbet": { "0": "2.19", "1": "1.60" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "2.17", "1": "1.63" },
+                "highest": { "0": "2.25", "1": "1.68" },
+                "marathonbet": { "0": "2.08", "1": "1.68" },
+                "pinnacle": { "0": "2.25", "1": "1.57" }
+              },
+              "asian handicap +2.25": {
+                "average": { "0": "1.95", "1": "1.80" },
+                "highest": { "0": "1.95", "1": "1.80" },
+                "marathonbet": { "0": "1.95", "1": "1.80" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.86", "1": "1.91" },
+                "highest": { "0": "1.88", "1": "1.94" },
+                "marathonbet": { "0": "1.88", "1": "1.94" },
+                "pinnacle": { "0": "1.84", "1": "1.87" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.52", "1": "2.38" },
+                "highest": { "0": "1.53", "1": "2.42" },
+                "marathonbet": { "0": "1.51", "1": "2.42" },
+                "pinnacle": { "0": "1.53", "1": "2.34" }
+              },
+              "asian handicap +3.5": {
+                "average": { "0": "1.37", "1": "2.77" },
+                "highest": { "0": "1.37", "1": "2.77" },
+                "pinnacle": { "0": "1.37", "1": "2.77" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/north-bay-battalion-ottawa-67s-vyasyuAd/",
+            "num_possible_outcomes": 2,
+            "team_home": "North Bay Battalion",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 0,
+            "score_away": 8,
+            "odds": {
+              "asian handicap +2.5": {
+                "average": { "0": "2.81", "1": "1.36" },
+                "highest": { "0": "2.81", "1": "1.36" },
+                "marathonbet": { "0": "2.55", "1": "1.44" },
+                "pinnacle": { "0": "2.81", "1": "1.36" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "2.49", "1": "1.48" },
+                "highest": { "0": "2.56", "1": "1.50" },
+                "marathonbet": { "0": "2.56", "1": "1.46" },
+                "pinnacle": { "0": "2.41", "1": "1.50" }
+              },
+              "asian handicap +3.25": {
+                "average": { "0": "2.19", "1": "1.63" },
+                "highest": { "0": "2.19", "1": "1.63" },
+                "marathonbet": { "0": "2.19", "1": "1.63" }
+              },
+              "asian handicap +3.5": {
+                "average": { "0": "1.96", "1": "1.81" },
+                "highest": { "0": "1.99", "1": "1.83" },
+                "marathonbet": { "0": "1.99", "1": "1.83" },
+                "pinnacle": { "0": "1.93", "1": "1.78" }
+              },
+              "asian handicap +3.75": {
+                "average": { "0": "1.82", "1": "1.92" },
+                "highest": { "0": "1.82", "1": "1.92" },
+                "marathonbet": { "0": "1.82", "1": "1.92" }
+              },
+              "asian handicap +4": {
+                "average": { "0": "1.67", "1": "2.08" },
+                "highest": { "0": "1.68", "1": "2.08" },
+                "marathonbet": { "0": "1.68", "1": "2.08" },
+                "pinnacle": { "0": "1.67", "1": "2.08" }
+              },
+              "asian handicap +4.5": {
+                "average": { "0": "1.50", "1": "2.40" },
+                "highest": { "0": "1.50", "1": "2.41" },
+                "marathonbet": { "0": "1.50", "1": "2.38" },
+                "pinnacle": { "0": "1.50", "1": "2.41" }
+              },
+              "asian handicap +5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.39", "1": "2.72" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/barrie-colts-ottawa-67s-0EN9rTGT/",
+            "num_possible_outcomes": 2,
+            "team_home": "Barrie Colts",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 0,
+            "score_away": 6,
+            "odds": {
+              "asian handicap +1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.55", "1": "1.44" },
+                "pinnacle": { "0": "2.99", "1": "1.36" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.40", "1": "1.51" },
+                "highest": { "0": "2.54", "1": "1.55" },
+                "marathonbet": { "0": "2.26", "1": "1.55" },
+                "pinnacle": { "0": "2.54", "1": "1.47" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "2.14", "1": "1.63" },
+                "highest": { "0": "2.14", "1": "1.63" },
+                "marathonbet": { "0": "2.14", "1": "1.63" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "2.07", "1": "1.70" },
+                "highest": { "0": "2.13", "1": "1.74" },
+                "marathonbet": { "0": "2.00", "1": "1.74" },
+                "pinnacle": { "0": "2.13", "1": "1.66" }
+              },
+              "asian handicap +2.25": {
+                "average": { "0": "1.87", "1": "1.87" },
+                "highest": { "0": "1.87", "1": "1.87" },
+                "marathonbet": { "0": "1.87", "1": "1.87" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.78", "1": "2.02" },
+                "highest": { "0": "1.80", "1": "2.04" },
+                "marathonbet": { "0": "1.80", "1": "2.04" },
+                "pinnacle": { "0": "1.75", "1": "2.00" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.42", "1": "2.68" },
+                "highest": { "0": "1.44", "1": "2.74" },
+                "marathonbet": { "0": "1.44", "1": "2.62" },
+                "pinnacle": { "0": "1.40", "1": "2.74" }
+              },
+              "asian handicap +3.5": {
+                "average": { "0": "1.27", "1": "3.34" },
+                "highest": { "0": "1.27", "1": "3.34" },
+                "pinnacle": { "0": "1.27", "1": "3.34" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/owen-sound-attack-london-knights-UT1N1jHi/",
+            "num_possible_outcomes": 2,
+            "team_home": "Owen Sound Attack",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 3,
+            "odds": {
+              "asian handicap 0": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.80", "1": "1.38" },
+                "pinnacle": { "0": "2.88", "1": "1.34" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "2.51", "1": "1.47" },
+                "highest": { "0": "2.51", "1": "1.47" },
+                "pinnacle": { "0": "2.51", "1": "1.47" }
+              },
+              "asian handicap +0.75": {
+                "average": { "0": "2.27", "1": "1.56" },
+                "highest": { "0": "2.27", "1": "1.56" },
+                "marathonbet": { "0": "2.27", "1": "1.56" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "2.18", "1": "1.63" },
+                "highest": { "0": "2.19", "1": "1.63" },
+                "marathonbet": { "0": "2.17", "1": "1.63" },
+                "pinnacle": { "0": "2.19", "1": "1.63" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "2.02", "1": "1.74" },
+                "highest": { "0": "2.02", "1": "1.74" },
+                "marathonbet": { "0": "2.02", "1": "1.74" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.91", "1": "1.88" },
+                "highest": { "0": "1.95", "1": "1.88" },
+                "marathonbet": { "0": "1.95", "1": "1.87" },
+                "pinnacle": { "0": "1.86", "1": "1.88" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.63", "1": "2.18" },
+                "highest": { "0": "1.67", "1": "2.26" },
+                "marathonbet": { "0": "1.67", "1": "2.11" },
+                "pinnacle": { "0": "1.59", "1": "2.26" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.48", "1": "2.49" },
+                "highest": { "0": "1.51", "1": "2.62" },
+                "marathonbet": { "0": "1.51", "1": "2.35" },
+                "pinnacle": { "0": "1.44", "1": "2.62" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 16:07:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sault-ste-marie-greyhounds-kingston-frontenacs-QeeWaUo4/",
+            "num_possible_outcomes": 2,
+            "team_home": "Soo Greyhounds",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -3": {
+                "average": { "0": "3.35", "1": "1.27" },
+                "highest": { "0": "3.35", "1": "1.27" },
+                "pinnacle": { "0": "3.35", "1": "1.27" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.29", "1": "1.57" },
+                "highest": { "0": "2.35", "1": "1.60" },
+                "marathonbet": { "0": "2.22", "1": "1.60" },
+                "pinnacle": { "0": "2.35", "1": "1.54" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.99", "1": "1.80" },
+                "highest": { "0": "2.00", "1": "1.83" },
+                "marathonbet": { "0": "2.00", "1": "1.83" },
+                "pinnacle": { "0": "1.98", "1": "1.77" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "1.83", "1": "1.91" },
+                "highest": { "0": "1.83", "1": "1.91" },
+                "marathonbet": { "0": "1.83", "1": "1.91" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.69", "1": "2.08" },
+                "highest": { "0": "1.72", "1": "2.12" },
+                "marathonbet": { "0": "1.72", "1": "2.03" },
+                "pinnacle": { "0": "1.67", "1": "2.12" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "1.62", "1": "2.16" },
+                "highest": { "0": "1.62", "1": "2.16" },
+                "marathonbet": { "0": "1.62", "1": "2.16" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.50", "1": "2.44" },
+                "highest": { "0": "1.53", "1": "2.56" },
+                "marathonbet": { "0": "1.53", "1": "2.31" },
+                "pinnacle": { "0": "1.46", "1": "2.56" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.49", "1": "2.43" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-mississauga-steelheads-n5dS0AWc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Mississauga Steelheads",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "2.64", "1": "1.41" },
+                "highest": { "0": "2.64", "1": "1.41" },
+                "marathonbet": { "0": "2.64", "1": "1.41" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "2.47", "1": "1.51" },
+                "highest": { "0": "2.55", "1": "1.53" },
+                "marathonbet": { "0": "2.38", "1": "1.53" },
+                "pinnacle": { "0": "2.55", "1": "1.48" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.04", "1": "1.77" },
+                "highest": { "0": "2.04", "1": "1.80" },
+                "marathonbet": { "0": "2.03", "1": "1.80" },
+                "pinnacle": { "0": "2.04", "1": "1.73" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "1.88", "1": "1.86" },
+                "highest": { "0": "1.88", "1": "1.86" },
+                "marathonbet": { "0": "1.88", "1": "1.86" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.77", "1": "1.98" },
+                "highest": { "0": "1.77", "1": "1.99" },
+                "marathonbet": { "0": "1.77", "1": "1.96" },
+                "pinnacle": { "0": "1.76", "1": "1.99" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "1.68", "1": "2.06" },
+                "highest": { "0": "1.68", "1": "2.06" },
+                "marathonbet": { "0": "1.68", "1": "2.06" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.57", "1": "2.31" },
+                "highest": { "0": "1.57", "1": "2.31" },
+                "pinnacle": { "0": "1.57", "1": "2.31" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.33", "1": "3.13" },
+                "highest": { "0": "1.33", "1": "3.13" },
+                "marathonbet": { "0": "1.35", "1": "2.93" },
+                "pinnacle": { "0": "1.33", "1": "3.13" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-windsor-spitfires-40a8ssXS/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Windsor Spitfires",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -2": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "3.01", "1": "1.31" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.49", "1": "1.50" },
+                "highest": { "0": "2.49", "1": "1.50" },
+                "pinnacle": { "0": "2.49", "1": "1.50" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.19", "1": "1.67" },
+                "highest": { "0": "2.21", "1": "1.68" },
+                "marathonbet": { "0": "2.21", "1": "1.68" },
+                "pinnacle": { "0": "2.17", "1": "1.65" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.84", "1": "1.90" },
+                "highest": { "0": "1.84", "1": "1.90" },
+                "pinnacle": { "0": "1.84", "1": "1.90" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.51", "1": "2.46" },
+                "highest": { "0": "1.51", "1": "2.46" },
+                "pinnacle": { "0": "1.51", "1": "2.46" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.35", "1": "3.02" },
+                "highest": { "0": "1.35", "1": "3.02" },
+                "pinnacle": { "0": "1.35", "1": "3.02" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-erie-otters-jw3J2W1o/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "Erie Otters",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 4,
+            "odds": {
+              "asian handicap +0.5": {
+                "average": { "0": "2.69", "1": "1.43" },
+                "highest": { "0": "2.69", "1": "1.43" },
+                "pinnacle": { "0": "2.69", "1": "1.43" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "2.34", "1": "1.55" },
+                "highest": { "0": "2.37", "1": "1.55" },
+                "marathonbet": { "0": "2.32", "1": "1.55" },
+                "pinnacle": { "0": "2.37", "1": "1.54" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "2.16", "1": "1.65" },
+                "highest": { "0": "2.16", "1": "1.65" },
+                "marathonbet": { "0": "2.16", "1": "1.65" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.03", "1": "1.77" },
+                "highest": { "0": "2.07", "1": "1.77" },
+                "marathonbet": { "0": "2.07", "1": "1.77" },
+                "pinnacle": { "0": "1.99", "1": "1.76" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "1.90", "1": "1.84" },
+                "highest": { "0": "1.90", "1": "1.84" },
+                "marathonbet": { "0": "1.90", "1": "1.84" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.73", "1": "2.04" },
+                "highest": { "0": "1.77", "1": "2.11" },
+                "marathonbet": { "0": "1.77", "1": "1.96" },
+                "pinnacle": { "0": "1.68", "1": "2.11" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.53", "1": "2.37" },
+                "highest": { "0": "1.58", "1": "2.53" },
+                "marathonbet": { "0": "1.58", "1": "2.20" },
+                "pinnacle": { "0": "1.48", "1": "2.53" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-07 13:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/hamilton-bulldogs-saginaw-spirit-xzFyvmPp/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hamilton Bulldogs",
+            "team_away": "Saginaw Spirit",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 6,
+            "score_away": 8,
+            "odds": {
+              "asian handicap +0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.58", "1": "1.43" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "2.68", "1": "1.42" },
+                "highest": { "0": "2.78", "1": "1.43" },
+                "marathonbet": { "0": "2.58", "1": "1.43" },
+                "pinnacle": { "0": "2.78", "1": "1.41" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.29", "1": "1.55" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.30", "1": "1.57" },
+                "highest": { "0": "2.35", "1": "1.59" },
+                "marathonbet": { "0": "2.24", "1": "1.59" },
+                "pinnacle": { "0": "2.35", "1": "1.55" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "2.11", "1": "1.68" },
+                "highest": { "0": "2.11", "1": "1.68" },
+                "marathonbet": { "0": "2.11", "1": "1.68" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "2.01", "1": "1.79" },
+                "highest": { "0": "2.02", "1": "1.81" },
+                "marathonbet": { "0": "2.02", "1": "1.81" },
+                "pinnacle": { "0": "2.00", "1": "1.76" }
+              },
+              "asian handicap +2.25": {
+                "average": { "0": "1.86", "1": "1.88" },
+                "highest": { "0": "1.86", "1": "1.88" },
+                "marathonbet": { "0": "1.86", "1": "1.88" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.72", "1": "2.04" },
+                "highest": { "0": "1.75", "1": "2.09" },
+                "marathonbet": { "0": "1.75", "1": "1.99" },
+                "pinnacle": { "0": "1.69", "1": "2.09" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.40", "1": "2.78" },
+                "highest": { "0": "1.43", "1": "2.98" },
+                "marathonbet": { "0": "1.43", "1": "2.58" },
+                "pinnacle": { "0": "1.36", "1": "2.98" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-05 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-hamilton-bulldogs-2grtkDXo/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 0,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-04 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-guelph-storm-lnSPnNjI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1": {
+                "average": { "0": "2.82", "1": "1.36" },
+                "highest": { "0": "2.82", "1": "1.36" },
+                "pinnacle": { "0": "2.82", "1": "1.36" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.43", "1": "1.49" },
+                "highest": { "0": "2.43", "1": "1.49" },
+                "pinnacle": { "0": "2.43", "1": "1.49" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.02", "1": "1.71" },
+                "highest": { "0": "2.02", "1": "1.71" },
+                "pinnacle": { "0": "2.02", "1": "1.71" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.68", "1": "2.07" },
+                "highest": { "0": "1.68", "1": "2.07" },
+                "pinnacle": { "0": "1.68", "1": "2.07" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.49", "1": "2.43" },
+                "highest": { "0": "1.49", "1": "2.43" },
+                "pinnacle": { "0": "1.49", "1": "2.43" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.41", "1": "2.64" },
+                "highest": { "0": "1.41", "1": "2.64" },
+                "pinnacle": { "0": "1.41", "1": "2.64" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-04 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-owen-sound-attack-MyA3rNHM/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Owen Sound Attack",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -2": {
+                "average": { "0": "2.50", "1": "1.46" },
+                "highest": { "0": "2.50", "1": "1.46" },
+                "pinnacle": { "0": "2.50", "1": "1.46" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.39", "1": "1.50" },
+                "highest": { "0": "2.39", "1": "1.50" },
+                "pinnacle": { "0": "2.39", "1": "1.50" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.19", "1": "1.60" },
+                "highest": { "0": "2.19", "1": "1.60" },
+                "pinnacle": { "0": "2.19", "1": "1.60" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.95", "1": "1.76" },
+                "highest": { "0": "1.95", "1": "1.76" },
+                "pinnacle": { "0": "1.95", "1": "1.76" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.57", "1": "2.25" },
+                "highest": { "0": "1.57", "1": "2.25" },
+                "pinnacle": { "0": "1.57", "1": "2.25" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.38", "1": "2.75" },
+                "highest": { "0": "1.38", "1": "2.75" },
+                "pinnacle": { "0": "1.38", "1": "2.75" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-03 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/kitchener-rangers-london-knights-j19Mm3yC/",
+            "num_possible_outcomes": 2,
+            "team_home": "Kitchener Rangers",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.92", "1": "1.33" },
+                "highest": { "0": "2.92", "1": "1.33" },
+                "pinnacle": { "0": "2.92", "1": "1.33" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 15:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/oshawa-generals-ottawa-67s-vcS0hRMt/",
+            "num_possible_outcomes": 2,
+            "team_home": "Oshawa Generals",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap 0": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.84", "1": "1.35" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "2.44", "1": "1.50" },
+                "highest": { "0": "2.44", "1": "1.50" },
+                "pinnacle": { "0": "2.44", "1": "1.50" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "2.16", "1": "1.64" },
+                "highest": { "0": "2.18", "1": "1.65" },
+                "marathonbet": { "0": "2.13", "1": "1.65" },
+                "pinnacle": { "0": "2.18", "1": "1.63" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "2.01", "1": "1.75" },
+                "highest": { "0": "2.01", "1": "1.75" },
+                "marathonbet": { "0": "2.01", "1": "1.75" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.89", "1": "1.89" },
+                "highest": { "0": "1.93", "1": "1.96" },
+                "marathonbet": { "0": "1.93", "1": "1.89" },
+                "pinnacle": { "0": "1.91", "1": "1.83" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "1.78", "1": "1.97" },
+                "highest": { "0": "1.78", "1": "1.97" },
+                "marathonbet": { "0": "1.78", "1": "1.97" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.65", "1": "2.13" },
+                "highest": { "0": "1.66", "1": "2.14" },
+                "marathonbet": { "0": "1.65", "1": "2.13" },
+                "pinnacle": { "0": "1.66", "1": "2.14" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.48", "1": "2.48" },
+                "highest": { "0": "1.50", "1": "2.59" },
+                "marathonbet": { "0": "1.49", "1": "2.40" },
+                "pinnacle": { "0": "1.50", "1": "2.44" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 13:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-sault-ste-marie-greyhounds-0CG9j5ig/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "3.18", "1": "1.28" },
+                "highest": { "0": "3.18", "1": "1.28" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "3.04", "1": "1.33" },
+                "highest": { "0": "3.04", "1": "1.33" },
+                "marathonbet": { "0": "3.04", "1": "1.33" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.47", "1": "1.49" },
+                "highest": { "0": "2.47", "1": "1.49" },
+                "pinnacle": { "0": "2.47", "1": "1.49" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.10", "1": "1.72" },
+                "highest": { "0": "2.13", "1": "1.73" },
+                "marathonbet": { "0": "2.13", "1": "1.73" },
+                "pinnacle": { "0": "2.07", "1": "1.70" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.71", "1": "2.05" },
+                "highest": { "0": "1.71", "1": "2.05" },
+                "pinnacle": { "0": "1.71", "1": "2.05" }
+              },
+              "asian handicap +0.75": {
+                "average": { "0": "1.61", "1": "2.20" },
+                "highest": { "0": "1.61", "1": "2.20" },
+                "marathonbet": { "0": "1.61", "1": "2.20" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.55", "1": "2.33" },
+                "highest": { "0": "1.57", "1": "2.36" },
+                "marathonbet": { "0": "1.52", "1": "2.36" },
+                "pinnacle": { "0": "1.57", "1": "2.30" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "1.47", "1": "2.46" },
+                "highest": { "0": "1.47", "1": "2.46" },
+                "marathonbet": { "0": "1.47", "1": "2.46" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.50", "1": "2.45" },
+                "highest": { "0": "1.59", "1": "2.58" },
+                "marathonbet": { "0": "1.43", "1": "2.58" },
+                "pinnacle": { "0": "1.48", "1": "2.50" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.38", "1": "2.76" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.32", "1": "3.02" },
+                "highest": { "0": "1.32", "1": "3.02" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-barrie-colts-MLH5ioxm/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Barrie Colts",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -3": {
+                "average": { "0": "3.77", "1": "1.21" },
+                "highest": { "0": "3.77", "1": "1.21" },
+                "pinnacle": { "0": "3.77", "1": "1.21" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.30", "1": "1.57" },
+                "highest": { "0": "2.41", "1": "1.62" },
+                "marathonbet": { "0": "2.19", "1": "1.62" },
+                "pinnacle": { "0": "2.41", "1": "1.52" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.97", "1": "1.82" },
+                "highest": { "0": "1.97", "1": "1.85" },
+                "marathonbet": { "0": "1.97", "1": "1.85" },
+                "pinnacle": { "0": "1.97", "1": "1.78" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "1.81", "1": "1.94" },
+                "highest": { "0": "1.81", "1": "1.94" },
+                "marathonbet": { "0": "1.81", "1": "1.94" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.67", "1": "2.12" },
+                "highest": { "0": "1.70", "1": "2.19" },
+                "marathonbet": { "0": "1.70", "1": "2.05" },
+                "pinnacle": { "0": "1.63", "1": "2.19" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "1.61", "1": "2.17" },
+                "highest": { "0": "1.61", "1": "2.17" },
+                "marathonbet": { "0": "1.61", "1": "2.17" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.47", "1": "2.50" },
+                "highest": { "0": "1.51", "1": "2.64" },
+                "marathonbet": { "0": "1.51", "1": "2.35" },
+                "pinnacle": { "0": "1.43", "1": "2.64" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.62", "1": "2.17" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.37", "1": "2.83" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.24", "1": "3.64" },
+                "pinnacle": { "0": "1.37", "1": "2.78" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-mississauga-steelheads-UoLDkP6a/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Mississauga Steelheads",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "3.28", "1": "1.26" },
+                "highest": { "0": "3.28", "1": "1.26" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "3.08", "1": "1.31" },
+                "highest": { "0": "3.08", "1": "1.31" },
+                "marathonbet": { "0": "3.08", "1": "1.31" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.43", "1": "1.51" },
+                "highest": { "0": "2.50", "1": "1.54" },
+                "marathonbet": { "0": "2.50", "1": "1.48" },
+                "pinnacle": { "0": "2.35", "1": "1.54" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "2.40", "1": "1.53" },
+                "highest": { "0": "2.40", "1": "1.53" },
+                "marathonbet": { "0": "2.40", "1": "1.53" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.23", "1": "1.64" },
+                "highest": { "0": "2.33", "1": "1.66" },
+                "marathonbet": { "0": "2.33", "1": "1.62" },
+                "pinnacle": { "0": "2.13", "1": "1.66" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "2.11", "1": "1.68" },
+                "highest": { "0": "2.11", "1": "1.68" },
+                "marathonbet": { "0": "2.11", "1": "1.68" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.89", "1": "1.85" },
+                "highest": { "0": "1.89", "1": "1.85" },
+                "pinnacle": { "0": "1.89", "1": "1.85" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.58", "1": "2.26" },
+                "highest": { "0": "1.59", "1": "2.32" },
+                "marathonbet": { "0": "1.59", "1": "2.21" },
+                "pinnacle": { "0": "1.56", "1": "2.32" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.39", "1": "2.79" },
+                "highest": { "0": "1.39", "1": "2.79" },
+                "pinnacle": { "0": "1.39", "1": "2.79" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.30", "1": "3.10" },
+                "highest": { "0": "1.30", "1": "3.10" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-kingston-frontenacs-8xKHlqM5/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 10,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -3.5": {
+                "average": { "0": "2.69", "1": "1.41" },
+                "highest": { "0": "2.69", "1": "1.41" },
+                "marathonbet": { "0": "2.58", "1": "1.43" },
+                "pinnacle": { "0": "2.69", "1": "1.41" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.24", "1": "1.60" },
+                "highest": { "0": "2.30", "1": "1.63" },
+                "marathonbet": { "0": "2.17", "1": "1.63" },
+                "pinnacle": { "0": "2.30", "1": "1.57" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "1.92", "1": "1.82" },
+                "highest": { "0": "1.92", "1": "1.82" },
+                "marathonbet": { "0": "1.92", "1": "1.82" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.84", "1": "1.95" },
+                "highest": { "0": "1.88", "1": "2.04" },
+                "marathonbet": { "0": "1.80", "1": "2.04" },
+                "pinnacle": { "0": "1.88", "1": "1.85" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.66", "1": "2.14" },
+                "highest": { "0": "1.66", "1": "2.14" },
+                "marathonbet": { "0": "1.66", "1": "2.14" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.58", "1": "2.27" },
+                "highest": { "0": "1.61", "1": "2.32" },
+                "marathonbet": { "0": "1.55", "1": "2.32" },
+                "pinnacle": { "0": "1.61", "1": "2.22" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.52", "1": "2.36" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.44", "1": "2.59" },
+                "highest": { "0": "1.45", "1": "2.61" },
+                "marathonbet": { "0": "1.42", "1": "2.61" },
+                "pinnacle": { "0": "1.45", "1": "2.57" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.48", "1": "2.43" },
+                "pinnacle": { "0": "1.47", "1": "2.47" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-london-knights-lYniYNyP/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 6,
+            "odds": {
+              "asian handicap +0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.55", "1": "1.44" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.40", "1": "1.49" },
+                "pinnacle": { "0": "2.67", "1": "1.40" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.36", "1": "1.53" },
+                "highest": { "0": "2.48", "1": "1.56" },
+                "marathonbet": { "0": "2.24", "1": "1.56" },
+                "pinnacle": { "0": "2.48", "1": "1.49" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "2.06", "1": "1.71" },
+                "highest": { "0": "2.12", "1": "1.74" },
+                "marathonbet": { "0": "2.00", "1": "1.74" },
+                "pinnacle": { "0": "2.12", "1": "1.67" }
+              },
+              "asian handicap +2.25": {
+                "average": { "0": "1.87", "1": "1.87" },
+                "highest": { "0": "1.87", "1": "1.87" },
+                "marathonbet": { "0": "1.87", "1": "1.87" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.80", "1": "1.99" },
+                "highest": { "0": "1.81", "1": "2.02" },
+                "marathonbet": { "0": "1.81", "1": "2.02" },
+                "pinnacle": { "0": "1.78", "1": "1.96" }
+              },
+              "asian handicap +2.75": {
+                "average": { "0": "1.61", "1": "2.23" },
+                "highest": { "0": "1.61", "1": "2.23" },
+                "marathonbet": { "0": "1.61", "1": "2.23" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.48", "1": "2.51" },
+                "highest": { "0": "1.51", "1": "2.61" },
+                "marathonbet": { "0": "1.44", "1": "2.61" },
+                "pinnacle": { "0": "1.51", "1": "2.42" }
+              },
+              "asian handicap +3.5": {
+                "average": { "0": "1.38", "1": "2.81" },
+                "highest": { "0": "1.38", "1": "2.81" },
+                "pinnacle": { "0": "1.38", "1": "2.81" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-03-01 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-north-bay-battalion-2yyZd7EP/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "North Bay Battalion",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "3.19", "1": "1.28" },
+                "highest": { "0": "3.19", "1": "1.28" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.88", "1": "1.35" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.50", "1": "1.48" },
+                "highest": { "0": "2.59", "1": "1.54" },
+                "marathonbet": { "0": "2.55", "1": "1.44" },
+                "pinnacle": { "0": "2.59", "1": "1.45" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "2.46", "1": "1.47" },
+                "highest": { "0": "2.46", "1": "1.47" },
+                "marathonbet": { "0": "2.46", "1": "1.47" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.36", "1": "1.53" },
+                "highest": { "0": "2.38", "1": "1.53" },
+                "marathonbet": { "0": "2.34", "1": "1.53" },
+                "pinnacle": { "0": "2.38", "1": "1.53" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "2.20", "1": "1.61" },
+                "highest": { "0": "2.20", "1": "1.61" },
+                "marathonbet": { "0": "2.20", "1": "1.61" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.10", "1": "1.68" },
+                "highest": { "0": "2.10", "1": "1.68" },
+                "pinnacle": { "0": "2.10", "1": "1.68" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.71", "1": "2.12" },
+                "highest": { "0": "1.73", "1": "2.14" },
+                "marathonbet": { "0": "1.73", "1": "2.14" },
+                "pinnacle": { "0": "1.69", "1": "2.09" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.45", "1": "2.57" },
+                "highest": { "0": "1.45", "1": "2.57" },
+                "pinnacle": { "0": "1.45", "1": "2.57" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.31", "1": "3.13" },
+                "highest": { "0": "1.33", "1": "3.21" },
+                "marathonbet": { "0": "1.33", "1": "3.04" },
+                "pinnacle": { "0": "1.29", "1": "3.21" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.29", "1": "3.14" },
+                "highest": { "0": "1.29", "1": "3.14" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-29 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/owen-sound-attack-kitchener-rangers-juYoyQi6/",
+            "num_possible_outcomes": 2,
+            "team_home": "Owen Sound Attack",
+            "team_away": "Kitchener Rangers",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 4,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -1": {
+                "average": { "0": "3.21", "1": "1.30" },
+                "highest": { "0": "3.32", "1": "1.32" },
+                "marathonbet": { "0": "3.10", "1": "1.32" },
+                "pinnacle": { "0": "3.32", "1": "1.27" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.54", "1": "1.47" },
+                "highest": { "0": "2.54", "1": "1.47" },
+                "pinnacle": { "0": "2.54", "1": "1.47" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.09", "1": "1.73" },
+                "highest": { "0": "2.10", "1": "1.75" },
+                "marathonbet": { "0": "2.10", "1": "1.75" },
+                "pinnacle": { "0": "2.07", "1": "1.70" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.68", "1": "2.10" },
+                "highest": { "0": "1.68", "1": "2.10" },
+                "pinnacle": { "0": "1.68", "1": "2.10" }
+              },
+              "asian handicap +0.75": {
+                "average": { "0": "1.59", "1": "2.24" },
+                "highest": { "0": "1.59", "1": "2.24" },
+                "marathonbet": { "0": "1.59", "1": "2.24" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.50", "1": "2.45" },
+                "highest": { "0": "1.50", "1": "2.45" },
+                "marathonbet": { "0": "1.49", "1": "2.44" },
+                "pinnacle": { "0": "1.50", "1": "2.45" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "1.44", "1": "2.55" },
+                "highest": { "0": "1.44", "1": "2.55" },
+                "marathonbet": { "0": "1.44", "1": "2.55" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.40", "1": "2.68" },
+                "highest": { "0": "1.40", "1": "2.68" },
+                "marathonbet": { "0": "1.40", "1": "2.68" },
+                "pinnacle": { "0": "1.52", "1": "2.44" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.34", "1": "2.93" },
+                "highest": { "0": "1.34", "1": "2.93" },
+                "marathonbet": { "0": "1.34", "1": "2.93" },
+                "pinnacle": { "0": "1.43", "1": "2.56" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-29 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/saginaw-spirit-hamilton-bulldogs-UVWkzp7C/",
+            "num_possible_outcomes": 2,
+            "team_home": "Saginaw Spirit",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -3.5": {
+                "average": { "0": "2.89", "1": "1.36" },
+                "highest": { "0": "2.89", "1": "1.36" },
+                "pinnacle": { "0": "2.89", "1": "1.36" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.59", "1": "1.45" },
+                "highest": { "0": "2.62", "1": "1.46" },
+                "marathonbet": { "0": "2.56", "1": "1.46" },
+                "pinnacle": { "0": "2.62", "1": "1.44" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "2.21", "1": "1.62" },
+                "highest": { "0": "2.21", "1": "1.62" },
+                "marathonbet": { "0": "2.21", "1": "1.62" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.05", "1": "1.76" },
+                "highest": { "0": "2.08", "1": "1.82" },
+                "marathonbet": { "0": "2.01", "1": "1.82" },
+                "pinnacle": { "0": "2.08", "1": "1.70" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.87", "1": "1.87" },
+                "highest": { "0": "1.87", "1": "1.87" },
+                "marathonbet": { "0": "1.87", "1": "1.87" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.77", "1": "1.98" },
+                "highest": { "0": "1.79", "1": "2.00" },
+                "marathonbet": { "0": "1.74", "1": "2.00" },
+                "pinnacle": { "0": "1.79", "1": "1.95" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.68", "1": "2.06" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.58", "1": "2.24" },
+                "highest": { "0": "1.59", "1": "2.26" },
+                "marathonbet": { "0": "1.57", "1": "2.22" },
+                "pinnacle": { "0": "1.59", "1": "2.26" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.53", "1": "2.31" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.44", "1": "2.61" },
+                "highest": { "0": "1.44", "1": "2.61" },
+                "marathonbet": { "0": "1.66", "1": "2.12" },
+                "pinnacle": { "0": "1.44", "1": "2.61" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-29 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-guelph-storm-AslmZ3MI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "2.84", "1": "1.36" },
+                "highest": { "0": "2.84", "1": "1.36" },
+                "marathonbet": { "0": "2.84", "1": "1.36" },
+                "pinnacle": { "0": "2.96", "1": "1.34" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.67", "1": "1.42" },
+                "highest": { "0": "2.75", "1": "1.44" },
+                "marathonbet": { "0": "2.58", "1": "1.44" },
+                "pinnacle": { "0": "2.75", "1": "1.40" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.17", "1": "1.64" },
+                "highest": { "0": "2.17", "1": "1.64" },
+                "pinnacle": { "0": "2.17", "1": "1.64" }
+              },
+              "asian handicap -0.25": {
+                "average": { "0": "1.96", "1": "1.79" },
+                "highest": { "0": "1.96", "1": "1.79" },
+                "marathonbet": { "0": "1.96", "1": "1.79" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.77", "1": "2.03" },
+                "highest": { "0": "1.79", "1": "2.05" },
+                "marathonbet": { "0": "1.79", "1": "2.05" },
+                "pinnacle": { "0": "1.75", "1": "2.01" }
+              },
+              "asian handicap +0.25": {
+                "average": { "0": "1.61", "1": "2.23" },
+                "highest": { "0": "1.61", "1": "2.23" },
+                "marathonbet": { "0": "1.61", "1": "2.23" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.49", "1": "2.48" },
+                "highest": { "0": "1.49", "1": "2.48" },
+                "pinnacle": { "0": "1.49", "1": "2.48" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.34", "1": "2.98" },
+                "highest": { "0": "1.35", "1": "3.04" },
+                "marathonbet": { "0": "1.33", "1": "3.04" },
+                "pinnacle": { "0": "1.35", "1": "2.92" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.32", "1": "3.04" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-29 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-north-bay-battalion-rFUwwnNg/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "North Bay Battalion",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 4,
+            "score_away": 5,
+            "odds": {
+              "asian handicap -3.5": {
+                "average": { "0": "2.72", "1": "1.40" },
+                "highest": { "0": "2.84", "1": "1.42" },
+                "marathonbet": { "0": "2.61", "1": "1.42" },
+                "pinnacle": { "0": "2.84", "1": "1.37" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.25", "1": "1.60" },
+                "highest": { "0": "2.32", "1": "1.63" },
+                "marathonbet": { "0": "2.17", "1": "1.63" },
+                "pinnacle": { "0": "2.32", "1": "1.56" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.80", "1": "1.99" },
+                "highest": { "0": "1.81", "1": "2.05" },
+                "marathonbet": { "0": "1.79", "1": "2.05" },
+                "pinnacle": { "0": "1.81", "1": "1.93" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.64", "1": "2.18" },
+                "highest": { "0": "1.64", "1": "2.18" },
+                "marathonbet": { "0": "1.64", "1": "2.18" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.55", "1": "2.34" },
+                "highest": { "0": "1.57", "1": "2.38" },
+                "marathonbet": { "0": "1.53", "1": "2.38" },
+                "pinnacle": { "0": "1.57", "1": "2.29" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "1.46", "1": "2.52" },
+                "highest": { "0": "1.46", "1": "2.52" },
+                "marathonbet": { "0": "1.46", "1": "2.52" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.44", "1": "2.61" },
+                "highest": { "0": "1.44", "1": "2.61" },
+                "marathonbet": { "0": "1.42", "1": "2.61" },
+                "pinnacle": { "0": "1.44", "1": "2.61" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.50", "1": "2.41" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.42", "1": "2.61" },
+                "pinnacle": { "0": "1.40", "1": "2.67" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-29 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-kingston-frontenacs-8Y5aq32G/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -4": {
+                "average": { "0": "2.97", "1": "1.34" },
+                "highest": { "0": "2.97", "1": "1.34" },
+                "pinnacle": { "0": "2.97", "1": "1.34" }
+              },
+              "asian handicap -3.5": {
+                "average": { "0": "2.53", "1": "1.46" },
+                "highest": { "0": "2.55", "1": "1.48" },
+                "marathonbet": { "0": "2.55", "1": "1.44" },
+                "pinnacle": { "0": "2.50", "1": "1.48" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.13", "1": "1.65" },
+                "highest": { "0": "2.14", "1": "1.66" },
+                "marathonbet": { "0": "2.13", "1": "1.65" },
+                "pinnacle": { "0": "2.14", "1": "1.66" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "1.89", "1": "1.85" },
+                "highest": { "0": "1.89", "1": "1.85" },
+                "marathonbet": { "0": "1.89", "1": "1.85" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.79", "1": "2.01" },
+                "highest": { "0": "1.79", "1": "2.06" },
+                "marathonbet": { "0": "1.78", "1": "2.06" },
+                "pinnacle": { "0": "1.79", "1": "1.95" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.64", "1": "2.18" },
+                "highest": { "0": "1.64", "1": "2.18" },
+                "marathonbet": { "0": "1.64", "1": "2.18" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.55", "1": "2.34" },
+                "highest": { "0": "1.57", "1": "2.38" },
+                "marathonbet": { "0": "1.53", "1": "2.38" },
+                "pinnacle": { "0": "1.57", "1": "2.30" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.44", "1": "2.60" },
+                "highest": { "0": "1.44", "1": "2.60" },
+                "marathonbet": { "0": "1.44", "1": "2.53" },
+                "pinnacle": { "0": "1.44", "1": "2.60" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-29 12:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-barrie-colts-dIYsx6x0/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Barrie Colts",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.22", "1": "1.60" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.09", "1": "1.69" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.00", "1": "1.83" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.83", "1": "1.91" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.72", "1": "2.03" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.53", "1": "2.31" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/guelph-storm-erie-otters-xx8CMQxD/",
+            "num_possible_outcomes": 2,
+            "team_home": "Guelph Storm",
+            "team_away": "Erie Otters",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -2": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "3.24", "1": "1.29" },
+                "pinnacle": { "0": "2.71", "1": "1.39" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.80", "1": "1.37" },
+                "highest": { "0": "2.80", "1": "1.37" },
+                "marathonbet": { "0": "2.80", "1": "1.37" },
+                "pinnacle": { "0": "2.63", "1": "1.43" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "2.64", "1": "1.41" },
+                "highest": { "0": "2.64", "1": "1.41" },
+                "marathonbet": { "0": "2.64", "1": "1.41" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.51", "1": "1.47" },
+                "highest": { "0": "2.52", "1": "1.48" },
+                "marathonbet": { "0": "2.52", "1": "1.46" },
+                "pinnacle": { "0": "2.51", "1": "1.48" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "2.32", "1": "1.55" },
+                "highest": { "0": "2.32", "1": "1.55" },
+                "marathonbet": { "0": "2.32", "1": "1.55" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.11", "1": "1.67" },
+                "highest": { "0": "2.11", "1": "1.67" },
+                "pinnacle": { "0": "2.11", "1": "1.67" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.77", "1": "2.03" },
+                "highest": { "0": "1.79", "1": "2.05" },
+                "marathonbet": { "0": "1.79", "1": "2.05" },
+                "pinnacle": { "0": "1.75", "1": "2.01" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.51", "1": "2.41" },
+                "highest": { "0": "1.51", "1": "2.41" },
+                "pinnacle": { "0": "1.51", "1": "2.41" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.32", "1": "3.09" },
+                "highest": { "0": "1.33", "1": "3.16" },
+                "marathonbet": { "0": "1.33", "1": "3.02" },
+                "pinnacle": { "0": "1.30", "1": "3.16" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/kitchener-rangers-sarnia-sting-lCBGLphJ/",
+            "num_possible_outcomes": 2,
+            "team_home": "Kitchener Rangers",
+            "team_away": "Sarnia Sting",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 7,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -3.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.59", "1": "1.45" },
+                "pinnacle": { "0": "2.46", "1": "1.47" }
+              },
+              "asian handicap -3.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.93", "1": "1.35" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.63", "1": "1.44" },
+                "highest": { "0": "2.66", "1": "1.45" },
+                "marathonbet": { "0": "2.66", "1": "1.43" },
+                "pinnacle": { "0": "2.59", "1": "1.45" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "2.49", "1": "1.47" },
+                "highest": { "0": "2.49", "1": "1.47" },
+                "marathonbet": { "0": "2.49", "1": "1.47" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.19", "1": "1.63" },
+                "highest": { "0": "2.20", "1": "1.64" },
+                "marathonbet": { "0": "2.20", "1": "1.61" },
+                "pinnacle": { "0": "2.17", "1": "1.64" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "2.09", "1": "1.69" },
+                "highest": { "0": "2.09", "1": "1.69" },
+                "marathonbet": { "0": "2.09", "1": "1.69" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.95", "1": "1.84" },
+                "highest": { "0": "2.00", "1": "1.84" },
+                "marathonbet": { "0": "2.00", "1": "1.83" },
+                "pinnacle": { "0": "1.90", "1": "1.84" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.71", "1": "2.05" },
+                "highest": { "0": "1.74", "1": "2.11" },
+                "marathonbet": { "0": "1.74", "1": "2.00" },
+                "pinnacle": { "0": "1.68", "1": "2.11" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.52", "1": "2.38" },
+                "highest": { "0": "1.56", "1": "2.52" },
+                "marathonbet": { "0": "1.56", "1": "2.24" },
+                "pinnacle": { "0": "1.47", "1": "2.52" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.41", "1": "2.70" },
+                "highest": { "0": "1.41", "1": "2.70" },
+                "pinnacle": { "0": "1.41", "1": "2.70" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-sault-ste-marie-greyhounds-jHkapUUJ/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -3": {
+                "average": { "0": "2.91", "1": "1.35" },
+                "highest": { "0": "2.91", "1": "1.35" },
+                "pinnacle": { "0": "2.91", "1": "1.35" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.05", "1": "1.71" },
+                "highest": { "0": "2.06", "1": "1.71" },
+                "marathonbet": { "0": "2.04", "1": "1.71" },
+                "pinnacle": { "0": "2.06", "1": "1.71" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.92", "1": "1.82" },
+                "highest": { "0": "1.92", "1": "1.82" },
+                "marathonbet": { "0": "1.92", "1": "1.82" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.80", "1": "1.99" },
+                "highest": { "0": "1.83", "1": "1.99" },
+                "marathonbet": { "0": "1.83", "1": "1.99" },
+                "pinnacle": { "0": "1.76", "1": "1.99" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "1.70", "1": "2.08" },
+                "highest": { "0": "1.70", "1": "2.08" },
+                "marathonbet": { "0": "1.70", "1": "2.08" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.59", "1": "2.26" },
+                "highest": { "0": "1.61", "1": "2.32" },
+                "marathonbet": { "0": "1.61", "1": "2.20" },
+                "pinnacle": { "0": "1.56", "1": "2.32" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.57", "1": "2.25" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.41", "1": "2.70" },
+                "highest": { "0": "1.44", "1": "2.84" },
+                "marathonbet": { "0": "1.44", "1": "2.55" },
+                "pinnacle": { "0": "1.37", "1": "2.84" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.41", "1": "2.65" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/saginaw-spirit-kingston-frontenacs-MatVv8hs/",
+            "num_possible_outcomes": 2,
+            "team_home": "Saginaw Spirit",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -4": {
+                "average": { "0": "3.38", "1": "1.26" },
+                "highest": { "0": "3.38", "1": "1.26" },
+                "pinnacle": { "0": "3.38", "1": "1.26" }
+              },
+              "asian handicap -3.5": {
+                "average": { "0": "2.47", "1": "1.50" },
+                "highest": { "0": "2.47", "1": "1.50" },
+                "marathonbet": { "0": "2.47", "1": "1.49" },
+                "pinnacle": { "0": "2.46", "1": "1.50" }
+              },
+              "asian handicap -3.25": {
+                "average": { "0": "2.25", "1": "1.60" },
+                "highest": { "0": "2.25", "1": "1.60" },
+                "marathonbet": { "0": "2.25", "1": "1.60" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.06", "1": "1.75" },
+                "highest": { "0": "2.07", "1": "1.77" },
+                "marathonbet": { "0": "2.07", "1": "1.77" },
+                "pinnacle": { "0": "2.05", "1": "1.72" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "1.82", "1": "1.92" },
+                "highest": { "0": "1.82", "1": "1.92" },
+                "marathonbet": { "0": "1.82", "1": "1.92" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.69", "1": "2.09" },
+                "highest": { "0": "1.70", "1": "2.11" },
+                "marathonbet": { "0": "1.67", "1": "2.11" },
+                "pinnacle": { "0": "1.70", "1": "2.07" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.52", "1": "2.36" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.46", "1": "2.52" },
+                "highest": { "0": "1.46", "1": "2.55" },
+                "marathonbet": { "0": "1.46", "1": "2.49" },
+                "pinnacle": { "0": "1.46", "1": "2.55" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.38", "1": "2.76" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.37", "1": "2.77" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-niagara-icedogs-0juZwS7m/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Niagara IceDogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -4.5": {
+                "average": { "0": "2.69", "1": "1.41" },
+                "highest": { "0": "2.69", "1": "1.41" },
+                "marathonbet": { "0": "2.51", "1": "1.45" },
+                "pinnacle": { "0": "2.69", "1": "1.41" }
+              },
+              "asian handicap -4": {
+                "average": { "0": "2.51", "1": "1.46" },
+                "highest": { "0": "2.53", "1": "1.48" },
+                "marathonbet": { "0": "2.53", "1": "1.44" },
+                "pinnacle": { "0": "2.50", "1": "1.48" }
+              },
+              "asian handicap -3.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.58", "1": "1.44" }
+              },
+              "asian handicap -3.5": {
+                "average": { "0": "2.08", "1": "1.69" },
+                "highest": { "0": "2.09", "1": "1.69" },
+                "marathonbet": { "0": "2.07", "1": "1.69" },
+                "pinnacle": { "0": "2.09", "1": "1.68" }
+              },
+              "asian handicap -3.25": {
+                "average": { "0": "1.89", "1": "1.85" },
+                "highest": { "0": "1.89", "1": "1.85" },
+                "marathonbet": { "0": "1.89", "1": "1.85" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "1.75", "1": "2.05" },
+                "highest": { "0": "1.76", "1": "2.13" },
+                "marathonbet": { "0": "1.73", "1": "2.13" },
+                "pinnacle": { "0": "1.76", "1": "1.98" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "1.57", "1": "2.31" },
+                "highest": { "0": "1.57", "1": "2.31" },
+                "marathonbet": { "0": "1.57", "1": "2.31" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.51", "1": "2.43" },
+                "highest": { "0": "1.55", "1": "2.53" },
+                "marathonbet": { "0": "1.47", "1": "2.53" },
+                "pinnacle": { "0": "1.55", "1": "2.34" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.35", "1": "2.93" },
+                "highest": { "0": "1.39", "1": "3.14" },
+                "marathonbet": { "0": "1.39", "1": "2.72" },
+                "pinnacle": { "0": "1.30", "1": "3.14" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-hamilton-bulldogs-zL7ioPX3/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -3.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.76", "1": "1.39" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.59", "1": "1.46" },
+                "highest": { "0": "2.69", "1": "1.49" },
+                "marathonbet": { "0": "2.69", "1": "1.42" },
+                "pinnacle": { "0": "2.48", "1": "1.49" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "2.29", "1": "1.58" },
+                "highest": { "0": "2.29", "1": "1.58" },
+                "marathonbet": { "0": "2.29", "1": "1.58" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.05", "1": "1.75" },
+                "highest": { "0": "2.09", "1": "1.76" },
+                "marathonbet": { "0": "2.09", "1": "1.76" },
+                "pinnacle": { "0": "2.02", "1": "1.74" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.93", "1": "1.81" },
+                "highest": { "0": "1.93", "1": "1.81" },
+                "marathonbet": { "0": "1.93", "1": "1.81" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.79", "1": "1.95" },
+                "highest": { "0": "1.82", "1": "2.00" },
+                "marathonbet": { "0": "1.82", "1": "1.90" },
+                "pinnacle": { "0": "1.76", "1": "2.00" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.68", "1": "2.06" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.60", "1": "2.21" },
+                "highest": { "0": "1.62", "1": "2.29" },
+                "marathonbet": { "0": "1.62", "1": "2.13" },
+                "pinnacle": { "0": "1.57", "1": "2.29" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.38", "1": "2.82" },
+                "highest": { "0": "1.38", "1": "2.82" },
+                "marathonbet": { "0": "1.53", "1": "2.31" },
+                "pinnacle": { "0": "1.38", "1": "2.82" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.43", "1": "2.58" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-28 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-oshawa-generals-EB6epqmA/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -3": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.91", "1": "1.34" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.58", "1": "1.44" },
+                "highest": { "0": "2.65", "1": "1.45" },
+                "marathonbet": { "0": "2.51", "1": "1.45" },
+                "pinnacle": { "0": "2.65", "1": "1.43" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "2.39", "1": "1.51" },
+                "highest": { "0": "2.39", "1": "1.51" },
+                "marathonbet": { "0": "2.39", "1": "1.51" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "2.27", "1": "1.58" },
+                "highest": { "0": "2.29", "1": "1.59" },
+                "marathonbet": { "0": "2.24", "1": "1.59" },
+                "pinnacle": { "0": "2.29", "1": "1.57" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "2.06", "1": "1.71" },
+                "highest": { "0": "2.06", "1": "1.71" },
+                "marathonbet": { "0": "2.06", "1": "1.71" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.94", "1": "1.85" },
+                "highest": { "0": "1.96", "1": "1.86" },
+                "marathonbet": { "0": "1.96", "1": "1.86" },
+                "pinnacle": { "0": "1.91", "1": "1.83" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.69", "1": "2.08" },
+                "highest": { "0": "1.71", "1": "2.11" },
+                "marathonbet": { "0": "1.71", "1": "2.04" },
+                "pinnacle": { "0": "1.68", "1": "2.11" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.53", "1": "2.38" },
+                "highest": { "0": "1.53", "1": "2.38" },
+                "pinnacle": { "0": "1.53", "1": "2.38" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-27 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/barrie-colts-niagara-icedogs-nmFaPShf/",
+            "num_possible_outcomes": 2,
+            "team_home": "Barrie Colts",
+            "team_away": "Niagara IceDogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 6,
+            "odds": {
+              "asian handicap -4": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "3.00", "1": "1.31" }
+              },
+              "asian handicap -3.5": {
+                "average": { "0": "2.94", "1": "1.35" },
+                "highest": { "0": "2.94", "1": "1.35" },
+                "marathonbet": { "0": "2.38", "1": "1.53" },
+                "pinnacle": { "0": "2.94", "1": "1.35" }
+              },
+              "asian handicap -3.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.58", "1": "1.44" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "2.38", "1": "1.53" },
+                "highest": { "0": "2.50", "1": "1.58" },
+                "marathonbet": { "0": "2.26", "1": "1.58" },
+                "pinnacle": { "0": "2.50", "1": "1.48" }
+              },
+              "asian handicap -2.75": {
+                "average": { "0": "1.98", "1": "1.77" },
+                "highest": { "0": "1.98", "1": "1.77" },
+                "marathonbet": { "0": "1.98", "1": "1.77" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.92", "1": "1.88" },
+                "highest": { "0": "1.98", "1": "1.98" },
+                "marathonbet": { "0": "1.85", "1": "1.98" },
+                "pinnacle": { "0": "1.98", "1": "1.78" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "1.70", "1": "2.08" },
+                "highest": { "0": "1.70", "1": "2.08" },
+                "marathonbet": { "0": "1.70", "1": "2.08" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.64", "1": "2.17" },
+                "highest": { "0": "1.70", "1": "2.26" },
+                "marathonbet": { "0": "1.58", "1": "2.26" },
+                "pinnacle": { "0": "1.70", "1": "2.07" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.49", "1": "2.46" },
+                "highest": { "0": "1.52", "1": "2.52" },
+                "marathonbet": { "0": "1.45", "1": "2.52" },
+                "pinnacle": { "0": "1.52", "1": "2.39" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-27 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-oshawa-generals-4O94On80/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "3.10", "1": "1.29" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "2.88", "1": "1.36" },
+                "highest": { "0": "3.04", "1": "1.39" },
+                "marathonbet": { "0": "2.72", "1": "1.39" },
+                "pinnacle": { "0": "3.04", "1": "1.32" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.23", "1": "1.60" },
+                "highest": { "0": "2.24", "1": "1.60" },
+                "marathonbet": { "0": "2.22", "1": "1.60" },
+                "pinnacle": { "0": "2.24", "1": "1.60" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "2.11", "1": "1.68" },
+                "highest": { "0": "2.11", "1": "1.68" },
+                "marathonbet": { "0": "2.11", "1": "1.68" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.00", "1": "1.80" },
+                "highest": { "0": "2.02", "1": "1.81" },
+                "marathonbet": { "0": "2.02", "1": "1.81" },
+                "pinnacle": { "0": "1.98", "1": "1.78" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "1.86", "1": "1.88" },
+                "highest": { "0": "1.86", "1": "1.88" },
+                "marathonbet": { "0": "1.86", "1": "1.88" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.75", "1": "2.01" },
+                "highest": { "0": "1.75", "1": "2.01" },
+                "pinnacle": { "0": "1.75", "1": "2.01" }
+              },
+              "asian handicap -0.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.59", "1": "2.24" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.43", "1": "2.63" },
+                "highest": { "0": "1.45", "1": "2.69" },
+                "marathonbet": { "0": "1.41", "1": "2.69" },
+                "pinnacle": { "0": "1.45", "1": "2.57" }
+              },
+              "asian handicap +0.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.35", "1": "2.88" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.36", "1": "2.83" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.34", "1": "2.98" },
+                "pinnacle": { "0": "1.36", "1": "2.80" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-27 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-sault-ste-marie-greyhounds-rF88N6N6/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 2,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.40", "1": "1.49" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "2.76", "1": "1.38" },
+                "highest": { "0": "2.76", "1": "1.38" },
+                "marathonbet": { "0": "2.76", "1": "1.38" },
+                "pinnacle": { "0": "2.73", "1": "1.40" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.25", "1": "1.57" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.29", "1": "1.57" },
+                "highest": { "0": "2.30", "1": "1.57" },
+                "marathonbet": { "0": "2.28", "1": "1.57" },
+                "pinnacle": { "0": "2.30", "1": "1.57" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "2.17", "1": "1.64" },
+                "highest": { "0": "2.17", "1": "1.64" },
+                "marathonbet": { "0": "2.17", "1": "1.64" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.05", "1": "1.75" },
+                "highest": { "0": "2.10", "1": "1.75" },
+                "marathonbet": { "0": "2.10", "1": "1.75" },
+                "pinnacle": { "0": "2.01", "1": "1.75" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "1.92", "1": "1.82" },
+                "highest": { "0": "1.92", "1": "1.82" },
+                "marathonbet": { "0": "1.92", "1": "1.82" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.75", "1": "2.01" },
+                "highest": { "0": "1.75", "1": "2.01" },
+                "pinnacle": { "0": "1.75", "1": "2.01" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.50", "1": "2.43" },
+                "highest": { "0": "1.51", "1": "2.44" },
+                "marathonbet": { "0": "1.49", "1": "2.44" },
+                "pinnacle": { "0": "1.51", "1": "2.42" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.39", "1": "2.76" },
+                "highest": { "0": "1.39", "1": "2.76" },
+                "pinnacle": { "0": "1.39", "1": "2.76" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-26 16:10:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-flint-firebirds-IqDnn5Ic/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Flint Firebirds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 8,
+            "odds": {
+              "asian handicap +1": {
+                "average": { "0": "2.38", "1": "1.52" },
+                "highest": { "0": "2.46", "1": "1.57" },
+                "marathonbet": { "0": "2.46", "1": "1.47" },
+                "pinnacle": { "0": "2.29", "1": "1.57" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.16", "1": "1.64" },
+                "highest": { "0": "2.30", "1": "1.74" },
+                "marathonbet": { "0": "2.17", "1": "1.63" },
+                "pinnacle": { "0": "2.02", "1": "1.74" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "2.05", "1": "1.72" },
+                "highest": { "0": "2.05", "1": "1.72" },
+                "marathonbet": { "0": "2.05", "1": "1.72" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.86", "1": "1.93" },
+                "highest": { "0": "1.96", "1": "1.99" },
+                "marathonbet": { "0": "1.96", "1": "1.86" },
+                "pinnacle": { "0": "1.76", "1": "1.99" }
+              },
+              "asian handicap +2.25": {
+                "average": { "0": "1.82", "1": "1.92" },
+                "highest": { "0": "1.82", "1": "1.92" },
+                "marathonbet": { "0": "1.82", "1": "1.92" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.70", "1": "2.08" },
+                "highest": { "0": "1.80", "1": "2.28" },
+                "marathonbet": { "0": "1.72", "1": "2.03" },
+                "pinnacle": { "0": "1.58", "1": "2.28" }
+              },
+              "asian handicap +2.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.55", "1": "2.29" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.39", "1": "2.77" },
+                "highest": { "0": "1.39", "1": "2.77" },
+                "marathonbet": { "0": "1.51", "1": "2.42" },
+                "pinnacle": { "0": "1.39", "1": "2.77" }
+              },
+              "asian handicap +3.5": {
+                "average": { "0": "1.36", "1": "2.94" },
+                "highest": { "0": "1.36", "1": "2.94" },
+                "pinnacle": { "0": "1.40", "1": "2.68" }
+              },
+              "asian handicap +4.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-26 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/hamilton-bulldogs-owen-sound-attack-2clOrHgF/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hamilton Bulldogs",
+            "team_away": "Owen Sound Attack",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 6,
+            "score_away": 7,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "3.44", "1": "1.27" },
+                "highest": { "0": "3.44", "1": "1.27" },
+                "marathonbet": { "0": "2.58", "1": "1.43" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "3.40", "1": "1.27" },
+                "pinnacle": { "0": "2.80", "1": "1.36" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.99", "1": "1.34" },
+                "highest": { "0": "2.99", "1": "1.34" },
+                "pinnacle": { "0": "2.99", "1": "1.34" }
+              },
+              "asian handicap -0.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.48", "1": "1.50" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.38", "1": "1.52" },
+                "highest": { "0": "2.47", "1": "1.55" },
+                "marathonbet": { "0": "2.29", "1": "1.55" },
+                "pinnacle": { "0": "2.47", "1": "1.49" }
+              },
+              "asian handicap +0.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.96", "1": "1.79" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.89", "1": "1.85" },
+                "highest": { "0": "1.89", "1": "1.85" },
+                "pinnacle": { "0": "1.89", "1": "1.85" }
+              },
+              "asian handicap +0.75": {
+                "average": { "0": "1.73", "1": "2.04" },
+                "highest": { "0": "1.73", "1": "2.04" },
+                "marathonbet": { "0": "1.73", "1": "2.04" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.65", "1": "2.21" },
+                "highest": { "0": "1.66", "1": "2.25" },
+                "marathonbet": { "0": "1.66", "1": "2.25" },
+                "pinnacle": { "0": "1.64", "1": "2.17" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "1.57", "1": "2.31" },
+                "highest": { "0": "1.57", "1": "2.31" },
+                "marathonbet": { "0": "1.57", "1": "2.31" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.51", "1": "2.46" },
+                "highest": { "0": "1.54", "1": "2.50" },
+                "marathonbet": { "0": "1.51", "1": "2.42" },
+                "pinnacle": { "0": "1.48", "1": "2.50" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.32", "1": "3.04" },
+                "highest": { "0": "1.32", "1": "3.04" },
+                "marathonbet": { "0": "1.32", "1": "3.04" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.28", "1": "3.37" },
+                "highest": { "0": "1.28", "1": "3.37" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-26 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-guelph-storm-EZGiRlOs/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -3.5": {
+                "average": { "0": "4.03", "1": "1.18" },
+                "highest": { "0": "4.03", "1": "1.18" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "3.47", "1": "1.25" },
+                "highest": { "0": "3.47", "1": "1.25" },
+                "pinnacle": { "0": "3.47", "1": "1.25" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "2.31", "1": "1.58" },
+                "highest": { "0": "2.48", "1": "1.60" },
+                "marathonbet": { "0": "2.22", "1": "1.60" },
+                "pinnacle": { "0": "2.24", "1": "1.60" }
+              },
+              "asian handicap -2.25": {
+                "average": { "0": "2.09", "1": "1.69" },
+                "highest": { "0": "2.09", "1": "1.69" },
+                "marathonbet": { "0": "2.09", "1": "1.69" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.96", "1": "1.83" },
+                "highest": { "0": "1.99", "1": "1.84" },
+                "marathonbet": { "0": "1.99", "1": "1.84" },
+                "pinnacle": { "0": "1.93", "1": "1.81" }
+              },
+              "asian handicap -1.75": {
+                "average": { "0": "1.81", "1": "1.94" },
+                "highest": { "0": "1.81", "1": "1.94" },
+                "marathonbet": { "0": "1.81", "1": "1.94" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "1.74", "1": "2.05" },
+                "highest": { "0": "1.85", "1": "2.12" },
+                "marathonbet": { "0": "1.70", "1": "2.05" },
+                "pinnacle": { "0": "1.67", "1": "2.12" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.78", "1": "1.97" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.48", "1": "2.48" },
+                "highest": { "0": "1.50", "1": "2.58" },
+                "marathonbet": { "0": "1.50", "1": "2.38" },
+                "pinnacle": { "0": "1.45", "1": "2.58" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.56", "1": "2.27" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.41", "1": "2.72" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.32", "1": "3.10" },
+                "pinnacle": { "0": "1.33", "1": "2.92" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-26 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/north-bay-battalion-sudbury-wolves-8dGeQ8wl/",
+            "num_possible_outcomes": 2,
+            "team_home": "North Bay Battalion",
+            "team_away": "Sudbury Wolves",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "asian handicap +1": {
+                "average": { "0": "2.48", "1": "1.48" },
+                "highest": { "0": "2.61", "1": "1.51" },
+                "marathonbet": { "0": "2.35", "1": "1.51" },
+                "pinnacle": { "0": "2.61", "1": "1.44" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.18", "1": "1.65" },
+                "highest": { "0": "2.31", "1": "1.68" },
+                "marathonbet": { "0": "2.08", "1": "1.68" },
+                "pinnacle": { "0": "2.15", "1": "1.65" }
+              },
+              "asian handicap +1.75": {
+                "average": { "0": "1.97", "1": "1.78" },
+                "highest": { "0": "1.97", "1": "1.78" },
+                "marathonbet": { "0": "1.97", "1": "1.78" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.87", "1": "1.91" },
+                "highest": { "0": "1.90", "1": "1.92" },
+                "marathonbet": { "0": "1.90", "1": "1.92" },
+                "pinnacle": { "0": "1.84", "1": "1.90" }
+              },
+              "asian handicap +2.25": {
+                "average": { "0": "1.75", "1": "2.01" },
+                "highest": { "0": "1.75", "1": "2.01" },
+                "marathonbet": { "0": "1.75", "1": "2.01" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.69", "1": "2.13" },
+                "highest": { "0": "1.79", "1": "2.22" },
+                "marathonbet": { "0": "1.66", "1": "2.12" },
+                "pinnacle": { "0": "1.61", "1": "2.22" }
+              },
+              "asian handicap +2.75": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "1.54", "1": "2.32" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.43", "1": "2.66" },
+                "highest": { "0": "1.43", "1": "2.66" },
+                "marathonbet": { "0": "1.63", "1": "2.17" },
+                "pinnacle": { "0": "1.43", "1": "2.66" }
+              },
+              "asian handicap +3.5": {
+                "average": { "0": "1.33", "1": "3.13" },
+                "highest": { "0": "1.33", "1": "3.13" },
+                "pinnacle": { "0": "1.48", "1": "2.44" }
+              },
+              "asian handicap +4.5": {
+                "average": { "0": "1.14", "1": "4.37" },
+                "highest": { "0": "1.14", "1": "4.37" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-25 07:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-kingston-frontenacs-KYbJqcv9/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 7,
+            "score_away": 3,
+            "odds": {
+              "asian handicap -4.5": {
+                "average": { "0": "2.69", "1": "1.42" },
+                "highest": { "0": "2.70", "1": "1.43" },
+                "marathonbet": { "0": "2.68", "1": "1.40" },
+                "pinnacle": { "0": "2.70", "1": "1.43" }
+              },
+              "asian handicap -4": {
+                "average": { "0": "2.59", "1": "1.46" },
+                "highest": { "0": "2.79", "1": "1.55" },
+                "marathonbet": { "0": "2.62", "1": "1.44" },
+                "pinnacle": { "0": "2.79", "1": "1.38" }
+              },
+              "asian handicap -3.75": {
+                "average": { "0": "2.33", "1": "1.56" },
+                "highest": { "0": "2.33", "1": "1.56" },
+                "marathonbet": { "0": "2.33", "1": "1.56" }
+              },
+              "asian handicap -3.5": {
+                "average": { "0": "2.14", "1": "1.69" },
+                "highest": { "0": "2.28", "1": "1.79" },
+                "marathonbet": { "0": "2.18", "1": "1.70" },
+                "pinnacle": { "0": "2.28", "1": "1.57" }
+              },
+              "asian handicap -3.25": {
+                "average": { "0": "1.92", "1": "1.82" },
+                "highest": { "0": "1.92", "1": "1.82" },
+                "marathonbet": { "0": "1.92", "1": "1.82" }
+              },
+              "asian handicap -3": {
+                "average": { "0": "1.75", "1": "2.02" },
+                "highest": { "0": "1.90", "1": "2.18" },
+                "marathonbet": { "0": "1.72", "1": "2.03" },
+                "pinnacle": { "0": "1.90", "1": "1.84" }
+              },
+              "asian handicap -2.5": {
+                "average": { "0": "1.51", "1": "2.43" },
+                "highest": { "0": "1.61", "1": "2.62" },
+                "marathonbet": { "0": "1.47", "1": "2.46" },
+                "pinnacle": { "0": "1.61", "1": "2.21" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "1.43", "1": "2.65" },
+                "highest": { "0": "1.43", "1": "2.65" },
+                "pinnacle": { "0": "1.43", "1": "2.65" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-23 15:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/oshawa-generals-windsor-spitfires-lzbUMZWe/",
+            "num_possible_outcomes": 2,
+            "team_home": "Oshawa Generals",
+            "team_away": "Windsor Spitfires",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 2,
+            "score_away": 1,
+            "odds": {
+              "asian handicap -1.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.88", "1": "1.35" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "2.82", "1": "1.37" },
+                "highest": { "0": "2.89", "1": "1.38" },
+                "marathonbet": { "0": "2.89", "1": "1.36" },
+                "pinnacle": { "0": "2.79", "1": "1.38" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "2.40", "1": "1.52" },
+                "highest": { "0": "2.40", "1": "1.52" },
+                "pinnacle": { "0": "2.40", "1": "1.52" }
+              },
+              "asian handicap -0.25": {
+                "average": { "0": "2.19", "1": "1.63" },
+                "highest": { "0": "2.19", "1": "1.63" },
+                "marathonbet": { "0": "2.19", "1": "1.63" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "2.01", "1": "1.77" },
+                "highest": { "0": "2.03", "1": "1.80" },
+                "marathonbet": { "0": "2.03", "1": "1.80" },
+                "pinnacle": { "0": "2.00", "1": "1.75" }
+              },
+              "asian handicap +0.25": {
+                "average": { "0": "1.80", "1": "1.95" },
+                "highest": { "0": "1.80", "1": "1.95" },
+                "marathonbet": { "0": "1.80", "1": "1.95" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "1.68", "1": "2.11" },
+                "highest": { "0": "1.68", "1": "2.11" },
+                "pinnacle": { "0": "1.68", "1": "2.11" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "1.49", "1": "2.46" },
+                "highest": { "0": "1.50", "1": "2.49" },
+                "marathonbet": { "0": "1.47", "1": "2.49" },
+                "pinnacle": { "0": "1.50", "1": "2.45" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "1.38", "1": "2.76" },
+                "highest": { "0": "1.38", "1": "2.76" },
+                "marathonbet": { "0": "1.38", "1": "2.76" },
+                "pinnacle": { "0": "1.42", "1": "2.62" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-23 11:07:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sault-ste-marie-greyhounds-sarnia-sting-SQdYLgn2/",
+            "num_possible_outcomes": 2,
+            "team_home": "Soo Greyhounds",
+            "team_away": "Sarnia Sting",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 4,
+            "odds": {
+              "asian handicap -2.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.40", "1": "1.49" },
+                "pinnacle": { "0": "2.47", "1": "1.47" }
+              },
+              "asian handicap -2": {
+                "average": { "0": "2.36", "1": "1.54" },
+                "highest": { "0": "2.38", "1": "1.54" },
+                "marathonbet": { "0": "2.31", "1": "1.53" },
+                "pinnacle": { "0": "2.38", "1": "1.54" }
+              },
+              "asian handicap -1.5": {
+                "average": { "0": "2.02", "1": "1.74" },
+                "highest": { "0": "2.02", "1": "1.74" },
+                "marathonbet": { "0": "2.01", "1": "1.73" },
+                "pinnacle": { "0": "2.02", "1": "1.74" }
+              },
+              "asian handicap -1.25": {
+                "average": { "0": "1.92", "1": "1.82" },
+                "highest": { "0": "1.92", "1": "1.82" },
+                "marathonbet": { "0": "1.92", "1": "1.82" }
+              },
+              "asian handicap -1": {
+                "average": { "0": "1.84", "1": "1.93" },
+                "highest": { "0": "1.87", "1": "1.95" },
+                "marathonbet": { "0": "1.87", "1": "1.95" },
+                "pinnacle": { "0": "1.82", "1": "1.92" }
+              },
+              "asian handicap -0.75": {
+                "average": { "0": "1.75", "1": "2.01" },
+                "highest": { "0": "1.75", "1": "2.01" },
+                "marathonbet": { "0": "1.75", "1": "2.01" }
+              },
+              "asian handicap -0.5": {
+                "average": { "0": "1.67", "1": "2.13" },
+                "highest": { "0": "1.67", "1": "2.13" },
+                "pinnacle": { "0": "1.67", "1": "2.13" }
+              },
+              "asian handicap 0": {
+                "average": { "0": "1.41", "1": "2.73" },
+                "highest": { "0": "1.42", "1": "2.74" },
+                "marathonbet": { "0": "1.40", "1": "2.72" },
+                "pinnacle": { "0": "1.42", "1": "2.74" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "1.39", "1": "2.72" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-15 15:43:29",
+            "game_datetime": "2020-02-23 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-ottawa-67s-tr0FpwP2/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 2,
+            "score_away": 0,
+            "odds": {
+              "asian handicap 0": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "marathonbet": { "0": "2.89", "1": "1.36" },
+                "pinnacle": { "0": "2.74", "1": "1.38" }
+              },
+              "asian handicap +0.5": {
+                "average": { "0": "-", "1": "-" },
+                "highest": { "0": "-", "1": "-" },
+                "pinnacle": { "0": "2.77", "1": "1.37" }
+              },
+              "asian handicap +0.75": {
+                "average": { "0": "2.43", "1": "1.48" },
+                "highest": { "0": "2.43", "1": "1.48" },
+                "marathonbet": { "0": "2.43", "1": "1.48" }
+              },
+              "asian handicap +1": {
+                "average": { "0": "2.52", "1": "1.47" },
+                "highest": { "0": "2.62", "1": "1.53" },
+                "marathonbet": { "0": "2.31", "1": "1.53" },
+                "pinnacle": { "0": "2.62", "1": "1.44" }
+              },
+              "asian handicap +1.25": {
+                "average": { "0": "2.16", "1": "1.62" },
+                "highest": { "0": "2.16", "1": "1.62" },
+                "marathonbet": { "0": "2.16", "1": "1.62" }
+              },
+              "asian handicap +1.5": {
+                "average": { "0": "2.07", "1": "1.69" },
+                "highest": { "0": "2.09", "1": "1.72" },
+                "marathonbet": { "0": "2.03", "1": "1.72" },
+                "pinnacle": { "0": "2.09", "1": "1.68" }
+              },
+              "asian handicap +2": {
+                "average": { "0": "1.78", "1": "2.00" },
+                "highest": { "0": "1.84", "1": "2.00" },
+                "marathonbet": { "0": "1.84", "1": "1.99" },
+                "pinnacle": { "0": "1.75", "1": "2.00" }
+              },
+              "asian handicap +2.5": {
+                "average": { "0": "1.56", "1": "2.31" },
+                "highest": { "0": "1.61", "1": "2.37" },
+                "marathonbet": { "0": "1.61", "1": "2.20" },
+                "pinnacle": { "0": "1.53", "1": "2.37" }
+              },
+              "asian handicap +3": {
+                "average": { "0": "1.27", "1": "3.34" },
+                "highest": { "0": "1.27", "1": "3.34" },
+                "pinnacle": { "0": "1.27", "1": "3.34" }
+              }
+            }
+          }
+        ],
+        "urls": ["https://www.oddsportal.com/hockey/canada/ohl/results/"],
+        "possible_outcomes": 2,
+        "bet_type": "ah",
+        "sub_bet_type": 2,
+        "bet_options": [],
+        "outcome_headers": null,
+        "odds_sources": [
+          "unibet",
+          "pinnacle",
+          "marathonbet",
+          "average",
+          "highest"
+        ]
+      }
+    ],
+    "root_url": "https://www.oddsportal.com/hockey/canada/ohl/results/"
+  }
+}

@@ -26,6 +26,8 @@ class Game(object):
         self.score_home = str()
         self.score_away = str()
 
+        self.odds = {}
+
 
 class Season(object):
     def __init__(self,name):
@@ -76,7 +78,8 @@ class Collection(object):
 
 
 class DataRepository(object):
-    def __init__(self):
+    def __init__(self, delete_files):
+        self.delete_files = delete_files
         self.collections = dict()
         self.output_dir = str()
 
@@ -105,8 +108,9 @@ class DataRepository(object):
             qualified_output_dir = os.path.normpath(self.output_dir + os.sep + collection.output_dir)
             if os.path.isdir(qualified_output_dir):
                 filelist = [ f for f in os.listdir(qualified_output_dir) ]
-                for f in filelist:
-                    os.remove(os.path.join(qualified_output_dir, f))
+                if self.delete_files:
+                    for f in filelist:
+                        os.remove(os.path.join(qualified_output_dir, f))
             else:
                 os.makedirs(qualified_output_dir)
             with open(os.path.join(qualified_output_dir, collection.name + '.json'), 'w') as outfile:

@@ -1,0 +1,11 @@
+[
+  {
+    "collection_name": "NHL",
+    "sport": "hockey",
+    "region": "usa",
+    "league": "nhl",
+    "output_dir": "nhl",
+    "root_url": "https://www.oddsportal.com/hockey/usa/nhl/results/",
+    "outcomes": 3
+  }
+]
