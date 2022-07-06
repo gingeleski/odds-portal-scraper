@@ -1,6 +1,6 @@
 ﻿cssselect==1.0.3
 joblib==0.13.2
-lxml==4.3.4
+lxml==4.9.1
 pyquery==1.4.0
 selenium==3.141.0
 soupsieve==1.9.2
