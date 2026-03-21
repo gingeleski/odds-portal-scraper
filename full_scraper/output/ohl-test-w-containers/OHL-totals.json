@@ -1,0 +1,2523 @@
+{
+  "name": "OHL-totals",
+  "sport": "hockey",
+  "region": "canada",
+  "output_dir": "ohl-test-w-containers",
+  "outcomes": 2,
+  "league": {
+    "name": "ohl",
+    "seasons": [
+      {
+        "name": "2019/2020",
+        "games": [
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 15:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-oshawa-generals-KIfzal1A/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 3,
+            "score_away": 1,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "1.41", "under": "2.71" },
+                "highest": { "over": "1.41", "under": "2.71" },
+                "pinnacle": { "over": "1.41", "under": "2.71" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.63", "under": "2.14" },
+                "highest": { "over": "1.65", "under": "2.17" },
+                "marathonbet": { "over": "1.61", "under": "2.15" },
+                "pinnacle": { "over": "1.64", "under": "2.17" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.87", "under": "1.87" },
+                "highest": { "over": "1.88", "under": "1.87" },
+                "marathonbet": { "over": "1.85", "under": "1.87" },
+                "pinnacle": { "over": "1.88", "under": "1.86" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.20", "under": "1.65" },
+                "highest": { "over": "2.21", "under": "1.68" },
+                "marathonbet": { "over": "2.21", "under": "1.68" },
+                "pinnacle": { "over": "2.18", "under": "1.63" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.72", "under": "1.41" },
+                "highest": { "over": "2.78", "under": "1.43" },
+                "marathonbet": { "over": "2.66", "under": "1.43" },
+                "pinnacle": { "over": "2.78", "under": "1.39" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 13:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-guelph-storm-Whbvb8GG/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 1,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "1.38", "under": "2.75" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.47", "under": "2.50" },
+                "highest": { "over": "1.51", "under": "2.61" },
+                "marathonbet": { "over": "1.51", "under": "2.35" },
+                "pinnacle": { "over": "1.44", "under": "2.61" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.65", "under": "2.15" },
+                "highest": { "over": "1.69", "under": "2.22" },
+                "marathonbet": { "over": "1.69", "under": "2.07" },
+                "pinnacle": { "over": "1.61", "under": "2.22" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.96", "under": "1.83" },
+                "highest": { "over": "2.00", "under": "1.83" },
+                "marathonbet": { "over": "2.00", "under": "1.83" },
+                "pinnacle": { "over": "1.91", "under": "1.83" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.36", "under": "1.54" },
+                "highest": { "over": "2.36", "under": "1.54" },
+                "marathonbet": { "over": "2.36", "under": "1.53" },
+                "pinnacle": { "over": "2.35", "under": "1.54" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.75", "under": "1.40" },
+                "highest": { "over": "2.75", "under": "1.40" },
+                "pinnacle": { "over": "2.75", "under": "1.40" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-kingston-frontenacs-ttwQaOnc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 0,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "1.36", "under": "2.81" },
+                "highest": { "over": "1.36", "under": "2.81" },
+                "pinnacle": { "over": "1.36", "under": "2.81" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.48", "under": "2.45" },
+                "highest": { "over": "1.56", "under": "2.65" },
+                "marathonbet": { "over": "1.56", "under": "2.24" },
+                "pinnacle": { "over": "1.41", "under": "2.65" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.52", "under": "2.37" },
+                "highest": { "over": "1.52", "under": "2.39" },
+                "marathonbet": { "over": "1.52", "under": "2.39" },
+                "pinnacle": { "over": "1.52", "under": "2.34" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.78", "under": "2.00" },
+                "highest": { "over": "1.81", "under": "2.02" },
+                "marathonbet": { "over": "1.81", "under": "2.02" },
+                "pinnacle": { "over": "1.75", "under": "1.97" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.08", "under": "1.67" },
+                "highest": { "over": "2.12", "under": "1.71" },
+                "marathonbet": { "over": "2.04", "under": "1.71" },
+                "pinnacle": { "over": "2.12", "under": "1.64" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.42", "under": "1.49" },
+                "highest": { "over": "2.52", "under": "1.52" },
+                "marathonbet": { "over": "2.33", "under": "1.52" },
+                "pinnacle": { "over": "2.52", "under": "1.45" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-kitchener-rangers-CjC8ttoq/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Kitchener Rangers",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 3,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "1.35", "under": "2.87" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.46", "under": "2.50" },
+                "highest": { "over": "1.48", "under": "2.51" },
+                "marathonbet": { "over": "1.46", "under": "2.49" },
+                "pinnacle": { "over": "1.45", "under": "2.51" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.62", "under": "2.18" },
+                "highest": { "over": "1.62", "under": "2.18" },
+                "marathonbet": { "over": "1.62", "under": "2.18" },
+                "pinnacle": { "over": "1.61", "under": "2.18" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.90", "under": "1.87" },
+                "highest": { "over": "1.92", "under": "1.90" },
+                "marathonbet": { "over": "1.92", "under": "1.90" },
+                "pinnacle": { "over": "1.87", "under": "1.84" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.27", "under": "1.57" },
+                "highest": { "over": "2.32", "under": "1.60" },
+                "marathonbet": { "over": "2.22", "under": "1.60" },
+                "pinnacle": { "over": "2.32", "under": "1.53" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.73", "under": "1.38" },
+                "highest": { "over": "2.73", "under": "1.38" },
+                "pinnacle": { "over": "2.73", "under": "1.38" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-saginaw-spirit-69ozw1up/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "Saginaw Spirit",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "over/under +6.5": {
+                "average": { "over": "1.39", "under": "2.74" },
+                "highest": { "over": "1.40", "under": "2.75" },
+                "marathonbet": { "over": "1.50", "under": "2.38" },
+                "pinnacle": { "over": "1.38", "under": "2.73" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.48", "under": "2.49" },
+                "highest": { "over": "1.50", "under": "2.53" },
+                "marathonbet": { "over": "1.50", "under": "2.45" },
+                "pinnacle": { "over": "1.45", "under": "2.53" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.72", "under": "2.08" },
+                "highest": { "over": "1.78", "under": "2.10" },
+                "marathonbet": { "over": "1.78", "under": "2.06" },
+                "pinnacle": { "over": "1.65", "under": "2.10" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.97", "under": "1.76" },
+                "highest": { "over": "2.00", "under": "1.78" },
+                "marathonbet": { "over": "2.00", "under": "1.74" },
+                "pinnacle": { "over": "1.93", "under": "1.78" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.28", "under": "1.55" },
+                "highest": { "over": "2.28", "under": "1.55" },
+                "marathonbet": { "over": "2.28", "under": "1.54" },
+                "pinnacle": { "over": "2.28", "under": "1.55" }
+              },
+              "over/under +9": {
+                "average": { "over": "3.10", "under": "1.29" },
+                "highest": { "over": "3.10", "under": "1.29" },
+                "pinnacle": { "over": "3.10", "under": "1.29" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-peterborough-petes-0p0wxLfj/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "Peterborough Petes",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 12,
+            "odds": {
+              "over/under +6.5": {
+                "average": { "over": "1.49", "under": "2.43" },
+                "highest": { "over": "1.51", "under": "2.46" },
+                "marathonbet": { "over": "1.47", "under": "2.46" },
+                "pinnacle": { "over": "1.51", "under": "2.38" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.49", "under": "2.55" },
+                "highest": { "over": "1.65", "under": "2.97" },
+                "marathonbet": { "over": "1.65", "under": "2.13" },
+                "pinnacle": { "over": "1.32", "under": "2.97" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.50", "under": "2.39" },
+                "highest": { "over": "1.51", "under": "2.43" },
+                "marathonbet": { "over": "1.51", "under": "2.35" },
+                "pinnacle": { "over": "1.49", "under": "2.43" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.71", "under": "2.04" },
+                "highest": { "over": "1.72", "under": "2.07" },
+                "marathonbet": { "over": "1.69", "under": "2.07" },
+                "pinnacle": { "over": "1.72", "under": "2.01" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.05", "under": "1.74" },
+                "highest": { "over": "2.10", "under": "1.83" },
+                "marathonbet": { "over": "2.00", "under": "1.83" },
+                "pinnacle": { "over": "2.10", "under": "1.65" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.55", "under": "1.47" },
+                "highest": { "over": "2.79", "under": "1.56" },
+                "marathonbet": { "over": "2.30", "under": "1.56" },
+                "pinnacle": { "over": "2.79", "under": "1.37" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-08 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/north-bay-battalion-ottawa-67s-vyasyuAd/",
+            "num_possible_outcomes": 2,
+            "team_home": "North Bay Battalion",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 0,
+            "score_away": 8,
+            "odds": {
+              "over/under +6.5": {
+                "average": { "over": "1.44", "under": "2.56" },
+                "highest": { "over": "1.44", "under": "2.56" },
+                "marathonbet": { "over": "1.44", "under": "2.53" },
+                "pinnacle": { "over": "1.44", "under": "2.56" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.47", "under": "2.54" },
+                "highest": { "over": "1.58", "under": "2.81" },
+                "marathonbet": { "over": "1.58", "under": "2.26" },
+                "pinnacle": { "over": "1.36", "under": "2.81" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.55", "under": "2.28" },
+                "highest": { "over": "1.56", "under": "2.32" },
+                "marathonbet": { "over": "1.56", "under": "2.24" },
+                "pinnacle": { "over": "1.53", "under": "2.32" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.74", "under": "1.99" },
+                "highest": { "over": "1.76", "under": "2.00" },
+                "marathonbet": { "over": "1.76", "under": "1.97" },
+                "pinnacle": { "over": "1.72", "under": "2.00" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.04", "under": "1.75" },
+                "highest": { "over": "2.07", "under": "1.77" },
+                "marathonbet": { "over": "2.07", "under": "1.77" },
+                "pinnacle": { "over": "2.01", "under": "1.72" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.49", "under": "1.48" },
+                "highest": { "over": "2.52", "under": "1.50" },
+                "marathonbet": { "over": "2.45", "under": "1.50" },
+                "pinnacle": { "over": "2.52", "under": "1.45" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/barrie-colts-ottawa-67s-0EN9rTGT/",
+            "num_possible_outcomes": 2,
+            "team_home": "Barrie Colts",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 0,
+            "score_away": 6,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "1.36", "under": "2.89" },
+                "highest": { "over": "1.36", "under": "2.89" },
+                "pinnacle": { "over": "1.36", "under": "2.89" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.56", "under": "2.29" },
+                "highest": { "over": "1.57", "under": "2.35" },
+                "marathonbet": { "over": "1.57", "under": "2.22" },
+                "pinnacle": { "over": "1.57", "under": "2.30" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.79", "under": "1.95" },
+                "highest": { "over": "1.80", "under": "1.97" },
+                "marathonbet": { "over": "1.80", "under": "1.93" },
+                "pinnacle": { "over": "1.78", "under": "1.97" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.12", "under": "1.71" },
+                "highest": { "over": "2.15", "under": "1.72" },
+                "marathonbet": { "over": "2.15", "under": "1.72" },
+                "pinnacle": { "over": "2.08", "under": "1.69" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.59", "under": "1.45" },
+                "highest": { "over": "2.61", "under": "1.46" },
+                "marathonbet": { "over": "2.56", "under": "1.46" },
+                "pinnacle": { "over": "2.61", "under": "1.44" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/owen-sound-attack-london-knights-UT1N1jHi/",
+            "num_possible_outcomes": 2,
+            "team_home": "Owen Sound Attack",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 3,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "1.34", "under": "2.95" },
+                "highest": { "over": "1.34", "under": "2.95" },
+                "pinnacle": { "over": "1.34", "under": "2.95" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.55", "under": "2.31" },
+                "highest": { "over": "1.58", "under": "2.37" },
+                "marathonbet": { "over": "1.58", "under": "2.20" },
+                "pinnacle": { "over": "1.53", "under": "2.37" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.78", "under": "1.97" },
+                "highest": { "over": "1.80", "under": "2.00" },
+                "marathonbet": { "over": "1.80", "under": "1.93" },
+                "pinnacle": { "over": "1.75", "under": "2.00" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.12", "under": "1.71" },
+                "highest": { "over": "2.15", "under": "1.72" },
+                "marathonbet": { "over": "2.15", "under": "1.72" },
+                "pinnacle": { "over": "2.08", "under": "1.69" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.53", "under": "1.47" },
+                "highest": { "over": "2.56", "under": "1.48" },
+                "marathonbet": { "over": "2.56", "under": "1.46" },
+                "pinnacle": { "over": "2.50", "under": "1.48" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.46", "under": "1.47" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 16:07:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sault-ste-marie-greyhounds-kingston-frontenacs-QeeWaUo4/",
+            "num_possible_outcomes": 2,
+            "team_home": "Soo Greyhounds",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 3,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "1.33", "under": "2.96" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.51", "under": "2.39" },
+                "highest": { "over": "1.53", "under": "2.45" },
+                "marathonbet": { "over": "1.53", "under": "2.30" },
+                "pinnacle": { "over": "1.51", "under": "2.42" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.73", "under": "2.03" },
+                "highest": { "over": "1.74", "under": "2.06" },
+                "marathonbet": { "over": "1.74", "under": "2.00" },
+                "pinnacle": { "over": "1.71", "under": "2.06" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.05", "under": "1.76" },
+                "highest": { "over": "2.07", "under": "1.77" },
+                "marathonbet": { "over": "2.07", "under": "1.77" },
+                "pinnacle": { "over": "2.02", "under": "1.74" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.49", "under": "1.49" },
+                "highest": { "over": "2.53", "under": "1.50" },
+                "marathonbet": { "over": "2.45", "under": "1.50" },
+                "pinnacle": { "over": "2.53", "under": "1.47" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.94", "under": "1.35" },
+                "highest": { "over": "2.94", "under": "1.35" },
+                "pinnacle": { "over": "2.94", "under": "1.35" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-mississauga-steelheads-n5dS0AWc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Mississauga Steelheads",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 1,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "1.40", "under": "2.83" },
+                "highest": { "over": "1.40", "under": "2.83" },
+                "pinnacle": { "over": "1.40", "under": "2.83" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.61", "under": "2.18" },
+                "highest": { "over": "1.63", "under": "2.20" },
+                "marathonbet": { "over": "1.61", "under": "2.15" },
+                "pinnacle": { "over": "1.63", "under": "2.20" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.87", "under": "1.87" },
+                "highest": { "over": "1.87", "under": "1.87" },
+                "marathonbet": { "over": "1.86", "under": "1.86" },
+                "pinnacle": { "over": "1.87", "under": "1.87" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.21", "under": "1.65" },
+                "highest": { "over": "2.23", "under": "1.67" },
+                "marathonbet": { "over": "2.23", "under": "1.67" },
+                "pinnacle": { "over": "2.18", "under": "1.64" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.71", "under": "1.42" },
+                "highest": { "over": "2.72", "under": "1.42" },
+                "marathonbet": { "over": "2.69", "under": "1.42" },
+                "pinnacle": { "over": "2.72", "under": "1.42" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-windsor-spitfires-40a8ssXS/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Windsor Spitfires",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "over/under +6.5": {
+                "average": { "over": "1.40", "under": "2.76" },
+                "highest": { "over": "1.40", "under": "2.82" },
+                "pinnacle": { "over": "1.40", "under": "2.82" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.51", "under": "2.46" },
+                "highest": { "over": "1.51", "under": "2.46" },
+                "pinnacle": { "over": "1.51", "under": "2.46" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.75", "under": "2.05" },
+                "highest": { "over": "1.77", "under": "2.07" },
+                "marathonbet": { "over": "1.77", "under": "2.07" },
+                "pinnacle": { "over": "1.72", "under": "2.04" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.09", "under": "1.69" },
+                "highest": { "over": "2.09", "under": "1.69" },
+                "pinnacle": { "over": "2.09", "under": "1.69" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.50", "under": "1.49" },
+                "highest": { "over": "2.50", "under": "1.49" },
+                "pinnacle": { "over": "2.50", "under": "1.49" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-erie-otters-jw3J2W1o/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "Erie Otters",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 4,
+            "odds": {
+              "over/under +6": {
+                "average": { "over": "1.34", "under": "3.09" },
+                "highest": { "over": "1.34", "under": "3.09" },
+                "pinnacle": { "over": "1.34", "under": "3.09" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.57", "under": "2.27" },
+                "highest": { "over": "1.60", "under": "2.36" },
+                "marathonbet": { "over": "1.56", "under": "2.24" },
+                "pinnacle": { "over": "1.55", "under": "2.36" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.78", "under": "1.97" },
+                "highest": { "over": "1.78", "under": "1.97" },
+                "marathonbet": { "over": "1.77", "under": "1.96" },
+                "pinnacle": { "over": "1.78", "under": "1.97" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.12", "under": "1.71" },
+                "highest": { "over": "2.12", "under": "1.74" },
+                "marathonbet": { "over": "2.12", "under": "1.74" },
+                "pinnacle": { "over": "2.11", "under": "1.68" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.55", "under": "1.47" },
+                "highest": { "over": "2.57", "under": "1.47" },
+                "marathonbet": { "over": "2.53", "under": "1.47" },
+                "pinnacle": { "over": "2.57", "under": "1.47" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.73", "under": "1.38" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-07 13:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/hamilton-bulldogs-saginaw-spirit-xzFyvmPp/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hamilton Bulldogs",
+            "team_away": "Saginaw Spirit",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 6,
+            "score_away": 8,
+            "odds": {
+              "over/under +6.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "1.46", "under": "2.49" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.43", "under": "2.72" },
+                "highest": { "over": "1.49", "under": "2.96" },
+                "marathonbet": { "over": "1.49", "under": "2.47" },
+                "pinnacle": { "over": "1.37", "under": "2.96" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.58", "under": "2.26" },
+                "highest": { "over": "1.61", "under": "2.36" },
+                "marathonbet": { "over": "1.61", "under": "2.15" },
+                "pinnacle": { "over": "1.55", "under": "2.36" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.81", "under": "1.93" },
+                "highest": { "over": "1.83", "under": "1.97" },
+                "marathonbet": { "over": "1.83", "under": "1.89" },
+                "pinnacle": { "over": "1.78", "under": "1.97" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.16", "under": "1.69" },
+                "highest": { "over": "2.18", "under": "1.70" },
+                "marathonbet": { "over": "2.18", "under": "1.70" },
+                "pinnacle": { "over": "2.13", "under": "1.67" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.72", "under": "1.42" },
+                "highest": { "over": "2.85", "under": "1.45" },
+                "marathonbet": { "over": "2.59", "under": "1.45" },
+                "pinnacle": { "over": "2.85", "under": "1.39" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-05 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-hamilton-bulldogs-2grtkDXo/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 0,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-04 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-guelph-storm-lnSPnNjI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "over/under +6.5": {
+                "average": { "over": "1.45", "under": "2.53" },
+                "highest": { "over": "1.45", "under": "2.53" },
+                "pinnacle": { "over": "1.45", "under": "2.53" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.59", "under": "2.21" },
+                "highest": { "over": "1.59", "under": "2.21" },
+                "pinnacle": { "over": "1.59", "under": "2.21" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.84", "under": "1.87" },
+                "highest": { "over": "1.84", "under": "1.87" },
+                "pinnacle": { "over": "1.84", "under": "1.87" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.20", "under": "1.60" },
+                "highest": { "over": "2.20", "under": "1.60" },
+                "pinnacle": { "over": "2.20", "under": "1.60" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.56", "under": "1.44" },
+                "highest": { "over": "2.56", "under": "1.44" },
+                "pinnacle": { "over": "2.56", "under": "1.44" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-04 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-owen-sound-attack-MyA3rNHM/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Owen Sound Attack",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 5,
+            "odds": {
+              "over/under +7": {
+                "average": { "over": "1.49", "under": "2.43" },
+                "highest": { "over": "1.49", "under": "2.43" },
+                "pinnacle": { "over": "1.49", "under": "2.43" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.69", "under": "2.05" },
+                "highest": { "over": "1.69", "under": "2.05" },
+                "pinnacle": { "over": "1.69", "under": "2.05" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.99", "under": "1.74" },
+                "highest": { "over": "1.99", "under": "1.74" },
+                "pinnacle": { "over": "1.99", "under": "1.74" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.34", "under": "1.53" },
+                "highest": { "over": "2.34", "under": "1.53" },
+                "pinnacle": { "over": "2.34", "under": "1.53" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.93", "under": "1.33" },
+                "highest": { "over": "2.93", "under": "1.33" },
+                "pinnacle": { "over": "2.93", "under": "1.33" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-03 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/kitchener-rangers-london-knights-j19Mm3yC/",
+            "num_possible_outcomes": 2,
+            "team_home": "Kitchener Rangers",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 6,
+            "odds": {}
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 15:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/oshawa-generals-ottawa-67s-vcS0hRMt/",
+            "num_possible_outcomes": 2,
+            "team_home": "Oshawa Generals",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.31", "under": "3.08" },
+                "highest": { "over": "1.32", "under": "3.15" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.42", "under": "2.67" },
+                "highest": { "over": "1.44", "under": "2.73" },
+                "marathonbet": { "over": "1.41", "under": "2.73" },
+                "pinnacle": { "over": "1.44", "under": "2.61" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.67", "under": "2.16" },
+                "highest": { "over": "1.69", "under": "2.20" },
+                "marathonbet": { "over": "1.69", "under": "2.20" },
+                "pinnacle": { "over": "1.67", "under": "2.13" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.88", "under": "1.85" },
+                "highest": { "over": "1.89", "under": "1.85" },
+                "marathonbet": { "over": "1.87", "under": "1.85" },
+                "pinnacle": { "over": "1.89", "under": "1.85" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.18", "under": "1.62" },
+                "highest": { "over": "2.23", "under": "1.63" },
+                "marathonbet": { "over": "2.15", "under": "1.61" },
+                "pinnacle": { "over": "2.17", "under": "1.63" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.61", "under": "1.44" },
+                "highest": { "over": "2.61", "under": "1.44" },
+                "pinnacle": { "over": "2.61", "under": "1.44" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "3.06", "under": "1.31" },
+                "highest": { "over": "3.06", "under": "1.31" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 13:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-sault-ste-marie-greyhounds-0CG9j5ig/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.14", "under": "4.90" },
+                "highest": { "over": "1.16", "under": "5.25" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.31", "under": "3.11" },
+                "highest": { "over": "1.35", "under": "3.32" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.44", "under": "2.60" },
+                "highest": { "over": "1.44", "under": "2.60" },
+                "pinnacle": { "over": "1.44", "under": "2.60" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.60", "under": "2.24" },
+                "highest": { "over": "1.65", "under": "2.41" },
+                "marathonbet": { "over": "1.62", "under": "2.14" },
+                "pinnacle": { "over": "1.65", "under": "2.16" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.87", "under": "1.86" },
+                "highest": { "over": "1.88", "under": "1.86" },
+                "marathonbet": { "over": "1.86", "under": "1.86" },
+                "pinnacle": { "over": "1.88", "under": "1.86" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.13", "under": "1.70" },
+                "highest": { "over": "2.21", "under": "1.79" },
+                "marathonbet": { "over": "2.21", "under": "1.68" },
+                "pinnacle": { "over": "2.18", "under": "1.63" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.58", "under": "1.46" },
+                "highest": { "over": "2.59", "under": "1.46" },
+                "marathonbet": { "over": "2.59", "under": "1.45" },
+                "pinnacle": { "over": "2.56", "under": "1.46" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-barrie-colts-MLH5ioxm/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Barrie Colts",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 1,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.33", "under": "3.13" },
+                "highest": { "over": "1.35", "under": "3.20" },
+                "pinnacle": { "over": "1.37", "under": "2.79" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.44", "under": "2.61" },
+                "highest": { "over": "1.44", "under": "2.62" },
+                "marathonbet": { "over": "1.44", "under": "2.62" },
+                "pinnacle": { "over": "1.44", "under": "2.60" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.69", "under": "2.11" },
+                "highest": { "over": "1.73", "under": "2.14" },
+                "marathonbet": { "over": "1.73", "under": "2.14" },
+                "pinnacle": { "over": "1.69", "under": "2.08" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.92", "under": "1.82" },
+                "highest": { "over": "1.92", "under": "1.83" },
+                "marathonbet": { "over": "1.92", "under": "1.80" },
+                "pinnacle": { "over": "1.91", "under": "1.83" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.19", "under": "1.61" },
+                "highest": { "over": "2.20", "under": "1.63" },
+                "marathonbet": { "over": "2.20", "under": "1.58" },
+                "pinnacle": { "over": "2.18", "under": "1.63" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.61", "under": "1.44" },
+                "highest": { "over": "2.61", "under": "1.44" },
+                "marathonbet": { "over": "2.45", "under": "1.50" },
+                "pinnacle": { "over": "2.61", "under": "1.44" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-mississauga-steelheads-UoLDkP6a/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Mississauga Steelheads",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.23", "under": "3.62" },
+                "highest": { "over": "1.25", "under": "3.80" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.50", "under": "2.41" },
+                "highest": { "over": "1.50", "under": "2.46" },
+                "marathonbet": { "over": "1.50", "under": "2.38" },
+                "pinnacle": { "over": "1.50", "under": "2.44" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.67", "under": "2.12" },
+                "highest": { "over": "1.67", "under": "2.12" },
+                "marathonbet": { "over": "1.67", "under": "2.11" },
+                "pinnacle": { "over": "1.67", "under": "2.12" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.94", "under": "1.84" },
+                "highest": { "over": "1.96", "under": "1.86" },
+                "marathonbet": { "over": "1.96", "under": "1.86" },
+                "pinnacle": { "over": "1.93", "under": "1.81" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.29", "under": "1.57" },
+                "highest": { "over": "2.30", "under": "1.58" },
+                "marathonbet": { "over": "2.30", "under": "1.56" },
+                "pinnacle": { "over": "2.28", "under": "1.58" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.61", "under": "1.44" },
+                "highest": { "over": "2.62", "under": "1.45" },
+                "marathonbet": { "over": "2.28", "under": "1.54" },
+                "pinnacle": { "over": "2.59", "under": "1.45" }
+              },
+              "over/under +9": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.68", "under": "1.40" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-kingston-frontenacs-8xKHlqM5/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 10,
+            "score_away": 2,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.22", "under": "3.80" },
+                "highest": { "over": "1.22", "under": "3.80" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.46", "under": "2.50" },
+                "highest": { "over": "1.47", "under": "2.52" },
+                "marathonbet": { "over": "1.46", "under": "2.49" },
+                "pinnacle": { "over": "1.47", "under": "2.52" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.62", "under": "2.20" },
+                "highest": { "over": "1.62", "under": "2.21" },
+                "marathonbet": { "over": "1.62", "under": "2.18" },
+                "pinnacle": { "over": "1.61", "under": "2.21" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.89", "under": "1.90" },
+                "highest": { "over": "1.92", "under": "1.90" },
+                "marathonbet": { "over": "1.92", "under": "1.90" },
+                "pinnacle": { "over": "1.85", "under": "1.89" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.21", "under": "1.62" },
+                "highest": { "over": "2.22", "under": "1.63" },
+                "marathonbet": { "over": "2.22", "under": "1.60" },
+                "pinnacle": { "over": "2.19", "under": "1.63" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.51", "under": "1.47" },
+                "highest": { "over": "2.53", "under": "1.47" },
+                "marathonbet": { "over": "2.49", "under": "1.46" },
+                "pinnacle": { "over": "2.53", "under": "1.47" }
+              },
+              "over/under +9": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.74", "under": "1.38" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-london-knights-lYniYNyP/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "London Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 6,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.25", "under": "3.45" },
+                "highest": { "over": "1.26", "under": "3.50" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.37", "under": "2.85" },
+                "highest": { "over": "1.37", "under": "2.85" },
+                "pinnacle": { "over": "1.37", "under": "2.85" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.55", "under": "2.30" },
+                "highest": { "over": "1.57", "under": "2.31" },
+                "marathonbet": { "over": "1.53", "under": "2.31" },
+                "pinnacle": { "over": "1.57", "under": "2.30" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.74", "under": "2.03" },
+                "highest": { "over": "1.74", "under": "2.03" },
+                "marathonbet": { "over": "1.73", "under": "2.02" },
+                "pinnacle": { "over": "1.74", "under": "2.03" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.01", "under": "1.79" },
+                "highest": { "over": "2.05", "under": "1.79" },
+                "marathonbet": { "over": "2.05", "under": "1.79" },
+                "pinnacle": { "over": "1.97", "under": "1.78" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.38", "under": "1.53" },
+                "highest": { "over": "2.42", "under": "1.54" },
+                "marathonbet": { "over": "2.42", "under": "1.51" },
+                "pinnacle": { "over": "2.35", "under": "1.54" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.68", "under": "1.42" },
+                "highest": { "over": "2.68", "under": "1.42" },
+                "pinnacle": { "over": "2.68", "under": "1.42" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-03-01 11:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/niagara-icedogs-north-bay-battalion-2yyZd7EP/",
+            "num_possible_outcomes": 2,
+            "team_home": "Niagara IceDogs",
+            "team_away": "North Bay Battalion",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 5,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.15", "under": "4.70" },
+                "highest": { "over": "1.17", "under": "5.00" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.35", "under": "2.93" },
+                "highest": { "over": "1.40", "under": "3.10" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.49", "under": "2.47" },
+                "highest": { "over": "1.52", "under": "2.55" },
+                "marathonbet": { "over": "1.52", "under": "2.39" },
+                "pinnacle": { "over": "1.46", "under": "2.55" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.67", "under": "2.12" },
+                "highest": { "over": "1.77", "under": "2.20" },
+                "marathonbet": { "over": "1.58", "under": "2.20" },
+                "pinnacle": { "over": "1.65", "under": "2.15" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.85", "under": "1.89" },
+                "highest": { "over": "1.89", "under": "1.93" },
+                "marathonbet": { "over": "1.80", "under": "1.93" },
+                "pinnacle": { "over": "1.89", "under": "1.85" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.23", "under": "1.63" },
+                "highest": { "over": "2.34", "under": "1.73" },
+                "marathonbet": { "over": "2.14", "under": "1.73" },
+                "pinnacle": { "over": "2.21", "under": "1.61" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.55", "under": "1.46" },
+                "highest": { "over": "2.63", "under": "1.49" },
+                "marathonbet": { "over": "2.47", "under": "1.49" },
+                "pinnacle": { "over": "2.63", "under": "1.43" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-29 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/owen-sound-attack-kitchener-rangers-juYoyQi6/",
+            "num_possible_outcomes": 2,
+            "team_home": "Owen Sound Attack",
+            "team_away": "Kitchener Rangers",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 4,
+            "score_away": 5,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.35", "under": "3.05" },
+                "highest": { "over": "1.35", "under": "3.05" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.46", "under": "2.58" },
+                "highest": { "over": "1.47", "under": "2.62" },
+                "marathonbet": { "over": "1.44", "under": "2.62" },
+                "pinnacle": { "over": "1.47", "under": "2.53" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.71", "under": "2.07" },
+                "highest": { "over": "1.74", "under": "2.12" },
+                "marathonbet": { "over": "1.74", "under": "2.12" },
+                "pinnacle": { "over": "1.70", "under": "2.07" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.94", "under": "1.80" },
+                "highest": { "over": "1.95", "under": "1.81" },
+                "marathonbet": { "over": "1.95", "under": "1.78" },
+                "pinnacle": { "over": "1.93", "under": "1.81" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.22", "under": "1.59" },
+                "highest": { "over": "2.22", "under": "1.61" },
+                "marathonbet": { "over": "2.22", "under": "1.57" },
+                "pinnacle": { "over": "2.21", "under": "1.61" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.69", "under": "1.41" },
+                "highest": { "over": "2.69", "under": "1.41" },
+                "pinnacle": { "over": "2.69", "under": "1.41" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-29 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/saginaw-spirit-hamilton-bulldogs-UVWkzp7C/",
+            "num_possible_outcomes": 2,
+            "team_home": "Saginaw Spirit",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 8,
+            "score_away": 2,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.14", "under": "4.85" },
+                "highest": { "over": "1.14", "under": "4.85" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.33", "under": "3.03" },
+                "highest": { "over": "1.35", "under": "3.10" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.34", "under": "2.98" },
+                "highest": { "over": "1.34", "under": "2.98" },
+                "pinnacle": { "over": "1.34", "under": "2.98" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.59", "under": "2.22" },
+                "highest": { "over": "1.60", "under": "2.28" },
+                "marathonbet": { "over": "1.60", "under": "2.16" },
+                "pinnacle": { "over": "1.58", "under": "2.28" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.81", "under": "1.92" },
+                "highest": { "over": "1.82", "under": "1.94" },
+                "marathonbet": { "over": "1.82", "under": "1.90" },
+                "pinnacle": { "over": "1.80", "under": "1.94" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.14", "under": "1.69" },
+                "highest": { "over": "2.16", "under": "1.71" },
+                "marathonbet": { "over": "2.16", "under": "1.71" },
+                "pinnacle": { "over": "2.12", "under": "1.67" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.50", "under": "1.49" },
+                "highest": { "over": "2.56", "under": "1.51" },
+                "marathonbet": { "over": "2.56", "under": "1.46" },
+                "pinnacle": { "over": "2.44", "under": "1.51" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-29 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-guelph-storm-AslmZ3MI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.47", "under": "2.48" },
+                "highest": { "over": "1.48", "under": "2.51" },
+                "marathonbet": { "over": "1.48", "under": "2.43" },
+                "pinnacle": { "over": "1.48", "under": "2.51" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.67", "under": "2.10" },
+                "highest": { "over": "1.68", "under": "2.12" },
+                "marathonbet": { "over": "1.68", "under": "2.08" },
+                "pinnacle": { "over": "1.67", "under": "2.12" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.98", "under": "1.77" },
+                "highest": { "over": "2.03", "under": "1.80" },
+                "marathonbet": { "over": "2.03", "under": "1.80" },
+                "pinnacle": { "over": "1.99", "under": "1.76" }
+              },
+              "over/under +7": {
+                "average": { "over": "2.39", "under": "1.53" },
+                "highest": { "over": "2.42", "under": "1.54" },
+                "marathonbet": { "over": "2.42", "under": "1.51" },
+                "pinnacle": { "over": "2.36", "under": "1.54" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.67", "under": "1.42" },
+                "highest": { "over": "2.67", "under": "1.42" },
+                "marathonbet": { "over": "2.31", "under": "1.53" },
+                "pinnacle": { "over": "2.67", "under": "1.42" }
+              },
+              "over/under +8": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.77", "under": "1.37" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-29 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/erie-otters-north-bay-battalion-rFUwwnNg/",
+            "num_possible_outcomes": 2,
+            "team_home": "Erie Otters",
+            "team_away": "North Bay Battalion",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 4,
+            "score_away": 5,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.25", "under": "3.55" },
+                "highest": { "over": "1.25", "under": "3.55" }
+              },
+              "over/under +6": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "marathonbet": { "over": "1.44", "under": "2.61" },
+                "pinnacle": { "over": "1.36", "under": "2.89" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.55", "under": "2.30" },
+                "highest": { "over": "1.60", "under": "2.35" },
+                "marathonbet": { "over": "1.53", "under": "2.31" },
+                "pinnacle": { "over": "1.55", "under": "2.34" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.73", "under": "2.03" },
+                "highest": { "over": "1.73", "under": "2.03" },
+                "marathonbet": { "over": "1.73", "under": "2.02" },
+                "pinnacle": { "over": "1.73", "under": "2.03" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.04", "under": "1.76" },
+                "highest": { "over": "2.07", "under": "1.77" },
+                "marathonbet": { "over": "2.07", "under": "1.77" },
+                "pinnacle": { "over": "2.00", "under": "1.75" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.42", "under": "1.51" },
+                "highest": { "over": "2.45", "under": "1.52" },
+                "marathonbet": { "over": "2.45", "under": "1.50" },
+                "pinnacle": { "over": "2.40", "under": "1.52" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.73", "under": "1.40" },
+                "highest": { "over": "2.73", "under": "1.40" },
+                "pinnacle": { "over": "2.73", "under": "1.40" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-29 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-kingston-frontenacs-8Y5aq32G/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 6,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.16", "under": "4.50" },
+                "highest": { "over": "1.16", "under": "4.50" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.38", "under": "2.85" },
+                "highest": { "over": "1.40", "under": "2.95" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.47", "under": "2.55" },
+                "highest": { "over": "1.48", "under": "2.59" },
+                "marathonbet": { "over": "1.45", "under": "2.59" },
+                "pinnacle": { "over": "1.48", "under": "2.50" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.71", "under": "2.12" },
+                "highest": { "over": "1.72", "under": "2.15" },
+                "marathonbet": { "over": "1.72", "under": "2.15" },
+                "pinnacle": { "over": "1.69", "under": "2.08" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.92", "under": "1.82" },
+                "highest": { "over": "1.93", "under": "1.82" },
+                "marathonbet": { "over": "1.90", "under": "1.82" },
+                "pinnacle": { "over": "1.93", "under": "1.82" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.19", "under": "1.61" },
+                "highest": { "over": "2.20", "under": "1.62" },
+                "marathonbet": { "over": "2.18", "under": "1.59" },
+                "pinnacle": { "over": "2.20", "under": "1.62" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.51", "under": "1.48" },
+                "highest": { "over": "2.66", "under": "1.53" },
+                "marathonbet": { "over": "2.36", "under": "1.53" },
+                "pinnacle": { "over": "2.66", "under": "1.42" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-29 12:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-barrie-colts-dIYsx6x0/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Barrie Colts",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.25", "under": "3.50" },
+                "highest": { "over": "1.25", "under": "3.50" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.55", "under": "2.28" },
+                "highest": { "over": "1.55", "under": "2.30" },
+                "marathonbet": { "over": "1.52", "under": "2.33" }
+              },
+              "over/under +7": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "marathonbet": { "over": "1.72", "under": "2.03" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "marathonbet": { "over": "2.05", "under": "1.79" }
+              },
+              "over/under +8": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "marathonbet": { "over": "2.42", "under": "1.51" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/guelph-storm-erie-otters-xx8CMQxD/",
+            "num_possible_outcomes": 2,
+            "team_home": "Guelph Storm",
+            "team_away": "Erie Otters",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.44", "under": "2.62" },
+                "highest": { "over": "1.50", "under": "2.80" },
+                "marathonbet": { "over": "1.49", "under": "2.40" },
+                "pinnacle": { "over": "1.43", "under": "2.65" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.55", "under": "2.33" },
+                "highest": { "over": "1.56", "under": "2.35" },
+                "marathonbet": { "over": "1.54", "under": "2.35" },
+                "pinnacle": { "over": "1.56", "under": "2.30" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.81", "under": "1.94" },
+                "highest": { "over": "1.87", "under": "1.95" },
+                "marathonbet": { "over": "1.87", "under": "1.95" },
+                "pinnacle": { "over": "1.82", "under": "1.92" }
+              },
+              "over/under +7": {
+                "average": { "over": "2.13", "under": "1.66" },
+                "highest": { "over": "2.13", "under": "1.67" },
+                "marathonbet": { "over": "2.13", "under": "1.65" },
+                "pinnacle": { "over": "2.12", "under": "1.67" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.42", "under": "1.50" },
+                "highest": { "over": "2.43", "under": "1.51" },
+                "marathonbet": { "over": "2.43", "under": "1.48" },
+                "pinnacle": { "over": "2.42", "under": "1.51" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/kitchener-rangers-sarnia-sting-lCBGLphJ/",
+            "num_possible_outcomes": 2,
+            "team_home": "Kitchener Rangers",
+            "team_away": "Sarnia Sting",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 7,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.12", "under": "5.25" },
+                "highest": { "over": "1.12", "under": "5.25" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.30", "under": "3.25" },
+                "highest": { "over": "1.30", "under": "3.25" },
+                "pinnacle": { "over": "1.42", "under": "2.62" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.38", "under": "2.80" },
+                "highest": { "over": "1.38", "under": "2.80" },
+                "marathonbet": { "over": "1.47", "under": "2.53" },
+                "pinnacle": { "over": "1.38", "under": "2.80" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.57", "under": "2.27" },
+                "highest": { "over": "1.58", "under": "2.34" },
+                "marathonbet": { "over": "1.58", "under": "2.20" },
+                "pinnacle": { "over": "1.55", "under": "2.34" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.78", "under": "1.97" },
+                "highest": { "over": "1.80", "under": "2.00" },
+                "marathonbet": { "over": "1.80", "under": "1.93" },
+                "pinnacle": { "over": "1.75", "under": "2.00" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.09", "under": "1.72" },
+                "highest": { "over": "2.13", "under": "1.73" },
+                "marathonbet": { "over": "2.13", "under": "1.73" },
+                "pinnacle": { "over": "2.05", "under": "1.71" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.48", "under": "1.49" },
+                "highest": { "over": "2.50", "under": "1.50" },
+                "marathonbet": { "over": "2.50", "under": "1.48" },
+                "pinnacle": { "over": "2.46", "under": "1.50" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-sault-ste-marie-greyhounds-jHkapUUJ/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 2,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.25", "under": "3.53" },
+                "highest": { "over": "1.25", "under": "3.60" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.52", "under": "2.37" },
+                "highest": { "over": "1.55", "under": "2.39" },
+                "marathonbet": { "over": "1.50", "under": "2.38" },
+                "pinnacle": { "over": "1.52", "under": "2.39" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.69", "under": "2.07" },
+                "highest": { "over": "1.70", "under": "2.07" },
+                "marathonbet": { "over": "1.69", "under": "2.07" },
+                "pinnacle": { "over": "1.70", "under": "2.07" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.99", "under": "1.80" },
+                "highest": { "over": "2.01", "under": "1.82" },
+                "marathonbet": { "over": "2.01", "under": "1.82" },
+                "pinnacle": { "over": "1.97", "under": "1.78" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.34", "under": "1.55" },
+                "highest": { "over": "2.35", "under": "1.56" },
+                "marathonbet": { "over": "2.35", "under": "1.54" },
+                "pinnacle": { "over": "2.32", "under": "1.56" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.62", "under": "1.44" },
+                "highest": { "over": "2.62", "under": "1.44" },
+                "pinnacle": { "over": "2.62", "under": "1.44" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/saginaw-spirit-kingston-frontenacs-MatVv8hs/",
+            "num_possible_outcomes": 2,
+            "team_home": "Saginaw Spirit",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 5,
+            "score_away": 2,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.15", "under": "4.72" },
+                "highest": { "over": "1.15", "under": "4.75" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.35", "under": "3.05" },
+                "highest": { "over": "1.35", "under": "3.05" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.43", "under": "2.63" },
+                "highest": { "over": "1.43", "under": "2.63" },
+                "marathonbet": { "over": "1.43", "under": "2.66" },
+                "pinnacle": { "over": "1.43", "under": "2.63" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.63", "under": "2.15" },
+                "highest": { "over": "1.63", "under": "2.18" },
+                "marathonbet": { "over": "1.63", "under": "2.11" },
+                "pinnacle": { "over": "1.63", "under": "2.18" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.86", "under": "1.88" },
+                "highest": { "over": "1.86", "under": "1.89" },
+                "marathonbet": { "over": "1.86", "under": "1.86" },
+                "pinnacle": { "over": "1.85", "under": "1.89" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.17", "under": "1.67" },
+                "highest": { "over": "2.21", "under": "1.68" },
+                "marathonbet": { "over": "2.21", "under": "1.68" },
+                "pinnacle": { "over": "2.13", "under": "1.66" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.58", "under": "1.46" },
+                "highest": { "over": "2.62", "under": "1.47" },
+                "marathonbet": { "over": "2.62", "under": "1.44" },
+                "pinnacle": { "over": "2.53", "under": "1.47" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-niagara-icedogs-0juZwS7m/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Niagara IceDogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 2,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.17", "under": "4.35" },
+                "highest": { "over": "1.18", "under": "4.40" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.40", "under": "2.85" },
+                "highest": { "over": "1.40", "under": "2.85" },
+                "pinnacle": { "over": "1.42", "under": "2.74" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.48", "under": "2.51" },
+                "highest": { "over": "1.50", "under": "2.56" },
+                "marathonbet": { "over": "1.46", "under": "2.56" },
+                "pinnacle": { "over": "1.50", "under": "2.46" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.72", "under": "2.09" },
+                "highest": { "over": "1.74", "under": "2.12" },
+                "marathonbet": { "over": "1.74", "under": "2.12" },
+                "pinnacle": { "over": "1.70", "under": "2.06" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.94", "under": "1.79" },
+                "highest": { "over": "1.95", "under": "1.79" },
+                "marathonbet": { "over": "1.94", "under": "1.79" },
+                "pinnacle": { "over": "1.95", "under": "1.79" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.23", "under": "1.59" },
+                "highest": { "over": "2.25", "under": "1.59" },
+                "marathonbet": { "over": "2.20", "under": "1.58" },
+                "pinnacle": { "over": "2.25", "under": "1.59" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.71", "under": "1.41" },
+                "highest": { "over": "2.71", "under": "1.41" },
+                "pinnacle": { "over": "2.71", "under": "1.41" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/flint-firebirds-hamilton-bulldogs-zL7ioPX3/",
+            "num_possible_outcomes": 2,
+            "team_home": "Flint Firebirds",
+            "team_away": "Hamilton Bulldogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 6,
+            "score_away": 4,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.11", "under": "5.63" },
+                "highest": { "over": "1.12", "under": "5.75" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.25", "under": "3.55" },
+                "highest": { "over": "1.25", "under": "3.55" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.47", "under": "2.50" },
+                "highest": { "over": "1.47", "under": "2.53" },
+                "marathonbet": { "over": "1.47", "under": "2.46" },
+                "pinnacle": { "over": "1.47", "under": "2.53" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.62", "under": "2.19" },
+                "highest": { "over": "1.63", "under": "2.21" },
+                "marathonbet": { "over": "1.63", "under": "2.17" },
+                "pinnacle": { "over": "1.61", "under": "2.21" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "1.90", "under": "1.88" },
+                "highest": { "over": "1.93", "under": "1.89" },
+                "marathonbet": { "over": "1.93", "under": "1.89" },
+                "pinnacle": { "over": "1.86", "under": "1.88" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.17", "under": "1.64" },
+                "highest": { "over": "2.20", "under": "1.66" },
+                "marathonbet": { "over": "2.20", "under": "1.61" },
+                "pinnacle": { "over": "2.13", "under": "1.66" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-28 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-oshawa-generals-EB6epqmA/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 1,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.30", "under": "3.20" },
+                "highest": { "over": "1.30", "under": "3.25" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.31", "under": "3.13" },
+                "highest": { "over": "1.31", "under": "3.13" },
+                "pinnacle": { "over": "1.31", "under": "3.13" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.59", "under": "2.25" },
+                "highest": { "over": "1.65", "under": "2.41" },
+                "marathonbet": { "over": "1.59", "under": "2.18" },
+                "pinnacle": { "over": "1.52", "under": "2.41" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.76", "under": "1.99" },
+                "highest": { "over": "1.82", "under": "2.08" },
+                "marathonbet": { "over": "1.82", "under": "1.90" },
+                "pinnacle": { "over": "1.69", "under": "2.08" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.07", "under": "1.75" },
+                "highest": { "over": "2.16", "under": "1.78" },
+                "marathonbet": { "over": "2.16", "under": "1.71" },
+                "pinnacle": { "over": "1.98", "under": "1.78" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.54", "under": "1.47" },
+                "highest": { "over": "2.61", "under": "1.49" },
+                "marathonbet": { "over": "2.61", "under": "1.44" },
+                "pinnacle": { "over": "2.47", "under": "1.49" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.90", "under": "1.36" },
+                "highest": { "over": "2.90", "under": "1.36" },
+                "marathonbet": { "over": "2.22", "under": "1.57" },
+                "pinnacle": { "over": "2.90", "under": "1.36" }
+              },
+              "over/under +9": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.65", "under": "1.41" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-27 16:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/barrie-colts-niagara-icedogs-nmFaPShf/",
+            "num_possible_outcomes": 2,
+            "team_home": "Barrie Colts",
+            "team_away": "Niagara IceDogs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 6,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.19", "under": "4.00" },
+                "highest": { "over": "1.20", "under": "4.10" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.42", "under": "2.62" },
+                "highest": { "over": "1.45", "under": "2.65" },
+                "marathonbet": { "over": "1.47", "under": "2.46" },
+                "pinnacle": { "over": "1.45", "under": "2.58" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.55", "under": "2.34" },
+                "highest": { "over": "1.58", "under": "2.42" },
+                "marathonbet": { "over": "1.51", "under": "2.42" },
+                "pinnacle": { "over": "1.58", "under": "2.27" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.84", "under": "1.92" },
+                "highest": { "over": "1.90", "under": "2.04" },
+                "marathonbet": { "over": "1.80", "under": "2.04" },
+                "pinnacle": { "over": "1.81", "under": "1.93" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.07", "under": "1.70" },
+                "highest": { "over": "2.10", "under": "1.72" },
+                "marathonbet": { "over": "2.03", "under": "1.72" },
+                "pinnacle": { "over": "2.10", "under": "1.68" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.36", "under": "1.53" },
+                "highest": { "over": "2.40", "under": "1.53" },
+                "marathonbet": { "over": "2.31", "under": "1.53" },
+                "pinnacle": { "over": "2.40", "under": "1.52" }
+              },
+              "over/under +9": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.78", "under": "1.39" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-27 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/peterborough-petes-oshawa-generals-4O94On80/",
+            "num_possible_outcomes": 2,
+            "team_home": "Peterborough Petes",
+            "team_away": "Oshawa Generals",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.47", "under": "2.47" },
+                "highest": { "over": "1.50", "under": "2.65" },
+                "marathonbet": { "over": "1.49", "under": "2.40" },
+                "pinnacle": { "over": "1.49", "under": "2.47" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.70", "under": "2.06" },
+                "highest": { "over": "1.70", "under": "2.07" },
+                "marathonbet": { "over": "1.70", "under": "2.05" },
+                "pinnacle": { "over": "1.70", "under": "2.07" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "2.04", "under": "1.75" },
+                "highest": { "over": "2.06", "under": "1.78" },
+                "marathonbet": { "over": "2.06", "under": "1.78" },
+                "pinnacle": { "over": "2.05", "under": "1.72" }
+              },
+              "over/under +7": {
+                "average": { "over": "2.42", "under": "1.51" },
+                "highest": { "over": "2.47", "under": "1.53" },
+                "marathonbet": { "over": "2.47", "under": "1.49" },
+                "pinnacle": { "over": "2.37", "under": "1.53" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.63", "under": "1.43" },
+                "highest": { "over": "2.63", "under": "1.43" },
+                "marathonbet": { "over": "2.33", "under": "1.52" },
+                "pinnacle": { "over": "2.63", "under": "1.43" }
+              },
+              "over/under +8": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.75", "under": "1.38" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-27 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/windsor-spitfires-sault-ste-marie-greyhounds-rF88N6N6/",
+            "num_possible_outcomes": 2,
+            "team_home": "Windsor Spitfires",
+            "team_away": "Soo Greyhounds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 1,
+            "score_away": 2,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.25", "under": "3.49" },
+                "highest": { "over": "1.25", "under": "3.55" }
+              },
+              "over/under +6": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "1.36", "under": "2.82" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.50", "under": "2.43" },
+                "highest": { "over": "1.55", "under": "2.60" },
+                "marathonbet": { "over": "1.51", "under": "2.35" },
+                "pinnacle": { "over": "1.44", "under": "2.60" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.63", "under": "2.18" },
+                "highest": { "over": "1.69", "under": "2.29" },
+                "marathonbet": { "over": "1.69", "under": "2.07" },
+                "pinnacle": { "over": "1.57", "under": "2.29" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.92", "under": "1.84" },
+                "highest": { "over": "2.01", "under": "1.94" },
+                "marathonbet": { "over": "2.01", "under": "1.82" },
+                "pinnacle": { "over": "1.80", "under": "1.94" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.24", "under": "1.61" },
+                "highest": { "over": "2.38", "under": "1.69" },
+                "marathonbet": { "over": "2.38", "under": "1.53" },
+                "pinnacle": { "over": "2.09", "under": "1.69" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.38", "under": "1.53" },
+                "highest": { "over": "2.38", "under": "1.53" },
+                "pinnacle": { "over": "2.38", "under": "1.53" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-26 16:10:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sarnia-sting-flint-firebirds-IqDnn5Ic/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sarnia Sting",
+            "team_away": "Flint Firebirds",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 8,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.10", "under": "6.00" },
+                "highest": { "over": "1.10", "under": "6.00" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.22", "under": "3.70" },
+                "highest": { "over": "1.22", "under": "3.70" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.42", "under": "2.72" },
+                "highest": { "over": "1.44", "under": "2.81" },
+                "marathonbet": { "over": "1.48", "under": "2.43" },
+                "pinnacle": { "over": "1.44", "under": "2.62" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.58", "under": "2.26" },
+                "highest": { "over": "1.59", "under": "2.28" },
+                "marathonbet": { "over": "1.57", "under": "2.28" },
+                "pinnacle": { "over": "1.59", "under": "2.25" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "1.81", "under": "1.96" },
+                "highest": { "over": "1.87", "under": "2.05" },
+                "marathonbet": { "over": "1.86", "under": "1.96" },
+                "pinnacle": { "over": "1.87", "under": "1.87" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.12", "under": "1.67" },
+                "highest": { "over": "2.15", "under": "1.68" },
+                "marathonbet": { "over": "2.08", "under": "1.68" },
+                "pinnacle": { "over": "2.15", "under": "1.65" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-26 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/hamilton-bulldogs-owen-sound-attack-2clOrHgF/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hamilton Bulldogs",
+            "team_away": "Owen Sound Attack",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 6,
+            "score_away": 7,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.33", "under": "3.10" },
+                "highest": { "over": "1.35", "under": "3.15" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.42", "under": "2.67" },
+                "highest": { "over": "1.43", "under": "2.69" },
+                "marathonbet": { "over": "1.42", "under": "2.69" },
+                "pinnacle": { "over": "1.43", "under": "2.65" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.68", "under": "2.12" },
+                "highest": { "over": "1.74", "under": "2.16" },
+                "marathonbet": { "over": "1.71", "under": "2.16" },
+                "pinnacle": { "over": "1.67", "under": "2.12" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.89", "under": "1.84" },
+                "highest": { "over": "1.91", "under": "1.87" },
+                "marathonbet": { "over": "1.91", "under": "1.81" },
+                "pinnacle": { "over": "1.87", "under": "1.87" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.21", "under": "1.62" },
+                "highest": { "over": "2.33", "under": "1.66" },
+                "marathonbet": { "over": "2.18", "under": "1.59" },
+                "pinnacle": { "over": "2.13", "under": "1.66" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.61", "under": "1.44" },
+                "highest": { "over": "2.61", "under": "1.44" },
+                "pinnacle": { "over": "2.61", "under": "1.44" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "3.28", "under": "1.30" },
+                "highest": { "over": "3.28", "under": "1.30" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-26 16:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/london-knights-guelph-storm-EZGiRlOs/",
+            "num_possible_outcomes": 2,
+            "team_home": "London Knights",
+            "team_away": "Guelph Storm",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 4,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.43", "under": "2.73" },
+                "highest": { "over": "1.47", "under": "2.85" },
+                "marathonbet": { "over": "1.44", "under": "2.55" },
+                "pinnacle": { "over": "1.41", "under": "2.71" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.52", "under": "2.40" },
+                "highest": { "over": "1.53", "under": "2.42" },
+                "marathonbet": { "over": "1.51", "under": "2.42" },
+                "pinnacle": { "over": "1.53", "under": "2.37" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.83", "under": "1.94" },
+                "highest": { "over": "1.94", "under": "2.00" },
+                "marathonbet": { "over": "1.83", "under": "2.00" },
+                "pinnacle": { "over": "1.78", "under": "1.97" }
+              },
+              "over/under +7": {
+                "average": { "over": "2.10", "under": "1.67" },
+                "highest": { "over": "2.10", "under": "1.68" },
+                "marathonbet": { "over": "2.10", "under": "1.67" },
+                "pinnacle": { "over": "2.10", "under": "1.68" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.51", "under": "1.48" },
+                "highest": { "over": "2.69", "under": "1.50" },
+                "marathonbet": { "over": "2.40", "under": "1.49" },
+                "pinnacle": { "over": "2.45", "under": "1.50" }
+              },
+              "over/under +8": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.79", "under": "1.37" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "3.82", "under": "1.21" },
+                "highest": { "over": "3.82", "under": "1.21" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-26 16:00:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/north-bay-battalion-sudbury-wolves-8dGeQ8wl/",
+            "num_possible_outcomes": 2,
+            "team_home": "North Bay Battalion",
+            "team_away": "Sudbury Wolves",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 3,
+            "score_away": 4,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.16", "under": "4.40" },
+                "highest": { "over": "1.16", "under": "4.60" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.36", "under": "2.93" },
+                "highest": { "over": "1.38", "under": "2.95" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.44", "under": "2.62" },
+                "highest": { "over": "1.46", "under": "2.69" },
+                "marathonbet": { "over": "1.42", "under": "2.69" },
+                "pinnacle": { "over": "1.46", "under": "2.55" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.70", "under": "2.15" },
+                "highest": { "over": "1.75", "under": "2.21" },
+                "marathonbet": { "over": "1.68", "under": "2.21" },
+                "pinnacle": { "over": "1.66", "under": "2.14" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.87", "under": "1.86" },
+                "highest": { "over": "1.88", "under": "1.86" },
+                "marathonbet": { "over": "1.86", "under": "1.86" },
+                "pinnacle": { "over": "1.88", "under": "1.85" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.20", "under": "1.63" },
+                "highest": { "over": "2.31", "under": "1.64" },
+                "marathonbet": { "over": "2.11", "under": "1.63" },
+                "pinnacle": { "over": "2.17", "under": "1.64" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.58", "under": "1.45" },
+                "highest": { "over": "2.58", "under": "1.45" },
+                "pinnacle": { "over": "2.58", "under": "1.45" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-25 07:30:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/ottawa-67s-kingston-frontenacs-KYbJqcv9/",
+            "num_possible_outcomes": 2,
+            "team_home": "Ottawa 67s",
+            "team_away": "Kingston Frontenacs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 7,
+            "score_away": 3,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.20", "under": "3.95" },
+                "highest": { "over": "1.20", "under": "3.95" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.41", "under": "2.75" },
+                "highest": { "over": "1.45", "under": "2.92" },
+                "pinnacle": { "over": "1.41", "under": "2.69" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.54", "under": "2.37" },
+                "highest": { "over": "1.56", "under": "2.47" },
+                "marathonbet": { "over": "1.55", "under": "2.32" },
+                "pinnacle": { "over": "1.56", "under": "2.32" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.80", "under": "1.95" },
+                "highest": { "over": "1.85", "under": "1.98" },
+                "marathonbet": { "over": "1.85", "under": "1.98" },
+                "pinnacle": { "over": "1.83", "under": "1.90" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.08", "under": "1.69" },
+                "highest": { "over": "2.12", "under": "1.74" },
+                "marathonbet": { "over": "2.10", "under": "1.67" },
+                "pinnacle": { "over": "2.12", "under": "1.67" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.36", "under": "1.53" },
+                "highest": { "over": "2.40", "under": "1.57" },
+                "marathonbet": { "over": "2.38", "under": "1.50" },
+                "pinnacle": { "over": "2.40", "under": "1.52" }
+              },
+              "over/under +9": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "marathonbet": { "over": "2.39", "under": "1.52" },
+                "pinnacle": { "over": "2.38", "under": "1.51" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-23 15:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/oshawa-generals-windsor-spitfires-lzbUMZWe/",
+            "num_possible_outcomes": 2,
+            "team_home": "Oshawa Generals",
+            "team_away": "Windsor Spitfires",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 2,
+            "score_away": 1,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.29", "under": "3.29" },
+                "highest": { "over": "1.30", "under": "3.35" }
+              },
+              "over/under +6": {
+                "average": { "over": "1.29", "under": "3.22" },
+                "highest": { "over": "1.29", "under": "3.22" },
+                "pinnacle": { "over": "1.29", "under": "3.22" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.57", "under": "2.26" },
+                "highest": { "over": "1.60", "under": "2.30" },
+                "marathonbet": { "over": "1.56", "under": "2.24" },
+                "pinnacle": { "over": "1.58", "under": "2.27" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.78", "under": "1.97" },
+                "highest": { "over": "1.78", "under": "1.98" },
+                "marathonbet": { "over": "1.77", "under": "1.96" },
+                "pinnacle": { "over": "1.78", "under": "1.98" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "2.06", "under": "1.73" },
+                "highest": { "over": "2.10", "under": "1.75" },
+                "marathonbet": { "over": "2.10", "under": "1.75" },
+                "pinnacle": { "over": "2.04", "under": "1.72" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.43", "under": "1.51" },
+                "highest": { "over": "2.50", "under": "1.52" },
+                "marathonbet": { "over": "2.50", "under": "1.48" },
+                "pinnacle": { "over": "2.40", "under": "1.52" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "marathonbet": { "over": "2.33", "under": "1.52" },
+                "pinnacle": { "over": "2.30", "under": "1.54" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-23 11:07:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sault-ste-marie-greyhounds-sarnia-sting-SQdYLgn2/",
+            "num_possible_outcomes": 2,
+            "team_home": "Soo Greyhounds",
+            "team_away": "Sarnia Sting",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 2,
+            "score_away": 4,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.12", "under": "5.25" },
+                "highest": { "over": "1.12", "under": "5.25" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.30", "under": "3.28" },
+                "highest": { "over": "1.30", "under": "3.35" }
+              },
+              "over/under +7": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "1.38", "under": "2.74" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.49", "under": "2.50" },
+                "highest": { "over": "1.52", "under": "2.58" },
+                "marathonbet": { "over": "1.52", "under": "2.33" },
+                "pinnacle": { "over": "1.47", "under": "2.58" }
+              },
+              "over/under +8": {
+                "average": { "over": "1.61", "under": "2.23" },
+                "highest": { "over": "1.61", "under": "2.24" },
+                "marathonbet": { "over": "1.61", "under": "2.20" },
+                "pinnacle": { "over": "1.61", "under": "2.24" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "1.86", "under": "1.90" },
+                "highest": { "over": "1.91", "under": "1.91" },
+                "marathonbet": { "over": "1.91", "under": "1.91" },
+                "pinnacle": { "over": "1.84", "under": "1.90" }
+              },
+              "over/under +9": {
+                "average": { "over": "2.15", "under": "1.65" },
+                "highest": { "over": "2.17", "under": "1.66" },
+                "marathonbet": { "over": "2.17", "under": "1.63" },
+                "pinnacle": { "over": "2.14", "under": "1.66" }
+              }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+            "retrieval_datetime": "2021-01-14 11:14:52",
+            "game_datetime": "2020-02-23 11:05:00",
+            "game_url": "https://www.oddsportal.com/hockey/canada/ohl/sudbury-wolves-ottawa-67s-tr0FpwP2/",
+            "num_possible_outcomes": 2,
+            "team_home": "Sudbury Wolves",
+            "team_away": "Ottawa 67s",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 2,
+            "score_away": 0,
+            "odds": {
+              "over/under +5.5": {
+                "average": { "over": "1.22", "under": "3.80" },
+                "highest": { "over": "1.22", "under": "3.80" }
+              },
+              "over/under +6.5": {
+                "average": { "over": "1.43", "under": "2.60" },
+                "highest": { "over": "1.45", "under": "2.65" },
+                "pinnacle": { "over": "1.43", "under": "2.63" }
+              },
+              "over/under +7": {
+                "average": { "over": "1.58", "under": "2.26" },
+                "highest": { "over": "1.59", "under": "2.27" },
+                "marathonbet": { "over": "1.59", "under": "2.24" },
+                "pinnacle": { "over": "1.58", "under": "2.27" }
+              },
+              "over/under +7.5": {
+                "average": { "over": "1.86", "under": "1.90" },
+                "highest": { "over": "1.89", "under": "1.93" },
+                "marathonbet": { "over": "1.89", "under": "1.93" },
+                "pinnacle": { "over": "1.85", "under": "1.89" }
+              },
+              "over/under +8": {
+                "average": { "over": "2.14", "under": "1.65" },
+                "highest": { "over": "2.17", "under": "1.66" },
+                "marathonbet": { "over": "2.17", "under": "1.63" },
+                "pinnacle": { "over": "2.13", "under": "1.66" }
+              },
+              "over/under +8.5": {
+                "average": { "over": "2.42", "under": "1.50" },
+                "highest": { "over": "2.46", "under": "1.52" },
+                "marathonbet": { "over": "2.46", "under": "1.47" },
+                "pinnacle": { "over": "2.40", "under": "1.52" }
+              },
+              "over/under +9": {
+                "average": { "over": "-", "under": "-" },
+                "highest": { "over": "-", "under": "-" },
+                "pinnacle": { "over": "2.46", "under": "1.47" }
+              }
+            }
+          }
+        ],
+        "urls": ["https://www.oddsportal.com/hockey/canada/ohl/results/"],
+        "possible_outcomes": 2,
+        "bet_type": "over-under",
+        "sub_bet_type": null,
+        "bet_options": [
+          "over/under +5.5",
+          "over/under +6",
+          "over/under +6.5",
+          "over/under +7",
+          "over/under +7.5",
+          "over/under +8",
+          "over/under +8.5",
+          "over/under +9"
+        ],
+        "outcome_headers": ["over", "under"],
+        "odds_sources": [
+          "unibet",
+          "pinnacle",
+          "marathonbet",
+          "average",
+          "highest"
+        ]
+      }
+    ],
+    "root_url": "https://www.oddsportal.com/hockey/canada/ohl/results/"
+  }
+}
