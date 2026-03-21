@@ -1,0 +1,905 @@
+{
+  "name": "ncaab-home-away.json",
+  "sport": "basketball",
+  "region": "usa",
+  "output_dir": "ncaab-test",
+  "outcomes": 2,
+  "league": {
+    "name": "ncaa",
+    "seasons": [
+      {
+        "name": "2020/2021",
+        "games": [
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-18 13:30:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/alcorn-state-arkansas-pine-bluff-GObBMXhn/",
+            "num_possible_outcomes": 2,
+            "team_home": "Alcorn State",
+            "team_away": "Arkansas-Pine Bluff",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 82,
+            "score_away": 48,
+            "odds": {
+              "average": { "home": "1.57", "away": "2.41" },
+              "highest": { "home": "1.62", "away": "2.45" },
+              "pinnacle": { "home": "1.62", "away": "2.36" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-18 13:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/la-salle-saint-josephs-zkeI2p9C/",
+            "num_possible_outcomes": 2,
+            "team_home": "La Salle",
+            "team_away": "Saint Josephs",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 90,
+            "score_away": 83,
+            "odds": {
+              "average": { "home": "1.73", "away": "2.11" },
+              "highest": { "home": "1.80", "away": "2.20" },
+              "pinnacle": { "home": "1.72", "away": "2.18" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-18 12:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/idaho-state-sacramento-state-URxt7hga/",
+            "num_possible_outcomes": 2,
+            "team_home": "Idaho State",
+            "team_away": "Sacramento State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 65,
+            "score_away": 70,
+            "odds": {
+              "average": { "home": "1.77", "away": "2.06" },
+              "highest": { "home": "1.80", "away": "2.25" },
+              "pinnacle": { "home": "1.80", "away": "2.07" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-18 12:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/samford-western-carolina-fcWI8yfN/",
+            "num_possible_outcomes": 2,
+            "team_home": "Samford",
+            "team_away": "Western Carolina",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 82,
+            "score_away": 78,
+            "odds": {
+              "average": { "home": "2.11", "away": "1.72" },
+              "highest": { "home": "2.17", "away": "1.77" },
+              "pinnacle": { "home": "2.17", "away": "1.73" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-18 11:30:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/connecticut-huskies-st-johns-red-storm-dpw1dIpA/",
+            "num_possible_outcomes": 2,
+            "team_home": "UConn",
+            "team_away": "St. John's (N.Y.)",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 70,
+            "score_away": 74,
+            "odds": {
+              "average": { "home": "1.29", "away": "3.59" },
+              "highest": { "home": "1.34", "away": "3.89" },
+              "pinnacle": { "home": "1.27", "away": "3.81" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-18 11:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/towson-tigers-unc-wilmington-seahawks-2aov8XEl/",
+            "num_possible_outcomes": 2,
+            "team_home": "Towson",
+            "team_away": "NC Wilmington",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 72,
+            "score_away": 69,
+            "odds": {
+              "average": { "home": "2.26", "away": "1.64" },
+              "highest": { "home": "2.40", "away": "1.70" },
+              "pinnacle": { "home": "2.23", "away": "1.69" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 19:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/cs-fullerton-cs-northridge-f1lCTVNr/",
+            "num_possible_outcomes": 2,
+            "team_home": "CS Fullerton",
+            "team_away": "CS Northridge",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 85,
+            "score_away": 77,
+            "odds": {
+              "average": { "home": "1.66", "away": "2.22" },
+              "highest": { "home": "1.72", "away": "2.32" },
+              "pinnacle": { "home": "1.65", "away": "2.32" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 18:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/weber-state-tarleton-0AHyCSzc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Weber State",
+            "team_away": "Tarleton",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 94,
+            "score_away": 79,
+            "odds": {
+              "average": { "home": "1.12", "away": "6.26" },
+              "highest": { "home": "1.15", "away": "7.00" },
+              "pinnacle": { "home": "1.13", "away": "6.11" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 15:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/loyola-maryland-lafayette-GjRUzSwh/",
+            "num_possible_outcomes": 2,
+            "team_home": "Loyola Maryland",
+            "team_away": "Lafayette",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 70,
+            "score_away": 72,
+            "odds": {
+              "average": { "home": "1.75", "away": "2.08" },
+              "highest": { "home": "1.80", "away": "2.15" },
+              "pinnacle": { "home": "1.75", "away": "2.15" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 15:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/wake-forest-virginia-tech-vyDLLT7i/",
+            "num_possible_outcomes": 2,
+            "team_home": "Wake Forest",
+            "team_away": "Virginia Tech",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 60,
+            "score_away": 64,
+            "odds": {
+              "average": { "home": "3.36", "away": "1.32" },
+              "highest": { "home": "3.50", "away": "1.35" },
+              "pinnacle": { "home": "3.46", "away": "1.32" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 14:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/albany-njit-G6wRcYYj/",
+            "num_possible_outcomes": 2,
+            "team_home": "Albany",
+            "team_away": "NJIT",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 83,
+            "score_away": 71,
+            "odds": {
+              "average": { "home": "1.73", "away": "2.11" },
+              "highest": { "home": "1.77", "away": "2.15" },
+              "pinnacle": { "home": "1.76", "away": "2.12" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 14:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/delaware-state-norfolk-state-dIE7llO8/",
+            "num_possible_outcomes": 2,
+            "team_home": "Delaware State",
+            "team_away": "Norfolk State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 79,
+            "score_away": 83,
+            "odds": {
+              "average": { "home": "4.77", "away": "1.19" },
+              "highest": { "home": "5.25", "away": "1.23" },
+              "pinnacle": { "home": "4.76", "away": "1.19" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 14:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/loyola-chicago-northern-iowa-lp3emuca/",
+            "num_possible_outcomes": 2,
+            "team_home": "Loyola Chicago",
+            "team_away": "Northern Iowa",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 88,
+            "score_away": 46,
+            "odds": {
+              "average": { "home": "1.18", "away": "4.82" },
+              "highest": { "home": "1.22", "away": "5.25" },
+              "pinnacle": { "home": "1.19", "away": "4.83" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 14:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/san-diego-toreros-santa-clara-l2MvnvvA/",
+            "num_possible_outcomes": 2,
+            "team_home": "San Diego Toreros",
+            "team_away": "Santa Clara",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 63,
+            "score_away": 69,
+            "odds": {
+              "average": { "home": "2.50", "away": "1.54" },
+              "highest": { "home": "2.60", "away": "1.56" },
+              "pinnacle": { "home": "2.51", "away": "1.56" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 13:30:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/george-washington-dayton-flyers-69316S9m/",
+            "num_possible_outcomes": 2,
+            "team_home": "George Washington",
+            "team_away": "Dayton",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 54,
+            "score_away": 67,
+            "odds": {
+              "average": { "home": "3.63", "away": "1.29" },
+              "highest": { "home": "3.80", "away": "1.30" },
+              "pinnacle": { "home": "3.61", "away": "1.30" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 13:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/bradley-braves-evansville-purple-aces-tvYodXla/",
+            "num_possible_outcomes": 2,
+            "team_home": "Bradley",
+            "team_away": "Evansville",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 86,
+            "score_away": 55,
+            "odds": {
+              "average": { "home": "1.22", "away": "4.33" },
+              "highest": { "home": "1.24", "away": "4.75" },
+              "pinnacle": { "home": "1.24", "away": "4.11" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 13:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/idaho-state-sacramento-state-QZuk4yLR/",
+            "num_possible_outcomes": 2,
+            "team_home": "Idaho State",
+            "team_away": "Sacramento State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 57,
+            "score_away": 56,
+            "odds": {
+              "average": { "home": "1.73", "away": "2.11" },
+              "highest": { "home": "1.77", "away": "2.17" },
+              "pinnacle": { "home": "1.75", "away": "2.13" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 13:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/illinois-state-indiana-state-zR2obgKn/",
+            "num_possible_outcomes": 2,
+            "team_home": "Illinois State",
+            "team_away": "Indiana State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 68,
+            "score_away": 74,
+            "odds": {
+              "average": { "home": "2.74", "away": "1.46" },
+              "highest": { "home": "2.85", "away": "1.47" },
+              "pinnacle": { "home": "2.75", "away": "1.47" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 13:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/lehigh-mountain-hawks-bucknell-bison-x0SQy8Oo/",
+            "num_possible_outcomes": 2,
+            "team_home": "Lehigh",
+            "team_away": "Bucknell",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 61,
+            "score_away": 77,
+            "odds": {
+              "average": { "home": "1.99", "away": "1.83" },
+              "highest": { "home": "2.05", "away": "1.87" },
+              "pinnacle": { "home": "2.01", "away": "1.85" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 13:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/nevada-wolf-pack-fresno-state-IyRrobgG/",
+            "num_possible_outcomes": 2,
+            "team_home": "Nevada",
+            "team_away": "Fresno State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 79,
+            "score_away": 65,
+            "odds": {
+              "average": { "home": "1.35", "away": "3.23" },
+              "highest": { "home": "1.37", "away": "3.40" },
+              "pinnacle": { "home": "1.37", "away": "3.16" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 12:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/tulsa-golden-hurricane-memphis-tigers-rw3rOlUD/",
+            "num_possible_outcomes": 2,
+            "team_home": "Tulsa",
+            "team_away": "Memphis",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 58,
+            "score_away": 57,
+            "odds": {
+              "average": { "home": "2.17", "away": "1.70" },
+              "highest": { "home": "2.20", "away": "1.73" },
+              "pinnacle": { "home": "2.19", "away": "1.71" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 11:30:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/fordham-umass-UBfM14OI/",
+            "num_possible_outcomes": 2,
+            "team_home": "Fordham",
+            "team_away": "UMass",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 46,
+            "score_away": 65,
+            "odds": {
+              "average": { "home": "4.21", "away": "1.23" },
+              "highest": { "home": "4.60", "away": "1.27" },
+              "pinnacle": { "home": "4.00", "away": "1.25" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 11:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/houston-cougars-ucf-knights-SUKe0ox7/",
+            "num_possible_outcomes": 2,
+            "team_home": "Houston",
+            "team_away": "UCF Knights",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 75,
+            "score_away": 58,
+            "odds": {
+              "average": { "home": "1.08", "away": "7.82" },
+              "highest": { "home": "1.11", "away": "9.00" },
+              "pinnacle": { "home": "1.10", "away": "6.97" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 11:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/marshall-thundering-herd-western-kentucky-IimF8jCD/",
+            "num_possible_outcomes": 2,
+            "team_home": "Marshall",
+            "team_away": "Western Kentucky",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 67,
+            "score_away": 69,
+            "odds": {
+              "average": { "home": "1.70", "away": "2.17" },
+              "highest": { "home": "1.74", "away": "2.25" },
+              "pinnacle": { "home": "1.74", "away": "2.16" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 11:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/morgan-state-coppin-state-8hUnq7ND/",
+            "num_possible_outcomes": 2,
+            "team_home": "Morgan State",
+            "team_away": "Coppin State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 79,
+            "score_away": 89,
+            "odds": {
+              "average": { "home": "1.24", "away": "4.09" },
+              "highest": { "home": "1.27", "away": "4.60" },
+              "pinnacle": { "home": "1.27", "away": "3.84" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 11:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/stony-brook-new-hampshire-2kEQavIf/",
+            "num_possible_outcomes": 2,
+            "team_home": "Stony Brook",
+            "team_away": "New Hampshire",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 64,
+            "score_away": 67,
+            "odds": {
+              "average": { "home": "1.81", "away": "2.02" },
+              "highest": { "home": "1.85", "away": "2.05" },
+              "pinnacle": { "home": "1.85", "away": "2.01" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/boston-university-army-nwEp8x4l/",
+            "num_possible_outcomes": 2,
+            "team_home": "Boston University",
+            "team_away": "Army",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 65,
+            "score_away": 76,
+            "odds": {
+              "average": { "home": "2.38", "away": "1.59" },
+              "highest": { "home": "2.50", "away": "1.65" },
+              "pinnacle": { "home": "2.31", "away": "1.65" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/charleston-northeastern-huskies-t2WA4Eki/",
+            "num_possible_outcomes": 2,
+            "team_home": "Charleston",
+            "team_away": "Northeastern",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 66,
+            "score_away": 68,
+            "odds": {
+              "average": { "home": "2.00", "away": "1.82" },
+              "highest": { "home": "2.05", "away": "1.86" },
+              "pinnacle": { "home": "2.00", "away": "1.85" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/colgate-raiders-holy-cross-crusaders-8nFt9Ilr/",
+            "num_possible_outcomes": 2,
+            "team_home": "Colgate",
+            "team_away": "Holy Cross",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 96,
+            "score_away": 87,
+            "odds": {
+              "average": { "home": "1.04", "away": "11.54" },
+              "highest": { "home": "1.05", "away": "14.00" },
+              "pinnacle": { "home": "1.05", "away": "10.21" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/delaware-hofstra-pride-EevPtBcp/",
+            "num_possible_outcomes": 2,
+            "team_home": "Delaware",
+            "team_away": "Hofstra",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 67,
+            "score_away": 68,
+            "odds": {
+              "average": { "home": "2.39", "away": "1.59" },
+              "highest": { "home": "2.50", "away": "1.64" },
+              "pinnacle": { "home": "2.36", "away": "1.62" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/drexel-william-mary-KhVE3Y4c/",
+            "num_possible_outcomes": 2,
+            "team_home": "Drexel",
+            "team_away": "William & Mary",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 64,
+            "score_away": 69,
+            "odds": {
+              "average": { "home": "1.20", "away": "4.59" },
+              "highest": { "home": "1.22", "away": "5.00" },
+              "pinnacle": { "home": "1.22", "away": "4.34" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/purdue-boilermakers-penn-state-2uaEWkdc/",
+            "num_possible_outcomes": 2,
+            "team_home": "Purdue",
+            "team_away": "Penn State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 80,
+            "score_away": 72,
+            "odds": {
+              "average": { "home": "1.51", "away": "2.58" },
+              "highest": { "home": "1.56", "away": "2.73" },
+              "pinnacle": { "home": "1.56", "away": "2.49" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/umbc-retrievers-hartford-4Y09WbvN/",
+            "num_possible_outcomes": 2,
+            "team_home": "UMBC Retrievers",
+            "team_away": "Hartford",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 57,
+            "score_away": 49,
+            "odds": {
+              "average": { "home": "1.37", "away": "3.12" },
+              "highest": { "home": "1.41", "away": "3.40" },
+              "pinnacle": { "home": "1.41", "away": "2.97" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 10:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/vermont-maine-black-bears-xQwHSkwk/",
+            "num_possible_outcomes": 2,
+            "team_home": "Vermont",
+            "team_away": "Maine Black Bears",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 88,
+            "score_away": 60,
+            "odds": {
+              "average": { "home": "1.03", "away": "12.44" },
+              "highest": { "home": "1.05", "away": "15.00" },
+              "pinnacle": { "home": "1.05", "away": "10.37" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 09:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/binghamton-umass-lowell-AB15XvPG/",
+            "num_possible_outcomes": 2,
+            "team_home": "Binghamton",
+            "team_away": "UMass Lowell",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 67,
+            "score_away": 77,
+            "odds": {
+              "average": { "home": "3.14", "away": "1.37" },
+              "highest": { "home": "3.40", "away": "1.40" },
+              "pinnacle": { "home": "3.11", "away": "1.38" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 09:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/navy-midshipmen-american-university-bqlgwDK0/",
+            "num_possible_outcomes": 2,
+            "team_home": "Navy",
+            "team_away": "American University",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 71,
+            "score_away": 59,
+            "odds": {
+              "average": { "home": "1.38", "away": "3.05" },
+              "highest": { "home": "1.41", "away": "3.20" },
+              "pinnacle": { "home": "1.41", "away": "2.98" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-17 09:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/northwestern-wildcats-iowa-hawkeyes-zFEyLJLU/",
+            "num_possible_outcomes": 2,
+            "team_home": "Northwestern",
+            "team_away": "Iowa",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 73,
+            "score_away": 96,
+            "odds": {
+              "average": { "home": "4.69", "away": "1.19" },
+              "highest": { "home": "5.25", "away": "1.21" },
+              "pinnacle": { "home": "4.54", "away": "1.20" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 20:59:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/hawaii-csu-bakersfield-M1wx8Ywg/",
+            "num_possible_outcomes": 2,
+            "team_home": "Hawaii",
+            "team_away": "CSU Bakersfield",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 72,
+            "score_away": 83,
+            "odds": {
+              "average": { "home": "1.79", "away": "2.03" },
+              "highest": { "home": "1.82", "away": "2.05" },
+              "pinnacle": { "home": "1.82", "away": "2.05" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 19:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/cs-fullerton-cs-northridge-nslfO7lm/",
+            "num_possible_outcomes": 2,
+            "team_home": "CS Fullerton",
+            "team_away": "CS Northridge",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 85,
+            "score_away": 86,
+            "odds": {
+              "average": { "home": "1.81", "away": "2.03" },
+              "highest": { "home": "2.00", "away": "2.29" },
+              "pinnacle": { "home": "1.66", "away": "2.29" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 19:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/st-marys-ca-gonzaga-bulldogs-p694TQmt/",
+            "num_possible_outcomes": 2,
+            "team_home": "St. Marys (CA)",
+            "team_away": "Gonzaga",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 59,
+            "score_away": 73,
+            "odds": {
+              "average": { "home": "9.65", "away": "1.05" },
+              "highest": { "home": "11.00", "away": "1.07" },
+              "pinnacle": { "home": "9.13", "away": "1.06" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 19:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/utah-utes-california-golden-bears-lzIpE71r/",
+            "num_possible_outcomes": 2,
+            "team_home": "Utah Utes",
+            "team_away": "California",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "AWAY",
+            "score_home": 63,
+            "score_away": 72,
+            "odds": {
+              "average": { "home": "1.12", "away": "6.16" },
+              "highest": { "home": "1.16", "away": "7.00" },
+              "pinnacle": { "home": "1.14", "away": "5.63" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 18:30:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/usc-trojans-washington-state-rguIImgR/",
+            "num_possible_outcomes": 2,
+            "team_home": "USC",
+            "team_away": "Washington State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 85,
+            "score_away": 77,
+            "odds": {
+              "average": { "home": "1.12", "away": "6.27" },
+              "highest": { "home": "1.14", "away": "7.00" },
+              "pinnacle": { "home": "1.13", "away": "5.95" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 18:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/california-baptist-tarleton-WWAFjX8I/",
+            "num_possible_outcomes": 2,
+            "team_home": "California Baptist",
+            "team_away": "Tarleton",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 73,
+            "score_away": 67,
+            "odds": {
+              "average": { "home": "1.41", "away": "2.92" },
+              "highest": { "home": "1.44", "away": "3.10" },
+              "pinnacle": { "home": "1.44", "away": "2.88" }
+            }
+          },
+          {
+            "retrieval_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/",
+            "retrieval_datetime": "2021-01-18 17:08:33",
+            "game_datetime": "2021-01-16 18:00:00",
+            "game_url": "https://www.oddsportal.com/basketball/usa/ncaa/tennessee-tech-tennessee-state-ADnmcdji/",
+            "num_possible_outcomes": 2,
+            "team_home": "Tennessee Tech",
+            "team_away": "Tennessee State",
+            "odds_home": "",
+            "odds_away": "",
+            "odds_draw": null,
+            "outcome": "HOME",
+            "score_home": 74,
+            "score_away": 71,
+            "odds": {
+              "average": { "home": "2.05", "away": "1.78" },
+              "highest": { "home": "2.10", "away": "1.87" },
+              "pinnacle": { "home": "2.05", "away": "1.81" }
+            }
+          }
+        ],
+        "urls": ["https://www.oddsportal.com/basketball/usa/ncaa/results/"],
+        "possible_outcomes": 2,
+        "bet_type": "home-away",
+        "sub_bet_type": 1,
+        "bet_options": null,
+        "outcome_headers": ["home", "away"],
+        "odds_sources": ["pinnacle", "bet365", "average", "highest"]
+      }
+    ],
+    "root_url": "https://www.oddsportal.com/basketball/usa/ncaa/results/"
+  }
+}

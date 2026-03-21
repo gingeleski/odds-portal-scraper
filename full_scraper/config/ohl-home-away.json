@@ -1,0 +1,16 @@
+[
+  {
+    "collection_name": "OHL-home-away",
+    "sport": "hockey",
+    "region": "canada",
+    "league": "ohl",
+    "seasons": ["2019/2020"],
+    "output_dir": "ohl-test-w-containers",
+    "root_url": "https://www.oddsportal.com/hockey/canada/ohl/results/",
+    "outcomes": 2,
+    "outcome_headers": ["home odds", "away odds"],
+    "bet_type": "home-away",
+    "sub_bet_type": 1,
+    "odds_sources": ["unibet", "pinnacle", "marathonbet", "average", "highest"]
+  }
+]
