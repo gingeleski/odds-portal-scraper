@@ -1,5 +1,5 @@
-﻿cssselect==1.0.3
-joblib==0.13.2
+cssselect==1.0.3
+joblib==1.2.0
 lxml==4.9.1
 pyquery==1.4.0
 selenium==3.141.0
