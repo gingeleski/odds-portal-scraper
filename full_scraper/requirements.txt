@@ -3,5 +3,5 @@ joblib==1.2.0
 lxml==4.9.1
 pyquery==1.4.0
 selenium==3.141.0
-soupsieve==1.9.2
+soupsieve==2.8.4
 urllib3==2.6.3
